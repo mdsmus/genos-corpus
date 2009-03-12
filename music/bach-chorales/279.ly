@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "279 - Ach Gott und Herr"
+  title = "279 - ACH GOTT UND HERR"
+  subtitle = "BWV 48, Ich elender Mensch / Leipzig, 1625"
   composer = "J. S. Bach"
 }
 
@@ -14,16 +15,16 @@ global = {
 
 soprano = \relative c'' {
   \partial 4 bes4 
-  a4 g4 f4 f4 
-  g4 a4 bes4 c4 
+  a4 g4 f4 \fermata f4 
+  g4 a4 bes4 \fermata c4 
   bes4 a4 g4 a8 bes8 
-  g2 f4 bes4 
-  a4 bes4 c4 c4   %5
-  d8 c8 bes4 c4 f,4 
+  g2 f4 \fermata bes4 
+  a4 bes4 c4 \fermata c4   %5
+  d8 c8 bes4 c4 \fermata f,4 
   g4 a4 bes8 c8 d4 
   c4 bes4 c2 
   bes1 
-  bes2.  %10
+  bes2. \fermata  %10
   
 }
 

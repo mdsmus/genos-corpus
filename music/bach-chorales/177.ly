@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "177 - Ach bleib bei uns, Herr Jesu Chris"
+  title = "177 - ACH BLEIB BEI UNS, HERR JESU CHIRST"
+  subtitle = "BWV 253. / Leipzig, 1589"
   composer = "J. S. Bach"
 }
 
@@ -14,13 +15,13 @@ global = {
 
 soprano = \relative c'' {
   \partial 4 cis4 
-    cis8 d8 e4 cis4 a4 
-  b4 cis4 d4 cis4 
+  cis8 d8 e4 cis4 a4 
+  b4 cis4 d4 \fermata cis4 
   b4 a4 a4. b8 
   cis4 cis4 b8 a8 b4 
-  a2. cis4   %5
+  a2. \fermata cis4   %5
   b4 cis4 a4 fis4 
-  gis4 a4 b4 cis4 
+  gis4 a4 b4 \fermata cis4 
   a4 a4 a4. b8 
   cis4 cis4 b8 a8 b4 
   a2. 
@@ -28,7 +29,7 @@ soprano = \relative c'' {
 
 alto = \relative c'' {
   \partial 4 a4 
-    a4 b4 a4 a4 
+  a4 b4 a4 a4 
   g8 fis8 e4 fis4 e4 
   e8 d8 cis4 fis2 
   e4 e4 e4. d8 
@@ -42,7 +43,7 @@ alto = \relative c'' {
 
 tenor = \relative c' {
   \partial 4 e4 
-    e4 e4 e4 e8 d8 
+  e4 e4 e4 e8 d8 
   d4 a4 a4 a4 
   gis4 a4 d2 
   cis8 b8 a4 a4 gis4 
@@ -56,7 +57,7 @@ tenor = \relative c' {
 
 baixo = \relative c {
   \partial 4 a4 
-    a'4 gis4 a4 fis4 
+  a'4 gis4 a4 fis4 
   g4 a4 d,4 a4 
   e'4 fis8 e8 d8 e8 fis8 gis8 
   a4 cis,8 d8 e4 e4 
@@ -64,7 +65,7 @@ baixo = \relative c {
   e'4 eis4 fis4 b8 a8 
   gis4 fis4 e4 cis4 
   fis8 e8 fis8 gis8 a8 b8 a8 gis8 
-  fis4 cis8 d8 e4 e4 
+  fis4 cis8 d8 e2 
   a,2. 
 }
 

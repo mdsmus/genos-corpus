@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "313 - Allein Gott in der Höh' sei Ehr"
+  title = "313 - ALLEIN GOTT IN DER HÖH SEI EHR"
+  subtitle = "BWV 112. Der Herr ist mein getreuer Hirt / N. Decius (1485?-1546?)"
   composer = "J. S. Bach"
 }
 
@@ -16,15 +17,15 @@ soprano = \relative c'' {
   \repeat volta 2 {
     \partial 4 g8  a8 
     b4 c4 d4 c4 
-    b4 a4 b4 b4 
+    b4 a4 b4 \fermata b4 
     b4 a8 b8 c8 b8 a4 
     g8. a16 a4 g4 } g4 
   a4 b4 c4 b4   %5
-  a4. gis8 a4 a4 
+  a4. gis8 a4 \fermata a4 
   b4 c4 d4 c4 
-  b4 a4 b4 b4 
+  b4 a4 b4 \fermata b4 
   b4 a8 b8 c8 b8 a4 
-  g8. a16 a4 g4   %10
+  g8. a16 a4 g4 \fermata  %10
   
 }
 
@@ -32,7 +33,7 @@ alto = \relative c' {
   \repeat volta 2 {
     \partial 4 d8  fis8 
     g4 g4 fis4 e8 fis8 
-    g4~ g8 fis8 g4 g4 
+    g4 g8 fis8 g4 g4 
     g4 fis8 g8 a8 g8 fis4 
     g4. fis8 d4 } d4 
   d4 d4 e4 e4   %5

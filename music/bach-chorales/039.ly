@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "39 - Ach was soll ich Sünder machen"
+  title = "39 - ACH WAS SOLL ICH SÜNDER MARCHEN"
+  subtitle = "BWV 259. / Breslau, 1657"	  
   composer = "J. S. Bach"
 }
 
@@ -14,17 +15,17 @@ global = {
 
 soprano = \relative c' {
   e4 e4 g4 g4 
-  a4 a4 b4 b4 
+  a4 a4 b4 b4 \fermata
   b4 d4 c4 b4 
-  a4. a8 g2 
+  a4. a8 g2 \fermata 
   a4 a4 b4 g4   %5
-  fis4. fis8 e2 
+  fis4. fis8 e2 \fermata
   e'4 e4 d4 d4 
-  cis4 cis4 b4 b4 
+  cis4 cis4 b4 b4 \fermata
   d4 d4 c4 b4 
-  a4. a8 g2   %10
+  a4. a8 g2 \fermata  %10
   a4 a4 b4 g4 
-  fis4. fis8 e2 
+  fis4. fis8 e2 \fermata
   
 }
 
@@ -68,7 +69,7 @@ baixo = \relative c {
   fis'8 e8 d8 c8 b8 dis8 e8 c8   %5
   a8 fis8 b4 e,2 
   e8 fis8 g8 a8 b8 cis8 d8 b8 
-  e8 cis8 fis4 b,2 
+  e8 cis8 fis4 b,4 b 
   b'8 a8 g8 fis8 e8 fis8 g8 e8 
   c8 a8 d4 g,2   %10
   g'4 fis8 e8 dis4 e8 c8 

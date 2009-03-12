@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "186 - Ach Gott, erhör' mein Seufzen"
+  title = "186 - ACH GOTT, ERHÖR MEIN SEUFZEN UND WEHKLAGEN"
+  subtitle = "BWV 254. / Frankfurt, 1662"
   composer = "J. S. Bach"
 }
 
@@ -14,17 +15,17 @@ global = {
 
 soprano = \relative c' {
   \partial 4 d4 
-    f4 f4 g4 g4 
+  f4 f4 g4 g4 
   a4 a4 bes4 a4 
-  g2 f4 c4 
+  g2 f4 \fermata c4 
   f4 f4 g4 g4 
   a4 a4 g4 f4   %5
-  e2 d4 a'4 
-  f4 g4 e4 a4 
-  f4 g4 e4 e4 
+  e2 d4 \fermata a'4 
+  f4 g4 e4 \fermata a4 
+  f4 g4 e4 \fermata e4 
   f4 f4 g4 g4 
   a4 a4 g4 f4   %10
-  e2 d4
+  e2 d4 \fermata
   
 }
 

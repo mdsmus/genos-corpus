@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "40 - Ach Gott und Herr"
+  title = "40 - ACH GOTT UND HERR"
+  subtitle = "BWV 255. / Leipzig, 1625"
   composer = "J. S. Bach"
 }
 

@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "249 - Allein Gott in der Höh' sei Ehr'"
+  title = "313 - ALLEIN GOTT IN DER HÖH SEI EHR"
+  subtitle = "BWV 260. / N. Decius (1485?-1546?)"
   composer = "J. S. Bach"
 }
 
@@ -16,15 +17,15 @@ soprano = \relative c'' {
   \repeat volta 2 {
     \partial 4 g8  a8 
     b4 c4 d4 c4 
-    b4 a4 b4 b4 
+    b4 a4 b4 \fermata b4 
     b4 a8 b8 c8 b8 a4 
     g8 e8 fis4 g4 } g4 
   a4 b4 c4 b4   %5
-  a8. b16 b4 a4 a4 
+  a8. b16 b4 a4 \fermata a4 
   b4 c4 d4 c4 
-  b4 a4 b4 g4 
+  b4 a4 b4 \fermata g4 
   a4 b4 c8 b8 a4 
-  g8 e8 fis4 g   %10
+  g8 e8 fis4 g \fermata  %10
   
 }
 

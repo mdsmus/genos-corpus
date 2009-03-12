@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "156 - Ach Gott, wie manches Herzeleid"
+  title = "156 - ACH, GOTT, WIE MANCHES HERZELEID (HERR JESU CHRIST MEIN LEBENS LICHT)"
+  subtitle = "BWV 3. Ach Gott, wie manches Herzeleid / Leipzig, 1625"	  
   composer = "J. S. Bach"
 }
 
@@ -15,13 +16,13 @@ global = {
 soprano = \relative c'' {
   \partial 4 a4 
     a4 a4 fis8 gis8 a4 
-  b8 a8 gis4 fis4 fis4 
+  b8 a8 gis4 fis4 \fermata fis4 
   gis4 a4 b4 e,8 fis8 
-  gis8 a8 fis4 e4 b'4 
+  gis8 a8 fis4 e4 \fermata b'4 
   cis4 cis4 a8 b8 cis4   %5
-  d4 cis4 b4 a4 
+  d4 cis4 b4 \fermata a4 
   b4 cis4 b4 a4 
-  a4 gis4 a4 
+  a4 gis4 a4 \fermata
 }
 
 alto = \relative c' {

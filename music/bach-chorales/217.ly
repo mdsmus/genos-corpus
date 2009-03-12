@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "217 - Ach Gott, wie manches Herzeleid"
+  title = "217 - ACH GOTT, WIE MANCHES HERZELEID"
+  subtitle = "BWV 153. Shau lieber Gott, wie meie Feind / Leipzig, 1625"	  
   composer = "J. S. Bach"
 }
 
@@ -16,19 +17,19 @@ soprano = \relative c'' {
   c4 c4 c4 
   a4 b4 c4 
   d4 c4 b4 
-  a2. 
+  a2. \fermata
   a4 b4 c4   %5
   d2 c4 
   b4 a2 
-  g2. 
+  g2. \fermata
   e'4 e4 e4 
   c4 d4 e4   %10
   f4 e2 
-  d2. 
+  d2. \fermata
   c4 d4 e4 
   d2 c4 
   c4 b2   %15
-  c2. 
+  c2. \fermata
   
 }
 

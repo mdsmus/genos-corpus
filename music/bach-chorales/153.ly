@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "153 - Alle Menschen müssen sterben"
+  title = "153 - ALLE MENSCHEN MÜSSEN STERBEN"
+  subtitle = "BWV 262. / J. Hintze (1622-1702)"
   composer = "J. S. Bach"
 }
 
@@ -15,17 +16,17 @@ global = {
 soprano = \relative c'' {
   \repeat volta 2 {
     a4 d4 a4 b4 
-    a4. g8 fis4 fis4 
+    a4. g8 fis4 fis4 \fermata 
     a4 a4 g4 fis4 
     e4. d8 d2 }
   e4 e4 fis8 gis8 a4   %5
-  a4. gis8 a4 a4 
+  a4. gis8 a4 a4 \fermata
   b4. cis8 d4 d4 
-  cis4. cis8 b4 b4 
+  cis4. cis8 b4 b4 \fermata
   fis4 fis4 b4 a4 
-  a4 gis4 a2   %10
+  a4 gis4 a2 \fermata %10
   b4 a4 g4 fis4 
-  e4. d8 d2 
+  e4. d8 d2 \fermata
   
 }
 

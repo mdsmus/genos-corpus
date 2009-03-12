@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "48 - Ach wie nichtig, ach wie flüchtig"
+  title = "48 - ACH WIE FLÜCHTIG, ACH WIE NICHTIG"
+  subtitle = "BWV 26. Ach wie flüchtig / M. Franck (1609 - 1667)"	  
   composer = "J. S. Bach"
 }
 
@@ -11,16 +12,16 @@ global = {
 }
 
 soprano = \relative c'' {
-  a b c c
-  c d e e
+  a b c c \fermata
+  c d e e \fermata 
   e e d c
-  b4. a8 a2
+  b4. a8 a2 \fermata
   e'4 e f f
-  e e d d
+  e e d d \fermata
   d d e e
-  d d s c
+  d d s c \fermata
   c d e d8 c
-  b4 b a a
+  b4 b a a \fermata
 }
 
 alto = \relative c' {

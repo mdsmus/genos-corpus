@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "262 - Ach Gott, vom Himmel sieh' darein"
+  title = "262 - ACH GOTT, VOM HIMMEL SIEH DAREIN"
+  subtitle = "BWV 2. Ach Gott, vom Himmel sieh darein / Erfurt, 1524"	  
   composer = "J. S. Bach"
 }
 
@@ -16,16 +17,16 @@ soprano = \relative c'' {
   \repeat volta 2 {
     \partial 4 a4 
     bes4 a4 g4 d'4 
-    d8 c8 bes4 a4 c4 
+    d8 c8 bes4 a4 \fermata c4 
     bes4 a4 g4 c4 
     bes4 a4 g4 } g4 
   a4 f4 e4 d8 e8   %5
-  f4 g4 a4 f4 
+  f4 g4 a4 \fermata f4 
   g8 a8 bes4 a4 bes4 
-  g4 fis4 g4 g4 
+  g4 fis4 g4 \fermata g4 
   d'4 bes4 c4 d4 
   c4 bes4 a2   %10
-  a2. 
+  a2. \fermata
 }
 
 alto = \relative c' {

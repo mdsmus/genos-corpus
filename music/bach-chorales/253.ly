@@ -1,13 +1,14 @@
 \version "2.10.33"
 
 \header {
-  title = "253 - Ach Gott, vom Himmel sieh' darein"
+  title = "253 - ACH GOTT, VOM HIMMEL SIEH DAREIN"
+  subtitle = "BWV 77. Du sollst Gott, deinen Herren, lieben / Erfurt, 1524"	  
   composer = "J. S. Bach"
 }
 
 global =  {
   \time 4/4 
-  \key g \minor
+  \key d \minor
 }
 
 soprano = \relative c'' {
@@ -16,10 +17,10 @@ soprano = \relative c'' {
   bes a
   \repeat volta 2 {
     g d' 
-    d8 c bes4 a2 
+    d8 c bes4 a2 \fermata
     r4 c bes a 
     g a8 bes16 c bes4 a 
-    g2. 
+    g2. \fermata
   }
   \alternative {
     {
@@ -31,12 +32,12 @@ soprano = \relative c'' {
     }
   }
   a f e d8 e 
-  f4 g a2 
+  f4 g a2 \fermata
   r4 a g bes 
   a bes g fis 
-  g2. g4 
+  g2. \fermata g4 
   d' bes c d 
-  c bes a
+  c bes a \fermata
 }
 
 

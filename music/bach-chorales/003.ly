@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "3 - Ach Gott, vom Himmel sieh' darein"
+  title = "3 - ACH GOTT, VOM HIMMEL SIEH DAREIN"
+  subtitle = "BWV 153. Schau, liebar Gott, wie meine Feind / Erfurt, 1524"	  
   composer = "J. S. Bach"
 }
 
@@ -16,15 +17,15 @@ soprano = \relative c'' {
   \repeat volta 2 {
     \partial 4 b4 
     c4 b4 a4 e'4 
-    e8 d8 c4 b4 d4 
+    e8 d8 c4 b4 \fermata d4 
     c4 b4 a4 b8 c16 d16 
     c4 b4 a4 } a4 
   b8 a8 g4 fis4 e8 fis8   %5
-  g4 a4 b4 g4 
+  g4 a4 b4 \fermata g4 
   a8 b8 c4 b4 c8 b8 
-  a4 gis4 a4 a4 
+  a4 gis4 a4 \fermata a4 
   e'4 c4 d4 e4 
-  d4 c4 b4 
+  d4 c4 b4 \fermata
 }
 
 alto = \relative c'' {
