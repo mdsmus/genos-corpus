@@ -2,7 +2,8 @@
 \version "2.10.33"
 
 \header {
-  title = "359 - Allein zu dir, Herr Jesu Christ"
+  title = "359 - ALLEIN ZU DIR, HERR JESU CHRIST"
+  subtitle = "BWV 261. / Wittenberg, 1541"
   composer = "J. S. Bach"
 }
 
@@ -16,26 +17,26 @@ soprano = \relative c'' {
     \partial 4 d4 
     a b8 cis d e fis4 
     e d2 cis4 
-    d2 r4 fis 
+    d2 \fermata r4 fis 
     e d cis8 b a4 
     b cis8 d e2~
     e4 d4 cis2 
     b r4 } fis' 
   g e fis d 
-  e fis b, fis' 
+  e fis b, \fermata fis' 
   g e fis d 
   \time 2/4
   e fis
   \time 4/4
-  b,2 r4 d cis b 
-  a b g g 
-  fis r4 
-  r4 b4 
-  a d4~ d4 cis4 
-  d r4 r4 a4 
-  b cis d8 e fis2 e4 e d 
-  cis cis 
-  b2 r4 
+  b,2 \fermata r4 d 
+  cis b a b
+  g g fis \fermata r4 
+  r4 b4 a d4~
+  d4 cis4 d \fermata r4
+  r4 a4 b cis
+  d8 e fis2 e4 
+  e d cis cis 
+  b2 \fermata r4 
 }
 
 

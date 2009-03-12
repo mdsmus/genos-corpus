@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "128 - Alles ist an Gottes Segen"
+  title = "128 - ALLES IST AN GOTTES SEGEN"
+  subtitle = "BWV 263. / J. Löhner (1645-1705)"
   composer = "J. S. Bach"
 }
 
@@ -14,17 +15,17 @@ global = {
 
 soprano = \relative c'' {
   g4 g4 d'4 d4 
-  c4 d4 b4 g4 
+  c4 d4 b4 g4 \fermata
   b4 b4 a4 a4 
-  g4 a4 fis4 d4 
+  g4 a4 fis4 d4 \fermata
   a'4 a4 b8 a8 g8 fis8   %5
-  e4. d8 d2 
+  e4. d8 d2 \fermata
   d'4 d4 d4 e4 
-  c4 d4 b4 g4 
+  c4 d4 b4 g4 \fermata
   b4 b4 a4 a4 
-  g4 a4 fis4 d4   %10
+  g4 a4 fis4 d4 \fermata  %10
   g4 a4 b8 c8 d8 c8 
-  b4 a8 g8 g2 
+  b4 a8 g8 g2 \fermata
   
 }
 

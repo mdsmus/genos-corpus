@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "159 - Als der gütige Gott"
+  title = "159 - ALS DER GÜTIGE GOTT"
+  subtitle = "BWV 264. / Jungbunzlau, 1531"
   composer = "J. S. Bach"
 }
 
@@ -15,15 +16,15 @@ global = {
 soprano = \relative c' {
   \partial 4 d4 
     g4 a4 b4 a4 
-  g2 r4 a4 
+  g2 \fermata r4 a4 
   b4 c4 b4 a4 
-  g2 r4 b4 
+  g2 \fermata r4 b4 
   d4 d4 c4 b4   %5
-  a2 r4 b4 
+  a2 \fermata r4 b4 
   g4 c4 b4 a4 
-  g2 a4 a4 
+  g2 a4 \fermata a4 
   b4 c4 b4 a4 
-  g2.   %10
+  g2. \fermata  %10
   
 }
 
