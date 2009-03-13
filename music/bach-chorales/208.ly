@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "208 - Als vierzig Tag' nach Ostern"
+  title = "208 - ALS VIERZIG TAG NACH OSTERN WARN"
+  subtitle = "BWV 266. / N. Herman (1480? - 1561)"
   composer = "J. S. Bach"
 }
 
@@ -17,24 +18,24 @@ soprano = \relative c' {
   b'2 b4 
   a4 b4 g8 a8 
   b4 a4 a4 
-  b2 g4   %5
+  b2 \fermata g4   %5
   fis4 g4 a4 
   b4 a4 g4 
   g2 fis4 
-  g2 a4 
+  g2 \fermata a4 
   b2 b4   %10
   a2 a4 
   g2 g4 
-  fis2. 
+  fis2. \fermata
   e4 fis4 dis4 
-  e2 e4   %15
+  e2 \fermata e4   %15
   a2 a4 
   b2 b4 
   g2 g4 
-  fis2. 
+  fis2. \fermata
   e8 fis8 g8 a8 b4   %20
   b2 a4 
-  b2. 
+  b2. \fermata
   
 }
 

@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "124 - Auf, auf, mein Herz, und du, mein ganzer Sinn"
+  title = "124 - AUF, AUF MEIN HERZ"
+  subtitle = "BWV 268. / Erfurt, 1663"
   composer = "J. S. Bach"
 }
 
@@ -14,17 +15,17 @@ global = {
 
 soprano = \relative c'' {
   \partial 4 b4 
-    b4 b4 b4 e4 
+    b4 b4 b4 \fermata e4 
   d4 d4 c4 c4 
-  b4 g4 a4 a4 
+  b4 \fermata g4 a4 a4 
   b4 c4 d8 c8 b4 
-  a4 a4 g4 a4   %5
-  a4 a4 a4 b8 a8 
+  a4 a4 g4  \fermata a4   %5
+  a4 a4 a4 \fermata b8 a8 
   g4 g4 a4 g4 
-  fis2 fis4 fis4 
+  fis2 fis4 \fermata fis4 
   g4 g4 a4 a4 
   b4 c4 d8 c8 b4   %10
-  a2 g2 
+  a2 g4 \fermata
   
 }
 
@@ -40,7 +41,7 @@ alto = \relative c'' {
   e8 dis8 e8 cis8 dis4 b4 
   b4 e8 d8 e8 fis16 g16 a8 fis8 
   d8 e16 fis16 g8 fis16 e16 fis8 a4 g8   %10
-  g4 fis4 d2 
+  g4 fis4 d 
   
 }
 
@@ -56,7 +57,7 @@ tenor = \relative c' {
   c4 cis4 b4 b8 a8 
   g8 fis8 g8 b8 c4. d16 c16 
   b4. a16 g16 a8 fis'8 d8 e8   %10
-  e8 c8 a8 d16 c16 b2 
+  e8 c8 a8 d16 c16 b4 
   
 }
 
@@ -72,7 +73,7 @@ baixo = \relative c' {
   a4 ais4 b4 dis4 
   e8 d8 c8 b8 a8 g8 fis8 d8 
   g8 g'8 e8 a8 fis8 d8 g8 e8   %10
-  c8 a8 d4 g,2 
+  c8 a8 d4 g,4 
   
 }
 

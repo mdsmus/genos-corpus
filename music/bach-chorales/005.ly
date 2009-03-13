@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "5 - An Wasserflüssen Babylon"
+  title = "5 - AN WASSERFLÜSSEN BABYLON"
+  subtitle = "BWV 267. / W. Dashastein (1487? - 1553)"
   composer = "J. S. Bach"
 }
 
@@ -16,22 +17,22 @@ soprano = \relative c'' {
   \repeat volta 2 {
     \partial 4 d4 
     e4 d8 c8 b8 c8 d4 
-    c8 b8 c4 b4 a4 
+    c8 b8 c4 b4 \fermata a4 
     b4 c4 d4 c8 b8 
     a8 g8 a4 g4 } g4 
   a4 b4 c8 b8 a4   %5
-  b4 a4 g4 g8 a8 
+  b4 a4 g4 \fermata g8 a8 
   b4 c4 d4 e4 
-  b4 cis4 d4 b8 c8 
+  b4 cis4 d4 \fermata b8 c8 
   d4 e4 d8 c8 b4 
-  c2 b4 e4   %10
+  c2 b4 \fermata e4   %10
   e4 e4 a,4 d4 
-  c4 b4 a4 c4 
+  c4 b4 a4 \fermata c4 
   b4 a4 g4 a8 g8 
-  f4 e4 d4 d4 
+  f4 e4 d4 \fermata d4 
   g4 a4 b4. c8   %15
   d4 c8 b8 a4 b8 c8 
-  a2 g4 
+  a2 g4 \fermata
 }
 
 alto = \relative c'' {

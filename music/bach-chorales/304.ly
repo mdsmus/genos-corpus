@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "304 - Auf meinen lieben Gott"
+  title = "304 - AUF MEINEN LIEBEN GOTT"
+  subtitle = "BWV 5. Wo soll ich fliehen hin / J. Regnart (1540 - 1599)"
   composer = "J. S. Bach"
 }
 
@@ -15,17 +16,17 @@ global = {
 soprano = \relative c'' {
   \partial 4 g4 
     g4 a4 bes4 c4 
-  d2. d4 
+  d2. \fermata d4 
   d4 c4 bes4 c4 
-  a2. a4 
-  bes4 c4 d4 d4   %5
-  c2 d4 d4 
+  a2. \fermata a4 
+  bes4 c4 d4  d4   %5
+  c2 d4  \fermata d4 
   bes4 c4 d4 d4 
-  c2 bes4 d4 
+  c2 bes4  \fermata d4 
   f4 d4 d4 d4 
-  c2 c4 c4   %10
+  c2 c4  \fermata c4   %10
   d4 c4 bes4 c4 
-  a2 g4 
+  a2 g4  \fermata
 }
 
 alto = \relative c' {
