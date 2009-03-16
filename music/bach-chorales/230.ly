@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "230 - Christ, der du bist der helle Tag"
+  title = "230 - CHRIST, DER DU BIST DER HELLE TAG"
+  subtitle = "BWV 273. / Eisleben, 1568"
   composer = "J. S. Bach"
 }
 
@@ -15,15 +16,15 @@ global = {
 soprano = \relative c'' {
   \partial 4 g4 
   g4 bes4 a4 g4 
-  bes4 c4 d4 d4 
+  bes4 c4 d4 \fermata d4 
   d4 d8 ees8 f8 ees8 d4 
-  c4 c4 bes4 bes4 
+  c4 c4 bes4 \fermata bes4 
   bes4 d4 c4 a4   %5
-  bes4 c4 d4 d4 
+  bes4 c4 d4 \fermata d4 
   d4 d4 c4 c4 
-  bes4. a16 g16 f4 f4 
+  bes4. a16 g16 f4 \fermata f4 
   bes8 c8 d4 c4 d4 
-  bes4 a g   %10
+  bes4 a g \fermata  %10
   
 }
 

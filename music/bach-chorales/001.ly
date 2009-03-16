@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "1 - Aus meines Herzens Grunde"
+  title = "1 - AUS MEINES HERZENS GRUNDE"
+  subtitle = "BWV 269. / Hamburg, 1598"
   composer = "J. S. Bach"
 }
 
@@ -21,7 +22,7 @@ soprano = \relative c'' {
     a2\fermata b4 
     d2 c4     %5
     b4 a2 
-    g2\fermata } b4 
+    g2 } b4 
   b4 c4 d4 
   d4. c8 b4 
   a2\fermata g4   %10
@@ -96,24 +97,24 @@ baixo = \relative c {
     g'4 e4 fis4 
     g4 d4 e4 
     c4 b8 a8 g4 
-    d'2\fermata g,4 
+    d'2 g,4 
     fis4 g4 a4     %5
     b4 c4 d4 
-    g,2\fermata } g4 
+    g,2 } g4 
   g4 a4 b4 
   b4. a8 g4 
-  d'2\fermata e4~   %10
+  d'2 e4~   %10
   e4 d4 c4 
   b4. c8 d4 
   g,8 a8 b4 g4 
-  c2\fermata g4 
+  c2 g4 
   fis4 g4 a4   %15
   b4 g4 d'4 
   e8 d8 c8 b8 a8 g8 
-  d'2\fermata g4~ 
+  d'2 g4~ 
   g4 fis4 e4 
   e8 d8 c4 d4   %20
-  g,2\fermata 
+  g,2
 }
 
 \score {

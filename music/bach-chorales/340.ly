@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "340 - Befiehl du deine Wege"
+  title = "340 - BEFIEHL DU DEINE WEGE"
+  subtitle = "BWV 272. / B. Gesius, (1555? - 1613)"
   composer = "J. S. Bach"
 }
 
@@ -16,17 +17,17 @@ soprano = \relative c' {
   \repeat volta 2 {
     \partial 4 d8  e8 
     f4 e4 f4 g4 
-    a2 a4 c4 
+    a2 a4 \fermata c4 
     b4 a4 a4 gis4 
     a2. } a4 
   b4 c4 d8 c8 b4   %5
-  c4. bes8 a4 a4 
+  c4. bes8 a4 \fermata a4 
   g4 f4 f4 e4 
-  f2. a8 g8 
+  f2. \fermata a8 g8 
   f4 g4 a4 g4 
-  f2 e4 f4   %10
+  f2 e4 \fermata f4   %10
   g4 f4 e2 
-  d2. 
+  d2. \fermata
 }
 
 alto = \relative c' {

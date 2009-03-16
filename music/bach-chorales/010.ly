@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "10 - Aus tiefer Not schrei' ich zu dir"
+  title = "10 - AUS TIEFER NOT SCHREI ICH ZU DIR (1.)"
+  subtitle = "BWV 38. Aus tiefer Not schrei ich zu dir / M. Luther (1483 - 1546)"
   composer = "J. S. Bach"
 }
 
@@ -16,17 +17,17 @@ soprano = \relative c'' {
   \repeat volta 2 {
     b2 e,4 b'4 
     c4 b8 a8 g4 a4 
-    b2 b2 
+    b2 \fermata b2 
     c4 d4 c8 b8 a4 
     g4 f4 e2 }  %5
   a2 g4 c4 
   b4 a4 d8 c8 b4 
-  a2 c2 
+  a2 \fermata c2 
   b4 c4 d4 g,4 
-  b4 a4 g2   %10
+  b4 a4 g2 \fermata  %10
   g2 c4 b4 
   a4 e4 g4 f4 
-  e1 
+  e1 \fermata
   
 }
 

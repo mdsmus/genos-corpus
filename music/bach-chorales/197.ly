@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "197 - Christ ist erstanden"
+  title = "197 - CHRIST IST ERSTANDEN"
+  subtitle = "BWV 276. / Wittenberg, 1533"
   composer = "J. S. Bach"
 }
 
@@ -15,36 +16,36 @@ global = {
 soprano = \relative c'' {
   \partial 4 a4 
   g4 a8 b8 c4( d4)
-  a2 a4 f8 g8 
+  a2  \fermata a4 f8 g8 
   a8 g8 f4 e8( d8 e4)
-  d2 r4 f4 
+  d2 \fermata r4 f4 
   g4 g4 d4 c4   %5
-  f4( g4) a4 a8 g8 
+  f4( g4) a4 \fermata a8 g8 
   f4 g4 a8 g8 f4 
-  e4( d4) e2 
+  e4( d4) e2 \fermata
   d4 d4 d2 
-  d1   %10
+  d1 \fermata \bar "||" %10
   a'4 a4 g4 a8 bes8 
-  c4( d4) a4 a4 
+  c4( d4) a4 \fermata a4 
   a8. g16 f8 g8 a8 g8 f4 
-  e8( d8 e4) d4 f4 
+  e8( d8 e4) d4 \fermata f4 
   g4 g4 d4 c4   %15
-  f4 g4 a4 a4 
+  f4 g4 a4 \fermata a4 
   a8 g8 f8. g16 a4 f4 
-  e4 d4 e2 
+  e4 d4 e2 \fermata
   d4 d4 d2
-  d1   %20
+  d1 \fermata \bar "||" %20
   \partial 4
   a'4 
-  f4 c'4 a4 c8 bes8 
-  a4 g4 f4 a8 g8 
-  f4 e4 d4 f4 
+  f4 c'4 a4 \fermata c8 bes8 
+  a4 g4 f4 \fermata a8 g8 
+  f4 e4 d4 \fermata f4 
   g4 g4 d4 c4 
-  f4( g4) a4  a8 g8 %25
+  f4( g4) a4  \fermata a8 g8 %25
   f4 g4 a4 f4 
-  e4( d4) e2 
+  e4( d4) e2 \fermata
   d4 d4 d2
-  d1
+  d1 \fermata
 }
 
 alto = \relative c' {
@@ -73,7 +74,7 @@ alto = \relative c' {
   d4 c4 c4 c8 d8
   e8 f4 e8 c4 e4~
   e8 d4 c8 c8 bes8 c4
-  d4 c8 b8 a8 b8 c8 bes8
+  d4 c8 g8 a8 b8 c8 bes8
   a16 g16 a8 d8 c8 c4 f8 e8  %25
   d4. c16 bes16 a4. d16 c16
   b8 a4 gis8 cis2
