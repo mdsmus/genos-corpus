@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "56 - Christum wir sollen loben schon"
+  title = "56 - CHRISTUM WIR SOLLEN LOBEN SCHON"
+  subtitle = "BWV 121. Christum wir sollen loben schon / Eufurt, 1524"
   composer = "J. S. Bach"
 }
 
@@ -16,20 +17,20 @@ soprano = \relative c' {
   \partial 4 e8  fis8 
     g4 g4 a4 b4~ 
   b4 e,4 a4 g4 
-  fis2. a4 
+  fis2. \fermata a4 
   b8 cis8 d2 cis4 
   b4 a4 b8 cis8 d4   %5
-  d2. a4 
+  d2. \fermata a4 
   b8 cis8 d2 cis4 
   b4 a4 b8 cis8 d4~ 
   d4 a8 g8 fis8 g8 a4 
-  b2. e,8 fis8   %10
+  b2. \fermata e,8 fis8   %10
   g4 g8 a8 b8 c8 d4~ 
   d4 b4 a8 g8 fis8 g8 
   a4 g4 fis2~ 
   fis1~ 
   fis1~   %15
-  fis1 
+  fis1 \fermata
   
 }
 
@@ -49,7 +50,7 @@ alto = \relative c' {
   b8 c8 d8 e8 fis4. e8 
   dis4 e2 d8 cis8 
   d8 e8 fis2 gis8 ais8 
-  b1~   %15
+  b1~  %15
   b4 ais8 gis8 ais2 
   
 }

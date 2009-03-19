@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "316 - Christus, der ist mein Leben"
+  title = "316 - CHRISTUS, DER IST MEIN LEBEN"
+  subtitle = "BWV 281. / M. Vulpius (1550?-1615)"
   composer = "J. S. Bach"
 }
 
@@ -17,22 +18,22 @@ soprano = \relative c'' {
   b2 a4 
   b2 c4 
   d2. 
-  b2 r4 
+  b2 \fermata r4 
   e2.~   %5
   e2. 
   d2.~ 
   d2. 
   c2.~ 
-  c8 b8 c4 r4   %10
+  c8 b8 c4 \fermata r4   %10
   b4 e8 c8 a4 
-  b2 d4 
+  b2 \fermata d4 
   e2 fis4 
   g2 fis4 
   e2.   %15
-  d2 b4 
+  d2 \fermata b4 
   a2 g4 
   g2 fis4 
-  g2
+  g2 \fermata
   
 }
 

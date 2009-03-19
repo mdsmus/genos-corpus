@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "210 - Christe, du Beistand deiner Kreuzgemeine"
+  title = "210 - CHRISTE, DU BEISTAND DEINER KREUZGEMEINE"
+  subtitle = "BWV 275. / M. Apelles v. Löwenstern (1594-1648)"
   composer = "J. S. Bach"
 }
 
@@ -15,20 +16,20 @@ global = {
 soprano = \relative c' {
   \partial 4 d4 
     d4 e4 f2 
-  e2 a4 b4 
+  e2 \fermata a4 b4 
   c4 d8 c8 b2 
-  a2 r4 c4 
+  a2 \fermata r4 c4 
   b4 a4 g4 g4   %5
   a4 g4 f4 f4 
-  e2 f4 e4 
+  e2 f4 \fermata e4 
   e4 f4 g2 
-  e2 a4 b4 
+  e2 \fermata a4 b4 
   c4 d8 c8 b2   %10
-  a2 r4 fis4 
+  a2 \fermata r4 fis4 
   g4 g4 g4 fis4 
-  g2 r4 e4 
+  g2 \fermata r4 e4 
   f4 g4 e2 
-  d2.   %15
+  d2. \fermata  %15
   
 }
 

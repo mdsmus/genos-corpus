@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "6 - Christus, der ist mein Leben"
+  title = "6 - CHRISTUS, DER IST MEIN LEBEN"
+  subtitle = "BWV 281. / M. Vulpius (1550?-1615)"
   composer = "J. S. Bach"
 }
 
@@ -15,13 +16,13 @@ global = {
 soprano = \relative c' {
   \partial 4 f4 
     a4 g4 a4 bes4 
-  c2 a4 d4 
+  c2 a4 \fermata d4 
   c4 bes4 a4 g4 
-  a2 r4 c4 
+  a2 \fermata r4 c4 
   d4 e4 f4 e4   %5
-  d2 c4 a4 
+  d2 c4 \fermata a4 
   bes4 a4 g4 g4 
-  f2. 
+  f2. \fermata
 }
 
 alto = \relative c' {
@@ -44,7 +45,7 @@ tenor = \relative c' {
   c2 r4 f4 
   f4 e4. d8 c4~   %5
   c4 b4 e4 c4 
-  bes4 c4 des4 c8. bes16 
+  bes4 c4 d4 c8. bes16 
   a2. 
 }
 
@@ -53,7 +54,7 @@ baixo = \relative c, {
     f'4 e4 ees4 d4 
   c8 d8 e8 c8 f4 bes,4 
   a4 g4 f8 a8 c4 
-  f,2 r4 a'4 
+  f,2 r4 f'4 
   b,4 c4 d8 f8 a8 g8   %5
   f8 d8 g4 c,4 f,4 
   g4 a4 bes4 c4 

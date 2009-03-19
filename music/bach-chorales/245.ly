@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "245 - Christe, der du bist Tag und Licht"
+  title = "245 - CHRISTE, DER DU BIST TAG UND LICHT"
+  subtitle = "BWV 274. / M. Luther (1483-1546)"
   composer = "J. S. Bach"
 }
 
@@ -15,13 +16,13 @@ global = {
 soprano = \relative c'' {
   \partial 4 g4 
   bes4 g4 f4 g8 a8 
-  bes4 a4 g4 bes4 
+  bes4 a4 g4 \fermata bes4 
   bes4 bes4 bes4 f4 
-  g4 bes4 a4 a4 
+  g4 bes4 a4 \fermata a4 
   c4 c4 c8 bes16 a16 g8 a8   %5
-  bes4 a4 g4 a4 
+  bes4 a4 g4 \fermata a4 
   bes4 g4 f4 g8 a8 
-  bes4 a g
+  bes4 a g \fermata
   
 }
 
