@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "371 - Christ lag in Todesbanden"
+  title = "40 - CHRIST LAG IN TODESBANDEN"
+  subtitle = "BWV 278. / M. Luther (1483 - 1546)"
   composer = "J. S. Bach"
 }
 
@@ -16,17 +17,17 @@ soprano = \relative c'' {
   \repeat volta 2 {
     \partial 4 b4 
     ais4 b8 cis8 d4 e4 
-    d4 cis4 b4 b8 a8 
+    d4 cis4 b4 \fermata b8 a8 
     g4 a4 b8 a8 g4 
     fis8 e8 fis4 e4 } r4 
   e8 fis8 g4 a4 e8 fis8   %5
-  g4 a4 b4 b4 
+  g4 a4 b4 \fermata b4 
   e4 d4 e4 fis8 e8 
-  d4 cis4 b4 cis4 
+  d4 cis4 b4 \fermata cis4 
   d8 c8 b8 c8 d4 a4 
-  g4 fis4 e2   %10
+  g4 fis4 e2  \fermata %10
   b'4 a4 g4 fis4 
-  e2. 
+  e2. \fermata
   
 }
 

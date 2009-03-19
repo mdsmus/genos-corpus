@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "66 - Christ, unser Herr, zum Jordan kam"
+  title = "66 - CHRIST, UNSER HERR,ZUM JORDAN KAM"
+  subtitle = "BWV 280. / Wittenberg, 1524"
   composer = "J. S. Bach"
 }
 
@@ -16,19 +17,19 @@ soprano = \relative c' {
   \repeat volta 2 {
     \partial 4 d8  e8 
     f4 g4 a4 g4 
-    c4 b8 a8 a4 g4 
+    c4 b8 a8 a4 \fermata g4 
     c4 b4 a4 g4 
     f4 e4 d4 } d4 
   g4 g4 e4 a4   %5
-  a4 gis4 a4 a4 
+  a4 gis4 a4 \fermata a4 
   d4 d4 e8 d8 c4 
-  d8 c8 b4 a4 b4 
+  d8 c8 b4 a4 \fermata b4 
   c4 b4 a4 g4 
-  a8 g8 f4 e4 d8 e8   %10
+  a8 g8 f4 e4 \fermata d8 e8   %10
   f4 g4 a8 g8 f4 
-  g8 f8 e4 d4 d'4 
+  g8 f8 e4 d4 \fermata d'4 
   d4 d4 e4 d4 
-  c4( b4) a
+  c4( b4) a \fermata
   
 }
 
