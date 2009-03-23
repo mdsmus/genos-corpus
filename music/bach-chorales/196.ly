@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "196 - Da der Herr Christ zu Tische saß"
+  title = "196 - DA DER HERR ZU TISCHE SAB"
+  subtitle = "BWV 285. / Görlitz, 1611"
   composer = "J. S. Bach"
 }
 
@@ -15,17 +16,17 @@ global = {
 soprano = \relative c'' {
   \partial 4 g4 
     g4 g4 bes4 g4 
-  bes4 b4 c4 d4 
+  bes4 b4 c4 \fermata d4 
   ees8 d8 c8 d8 ees4 d4 
-  c4 c4 b4 g4 
+  c4 c4 b4 \fermata g4 
   c8 d8 ees4 d4 c4   %5
-  b2 c4 g4 
+  b2 c4 \fermata g4 
   g4 a4 bes4 aes4 
-  g4 f4 ees4 ees4 
+  g4 f4 ees4 \fermata ees4 
   bes'4 bes4 c4 d4 
-  ees4 d4 ees4 ees4   %10
+  ees4 d4 ees4 \fermata ees4   %10
   f4 ees4 d4 c4 
-  c4 b4 c
+  c4 b4 c \fermata
   
 }
 

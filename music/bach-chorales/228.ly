@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "228 - Danket dem Herren, denn er ist sehr freundlich"
+  title = "228 - DANKET DEM HERREN, DENN ER IST SEHR FREUNDLICH"
+  subtitle = "BWV 286. / Nürnberg, 1544"
   composer = "J. S. Bach"
 }
 
@@ -16,10 +17,10 @@ soprano = \relative c'' {
   \partial 4 a4 
   c4 b4 c4 d4 
   e4 e4 d4 c4 
-  b2 b4 b4 
+  b2 b4 \fermata b4 
   e4 d4 d4 c4 
   b4 c4 d4 c4   %5
-  b4 b a
+  b4 b a \fermata
   
 }
 

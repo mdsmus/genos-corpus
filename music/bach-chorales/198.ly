@@ -1,10 +1,10 @@
 \version "2.10.33"
 
 \header {
-  title = "198 - Christus, der uns selig macht"
+  title = "198 - CHRISTUS, DER UNS SELIG MACHT"
+  subtitle = "BWV 283 . / Jungbunzlau, 1531"
   composer = "J. S. Bach"
 }
-
 
 global = {
   \time 4/4
@@ -14,22 +14,22 @@ global = {
 
 soprano = \relative c'' {
   e4 e4 e4 e4 
-  d4 c4 b2 
+  d4 c4 b2 \fermata
   a4 gis4 a4 b8 c8 
-  d4 c4 b2 
+  d4 c4 b2 \fermata
   a4 b4 c8 b8 a4   %5
-  a8 g8 f4 e2 
+  a8 g8 f4 e2 \fermata
   d4 cis4 d4 e8 f8 
-  g4( f4) e2 
+  g4( f4) e2 \fermata
   a4 a4 a4 g4 
-  f4 e4 d2   %10
+  f4 e4 d2 \fermata  %10
   g4 a4 b4 c4 
-  d4( e4 d4 c4)
-  b2 a4 b4 
+  d4( e4 d4 c4) 
+  b2 \fermata a4 b4 
   c8 b8 a4 a8 g8 f4 
-  e2 d4 cis4   %15
+  e2 \fermata d4 cis4   %15
   d4 e8 f8 g4( a4 
-  g4 f4) e2 
+  g4 f4) e2 \fermata
   
 }
 

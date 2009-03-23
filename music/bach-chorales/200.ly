@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "200 - Christus ist erstanden, hat überwunden"
+  title = "200 - CHRISTUS IST ERSTANDEN, HAT ÜBERWUNDEN"
+  subtitle = "BWV 284. / Jungbunzlau, 1531"
   composer = "J. S. Bach"
 }
 
@@ -14,20 +15,20 @@ global = {
 
 soprano = \relative c'' {
   c4 g4 a4 b4 
-  c2 c4 g4 
+  c2 c4 \fermata g4 
   c4 bes4 a2 
-  g2 g4 a4 
+  g2 \fermata g4 a4 
   bes4 c4 bes4 a4   %5
-  g2 g4 c4 
-  c4 b4 c2 
+  g2 \fermata g4 c4 
+  c4 b4 c2 \fermata 
   c4 c4 d4 d4 
-  c4 bes4 a2 
+  c4 bes4 a2 \fermata
   g4 a4 bes4 a4   %10
-  g2 bes4 c4 
+  g2 \fermata bes4 c4 
   d4 ees8 d8 c2 
-  d2 d4 c4 
+  d2 \fermata d4 c4 
   d4 c4 bes4 g4 
-  a4 b4 c2   %15
+  a4 b4 c2 \fermata   %15
   
 }
 

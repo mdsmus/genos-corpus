@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "311 - Dank sei Gott in der Höhe"
+  title = "311 - DANK SEI GOTT IN DER HÖHE"
+  subtitle = "BWV 287. / B. Gesius (1555?-1613)"
   composer = "J. S. Bach"
 }
 
@@ -16,17 +17,17 @@ soprano = \relative c'' {
   \repeat volta 2 {
     \partial 4 c4 
     a4 c4 d4 c4 
-    bes2 a4 a4 
+    bes2 a4 \fermata a4 
     g4 a4 g4 g4 
     f2. } g4 
   g4 a4 bes4 c8 bes8   %5
-  a2 g4 g4 
+  a2 g4 \fermata g4 
   a8 b8 c4 d8 c8 b4 
-  c2. c4 
+  c2. \fermata c4 
   a4 c4 d4 c4 
-  bes2 a4 a4   %10
+  bes2 a4 \fermata a4   %10
   g4 a4 g4 g4 
-  f2. 
+  f2. \fermata 
   
 }
 

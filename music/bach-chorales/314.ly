@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "314 - Das alte Jahr vergangen ist"
+  title = "314 - DAS ALTE JAHR VERGANGEN IST"
+  subtitle = "BWV 289. / J. Steuerlein (1546-1613)"
   composer = "J. S. Bach"
 }
 
@@ -15,17 +16,17 @@ global = {
 soprano = \relative c'' {
   \partial 4 b4 
     b4 a8 g8 fis4 b4 
-  a8 g8 fis4 g4 b4 
+  a8 g8 fis4 g4 \fermata b4 
   b4 a8 g8 fis4 b4 
-  a8 g8 fis4 g4 b4 
+  a8 g8 fis4 g4 \fermata b4 
   cis4 dis4 e4 b8 cis8   %5
-  d4 cis4 b4 cis4 
+  d4 cis4 b4 \fermata cis4 
   d4 cis4 b4 b4 
-  a8 g8 fis4 g4 a4 
+  a8 g8 fis4 g4 \fermata a4 
   a4 b4 a8 g8 fis4 
-  g4 g4 fis4 cis'4   %10
+  g4 g4 fis4 \fermata cis'4   %10
   d4 cis4 b4 fis4 
-  b4 b4 ais4 
+  b4 b4 ais4 \fermata
   
 }
 
