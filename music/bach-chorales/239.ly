@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "239 - Den Vater dort oben"
+  title = "239 - DEN VATER DORT OBEN"
+  subtitle = "BWV 291. / Jungbunzlau, 1531"
   composer = "J. S. Bach"
 }
 
@@ -14,19 +15,19 @@ global = {
 
 soprano = \relative c'' {
   g4 g4 a4 b4 
-  c2 c2 
+  c2 c2 \fermata
   e4 d4 c4 b4 
-  a2 g2 
+  a2 g2 \fermata
   g4 g4 a4 b4   %5
-  c4 g4 g2 
+  c4 g4 g2 \fermata
   a4 g4 f4 e4 
-  d4 d4 c2 
+  d4 d4 c2 \fermata
   c'4 d4 c4 b4 
-  a2 g2   %10
+  a2 g2 \fermata %10
   g4 g4 a4 b4 
-  c4 g4 g2 
+  c4 g4 g2 \fermata
   a4 g4 f4 e4 
-  d2 c2 
+  d2 c2 \fermata
   
 }
 
@@ -61,7 +62,7 @@ tenor = \relative c' {
   e8 c8 a8 d16 c16 b2   %10
   c4 c4 c4 d4 
   g,4 g8. f16 e2 
-  f4 g8 c16 bes16 a4 a4 
+  f4 g8 c16 bes16 a4 a4~
   a8 d,8 d8 g16 f16 e2 
   
 }

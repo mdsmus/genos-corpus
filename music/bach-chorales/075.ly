@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "75 - Das walt' mein Gott"
+  title = "75 - DAS WALT MEIN GOTT, VATER, SOHN UND HEILIGER GEIST"
+  subtitle = "BWV 291. / GOTHA, 1648"
   composer = "J. S. Bach"
 }
 
@@ -16,22 +17,22 @@ soprano = \relative c' {
   \partial 4 f4 
     f4 e4 f2 
   a4 c4 bes4 a4 
-  g4 g4 g4 c,4 
+  g4 g4 g4 \fermata c,4 
   d8 e8 f4 f4 e4 
-  f2 r4 f8 g8   %5
+  f2 \fermata r4 f8 g8   %5
   a4 g4 a4 bes4 
-  c2 g4 g4 
+  c2 g4 \fermata g4 
   g4 g4 g4 g4 
-  a2 a4 f4 
+  a2 a4 \fermata f4 
   e4 d4 d4 cis4   %10
-  d2.
+  d2. \fermata
   
 }
 
 alto = \relative c' {
   \partial 4 d4 
     c4 c4 c2 
-  f4 g4 f8 g8 g8 f8~ 
+  f4 g4 f8 g8~ g8 f8~ 
   f8 e8 d4 c4 c4 
   bes4 c8 d8 c4 c4 
   c2 r4 c4   %5

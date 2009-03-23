@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "154 - Der du bist drei in Einigkeit"
+  title = "154 - DER DU BIST DREI IN EINIGKEIT"
+  subtitle = "BWV 293. / Leipzig, 1545"
   composer = "J. S. Bach"
 }
 
@@ -15,13 +16,13 @@ global = {
 soprano = \relative c'' {
   \partial 4 a4 
     g4 d4 f4 g4 
-  a4 a4 g4 a4 
+  a4 a4 g4 \fermata a4 
   g4 d4 f4 g4 
-  a4 a4 g4 a4 
+  a4 a4 g4 \fermata a4 
   b4 c4 a4 g4   %5
-  g4 f4 e4 f4 
+  g4 f4 e4 \fermata f4 
   g4 d4 f4 g4 
-  a4 a4 g
+  a4 a4 g \fermata
 }
 
 alto = \relative c' {

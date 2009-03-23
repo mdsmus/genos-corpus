@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "53 - Das neugeborne Kindelein"
+  title = "53 - DAS NEUGEBORNE KINDELEIN"
+  subtitle = "BWV 122. Das neugeborne Kindelein / M. Vulpius (1560?-1615)"
   composer = "J. S. Bach"
 }
 
@@ -16,19 +17,19 @@ soprano = \relative c'' {
   g4 g4 g4 
   d'4. c8 bes4 
   d4 c4 bes4 
-  a2. 
+  a2. \fermata 
   d4 d4 e4   %5
   f2 e4 
   d4 cis2 
-  d2. 
+  d2. \fermata
   d4 c4 a4 
   bes4. c8 d4   %10
   c4 bes4 a4 
-  bes2. 
+  bes2. \fermata
   f'4 g4 f4 
   d4. c8 bes4 
   a4 g4 fis4   %15
-  g2. 
+  g2. \fermata
   
 }
 

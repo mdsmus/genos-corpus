@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "224 - Das walt' Gott Vater und Gott Sohn"
+  title = "224 - DAS WALT GOTT VATER UND GOTT SHON"
+  subtitle = "BWV 290. / Leipzig, 1713"
   composer = "J. S. Bach"
 }
 
@@ -15,13 +16,13 @@ global = {
 soprano = \relative c' {
   \partial 4 f4 
   a4 c4 c4 a4 
-  f4 g4 a4 f4 
+  f4 g4 a4 \fermata f4 
   c'4 c4 d4 e4 
-  f8 e8 d4 c4 c4 
+  f8 e8 d4 c4 \fermata c4 
   a4 c4 d4 c4   %5
-  bes4 a4 g4 c4 
+  bes4 a4 g4 \fermata c4 
   a8 bes8 c4 bes4 a8 g8 
-  f4 g f
+  f4 g f \fermata
   
 }
 
