@@ -2,6 +2,7 @@
 
 \header {
   title = "127 - Dies sind die heiligen zehn Gebot"
+  subtitle = "BWV 298. / Erfurt, 1527"
   composer = "J. S. Bach"
 }
 
@@ -15,14 +16,14 @@ global = {
 soprano = \relative c'' {
   \partial 4 g4 
     g4 g4 g4 g4 
-  g8 a8 b4 c4 c4 
+  g8 a8 b4 c4 \fermata c4 
   d4 d4 c4 g4 
-  g8 a8 b4 c4 c4 
+  g8 a8 b4 c4 \fermata c4 
   d4 d4 c4 g4   %5
-  a4 g4 f4 g4 
-  a4 b4 c2 
-  ais8 a8 g8 a8 ais4 a4 
-  g4 g4 g2
+  a4 g4 f4 \fermata g4 
+  a4 b4 c2 \fermata
+  bes8 a8 g8 a8 bes4 \fermata a4 
+  g4 g4 g2 \fermata
 }
 
 alto = \relative c' {
@@ -31,7 +32,7 @@ alto = \relative c' {
   d4. e16 f16 e4 f8 g8 
   a8 g8 f4 f4. e8 
   d4 g8 f8 e4 f4 
-  f4 f4 f4 e4   %5
+  f4 f4 e4 e4   %5
   e8 f8 e4 d4 e4 
   f4 f8 e8 e2 
   fis4 g8 d8 d4 f4 
@@ -44,11 +45,11 @@ tenor = \relative c' {
   b8 a8 g4 g4 a8 c8 
   f4 a,8 b8 c4 c4 
   b8 a8 g4 g4 a4 
-  a4 d4 g,4 c8 ais8   %5
-  a4 ais8 a8 a4 c4 
+  a4 d4 g,4 c8 bes8   %5
+  a4 bes8 a8 a4 c4 
   c8 d8 d4 c2 
-  d8 c8 ais8 a8 g4 a4 
-  d4. c8 c8 b16 a16 b4
+  d8 c8 bes8 a8 g4 a4 
+  d4. c8~ c8 b16 a16 b4 \fermata
 }
 
 baixo = \relative c' {

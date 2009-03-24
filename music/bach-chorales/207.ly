@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "207 - Des heil'gen Geistes reiche Gnad'"
+  title = "207 - DES HEILGEN GEISTES REICHE GNAD"
+  subtitle = "BWV 294. / Leipzig, 1627" 
   composer = "J. S. Bach"
 }
 
@@ -16,25 +17,25 @@ soprano = \relative c' {
   d4 d4 d4 
   a'2 a4 
   bes2 bes4 
-  a2. 
+  a2. \fermata
   f4 g4 a4   %5
   bes2. 
   a4 g4. f8 
-  f2 g4 
+  f2 \fermata g4 
   a2 g4 
   g2 a4   %10
   f2 f4 
-  e2. 
+  e2. \fermata
   d4 e4 f4 
   g2. 
   f4 e4. d8   %15
-  d2. 
+  d2. \fermata
   
 }
 
 alto = \relative c' {
   a4 a4 d4 
-  e4 d4 a'4~ 
+  e4 d4 a'4 
   a4 g8 fis8 g4~ 
   g4 f2 
   f4. e8 ees8 d8   %5
@@ -85,7 +86,7 @@ baixo = \relative c {
   e8 d8 cis4 a4   %10
   d8 e8 f4 gis,4 
   a2. 
-  f'8 e8 d8 cis8 d4~ 
+  f'8 e8 d8 cis8 d4 
   d4 cis8 b8 cis8 a8 
   d4 g,4 a4   %15
   d,2. 

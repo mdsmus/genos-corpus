@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "232 - Die Sonn' hat sich mit ihrem Glanz"
+  title = "232 - DIE SONN HAT SICH MIT IHREM GLANZ GEWENDET"
+  subtitle = "BWV 297. / Genf, 1542"
   composer = "J. S. Bach"
 }
 
@@ -14,17 +15,17 @@ global = {
 
 soprano = \relative c' {
   \partial 4 d4 
-    f4 g4 a4 d4 
+    f4 g4 a4 \fermata d4 
   c4. b8 a8 b8 c4 
-  b2 a4 d4 
-  d4 d4 cis4 e4 
+  b2 a4 \fermata d4 
+  d4 d4 cis4 \fermata e4 
   d4 a4 bes4 a8 g8   %5
-  g2 f4 f4 
-  e4 e4 d4 a'4 
+  g2 f4 \fermata f4 
+  e4 e4 d4 \fermata a'4 
   c4 c4 g8 a8 bes4 
-  a4 a4 c4 d4 
-  a4 c4 a4 g8 f8   %10
-  e4. d8 d2 
+  a4 \fermata a4 c4 d4 
+  a4 \fermata c4 a4 g8 f8   %10
+  e4. d8 d2 \fermata
   
 }
 

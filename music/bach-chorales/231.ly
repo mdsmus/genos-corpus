@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "231 - Die Nacht ist Kommen"
+  title = "231 - DIE NACHT IST KOMMEN"
+  subtitle = "BWV 296. / Frankfurt, 1550"
   composer = "J. S. Bach"
 }
 
@@ -14,20 +15,20 @@ global = {
 
 soprano = \relative c'' {
   \partial 4 g4 
-    a4 b4 c2 
-  b2 a4 a4 
+  a4 b4 c2 
+  b2 \fermata a4 a4 
   gis4 a4 b2 
-  a2 r4 c4 
+  a2 \fermata r4 c4 
   c4 c8 b8 a2   %5
-  d2 r4 b4 
+  d2 \fermata r4 b4 
   c4 a4 b4 a4 
-  g2 r4 d'4 
+  g2 \fermata r4 d'4 
   d4 d4 c2 
-  a2 r4 c4   %10
+  a2 \fermata r4 c4   %10
   c4 b4 c8 b8 a4 
-  a2 r4 d4 
+  a2 \fermata r4 d4 
   c4 b4 a2 
-  g1 
+  g2. \fermata
   
 }
 
@@ -46,7 +47,7 @@ alto = \relative c' {
   a4. g8 g4 g4 
   fis2 r4 g4~ 
   g8 fis8 g4 g4 fis4 
-  d1 
+  d2. 
   
 }
 
@@ -65,7 +66,7 @@ tenor = \relative c' {
   d4 d4 e8 d8 e4 
   d2 r4 d4 
   g,8 a8 b8 e8 a,8 d4 c8 
-  b1 
+  b2. 
   
 }
 
@@ -84,7 +85,7 @@ baixo = \relative c' {
   fis4 g4 c,4 cis4 
   d2 r4 b4 
   e4 d8 c8 d4 d,4 
-  g1 
+  g2. 
   
 }
 
