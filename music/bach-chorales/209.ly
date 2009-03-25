@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "209 - Dir, dir, Jehova, will ich singen"
+  title = "209 - DIR, DIR, JEHOVA WILL ICH SINGEN"
+  subtitle = "BWV 299, Klavierbünchlein für Anna Magdalena Bach 1725 / J. S. Bach"
   composer = "J. S. Bach"
 }
 
@@ -18,7 +19,7 @@ soprano = \relative c' {
     bes4 d8 c8 d8 bes8 
     g'4 ees2 
     f4 bes,4 ees4 
-    c2 bes4 
+    c2 bes4 \fermata
     c4 ees4 d4     %5
     c4 d8 c8 d8 bes8 
     a8 bes8 bes4. c8 
@@ -26,11 +27,11 @@ soprano = \relative c' {
   bes4 c4 d4 
   g,4 g'8 ees8 c8 b8   %10
   c8 d8 d4. ees8 
-  ees2 c4 
+  ees2 \fermata c4 
   a4 bes8 a8 g8 f8 
   f'4. bes,8 g'4~ 
-  g8 f8 ees8 d c8 bes8   %15
-  bes2. 
+  g8 f8 \appoggiatura ees8 d4 c8 bes8   %15
+  bes2 \fermata
   
 }
 
@@ -50,9 +51,9 @@ alto = \relative c' {
   ees4 aes4 g4 
   g2 g4 
   f4 g4 a4 
-  bes4. bes8 bes4 
-  bes4 bes4 a4   %15
-  f2. 
+  bes4. bes8 bes4~ 
+  bes8 bes8 bes4 a4   %15
+  f2 
   
 }
 
@@ -74,7 +75,7 @@ tenor = \relative c' {
   c2 c4 
   d4. d8 ees4 
   bes4 f'4 ees8 d8   %15
-  d2. 
+  d2 
   
 }
 
@@ -96,7 +97,7 @@ baixo = \relative c' {
   f2 ees4 
   d4 g8 f8 ees8 d8 
   ees4 f4 f,4   %15
-  bes2. 
+  bes2 
   
 }
 \score {

@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "42 - Du Friedensfürst, Herr Jesu Christ"
+  title = "42 - DU FRIENDEFÜRST, HERR JESU CHRIST"
+  subtitle = "BWV 67, Halt im Gedächtnis Jesum Christ / B. Gesius (1555?-1613)"
   composer = "J. S. Bach"
 }
 
@@ -16,14 +17,14 @@ soprano = \relative c'' {
   \repeat volta 2 {
     \partial 4 cis4 
     a4 b4 cis4 e4 
-    d4 d4 cis4 e4 
+    d4 d4 cis4 \fermata e4 
     d4 cis4 b4 b4 
     cis2. } b4 
   b4 b4 cis4 b4   %5
-  a4 b4 gis4 gis4 
+  a4 b4 gis4 \fermata gis4 
   a4 b4 cis4 b8 cis8 
   d4 cis4 b2 
-  a2.
+  a2. \fermata
   
 }
 

@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "134 - Du geballtes Weltgebäude"
+  title = "134 - DU, O SCHÖNES WELTGEBÄUDE"
+  subtitle = "BWV 301. / J. Crüger (1598-1662)"
   composer = "J. S. Bach"
 }
 
@@ -16,18 +17,18 @@ soprano = \relative c'' {
   \repeat volta 2 {
     d4 a4 d4 d4 
     e4 c4 b2 
-    a2 f4 a4 
+    a2 \fermata f4 a4 
     g4 f4 e4. d8 
     d1 }  %5
   f4 g4 a4 a4 
   bes4 a4 g2 
-  f2 f4 g4 
+  f2 \fermata f4 g4 
   a4 a4 bes4 a4 
-  g2 f2   %10
+  g2 f2 \fermata  %10
   a4 b4 c4 a4 
-  d4 d4 cis2 
+  d4 d4 cis2 \fermata
   d8 e8 f4 e4 d4 
-  d4 cis4 d2 
+  d4 cis4 d2 \fermata
   
 }
 
@@ -60,7 +61,7 @@ tenor = \relative c' {
   a4 c4 c4 c4 
   d8 c8 c4 d8 bes8 g8 c16 bes16 
   a2 a4 g4 
-  f8 a8 d8 dis8 d4 c4 
+  f8 a8 d8 ees8 d4 c4 
   d4 c8 bes8 a2   %10
   c4 d4 c4 c4 
   d8 c8 b4 a2 

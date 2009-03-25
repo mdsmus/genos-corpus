@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "87 - Du, o schönes Weltgebäude"
+  title = "87 - DU, O SCHÖNES WELTGEBÄUDE"
+  subtitle = "BWV 56, Ich will dem Kreuzstab gerne tragen / J. Crüger (1598-1662)"
   composer = "J. S. Bach"
 }
 
@@ -14,7 +15,7 @@ soprano = \relative c {
   \repeat volta 2 {
     r4 c''2 g4 
     c c bes bes8 a 
-    a2 g 
+    a2 g \fermata
     r4 ees2 g4 
     f ees8 d ees4 d 
     c1 
@@ -22,12 +23,12 @@ soprano = \relative c {
   \repeat volta 2 {
     ees2 f4 g 
     aes aes g g 
-    f2 ees 
+    f2 ees \fermata
   }
   g4 a bes g 
-  c c b2 
+  c c b2 \fermata
   c4 ees d c 
-  c b c2 
+  c b c2 \fermata
 }
 
 

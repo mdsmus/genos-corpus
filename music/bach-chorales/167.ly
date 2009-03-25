@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "167 - Du großer Schmerzensmann"
+  title = "167 - DU GROßER SCMERZENSMANN"
+  subtitle = "BWV 300. / M. Jan(?) (1620?-1682)"
   composer = "J. S. Bach"
 }
 
@@ -15,21 +16,21 @@ global = {
 soprano = \relative c'' {
   \partial 4 g4 
     g4 g4 g4 a4 
-  b2 r4 b4 
+  b2 \fermata r4 b4 
   b4 d4 g,8 a8 b4 
-  a2 g4 b4 
+  a2 g4 \fermata b4 
   a4 b4 g4 a4   %5
-  fis2 r4 g4 
+  fis2 \fermata r4 g4 
   g4 g4 a4 g4 
-  fis2 e4 fis4 
+  fis2 e4 \fermata fis4 
   fis4 fis4 fis4 g4 
-  a2 r4 a4   %10
+  a2 \fermata r4 a4   %10
   a4 b4 c4 c4 
-  b2 r4 b4 
+  b2 \fermata r4 b4 
   b4 d4 c4 b4 
-  a2 r4 a4 
+  a2 \fermata r4 a4 
   b4 a4 g4 fis4   %15
-  e2.
+  e2. \fermata
   
 }
 
