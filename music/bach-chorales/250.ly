@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "250 - Ein' feste Burg ist unser Gott"
+  title = "250 - EIN FESTE BURG IST UNSER GOTT"
+  subtitle = "BWV 304. / M. Luther (1483-1546)"
   composer = "J. S. Bach"
 }
 
@@ -16,16 +17,16 @@ soprano = \relative c'' {
   \repeat volta 2 {
     \partial 4 d4 
     d4 d4 a8 b8 cis4 
-    d8 cis8 b4 a4 d4 
+    d8 cis8 b4 a4 \fermata d4 
     cis4 b4 a4 b8 a8 
     g8 fis8 e4 d4 } d4 
   a'4 b4 a4 gis4   %5
-  a4 d,4 a'4 b8 cis8 
-  d4 cis4 d8 cis8 b b 
-  a4 b4 b4 a4 
-  b8 a8 g4 fis4 d'4 
+  a4 \fermata d,4 a'4 b8 cis8 
+  d4 \fermata cis4 d8 cis8 b b 
+  a4 \fermata b4 b4 a4 
+  b8 a8 g4 fis4 \fermata d'4 
   cis4 b4 a4 b8 a8   %10
-  g8 fis8 e4 d 
+  g8 fis8 e4 d \fermata
   
 }
 

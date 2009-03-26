@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "280 - Eins ist not! ach Herr, dies Eine"
+  title = "280 - EINS IST NOT! ACH HERR, DIES EINE"
+  subtitle = "BWV 305. / Halle, 1704"
   composer = "J. S. Bach"
 }
 
@@ -14,11 +15,11 @@ global = {
 
 soprano = \relative c'' {
   a4 g8 fis8 b4 b4 
-  cis4 cis4 d4 d4 
+  cis4 cis4 d4 d4 \fermata
   b4. a8 g4 a4 
-  g8 fis8 e8 fis8 d2 
+  g8 fis8 e8 fis8 d2 \fermata
   a'4 g8 fis8 b4 b4   %5
-  cis4 cis4 d4 d4 
+  cis4 cis4 d4 d4 \fermata 
   b4. a8 g4 a4 
   g8 fis8 e8 fis8 d2
   \time 3/4
@@ -38,7 +39,7 @@ soprano = \relative c'' {
   b4. a8 g4 
   a4. g8 fis4
   g4 fis4 e4
-  d2.
+  d2. \fermata
 }
 
 alto = \relative c' {
@@ -105,7 +106,7 @@ baixo = \relative c {
   g8 fis8 e4 e8 d8 cis4 
   d4 a4 d2 
   cis4 d4 dis4 e4
-  f4 fis4 b,4 b4 
+  eis4 fis4 b,4 b4 
   g4 a4 b4 cis4 
   d4 a4 d2 
   \time 3/4
