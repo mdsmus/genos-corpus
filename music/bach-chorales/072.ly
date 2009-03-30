@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "72 - Erhalt' uns, Herr, bei deinem Wort"
+  title = "72 - ERHALT UNS, HERR, BEI DEINEM WORT"
+  subtitle = "BWV 6. Bleib bei uns, denn es will Abend werden / M. Luther (1483-1546)"
   composer = "J. S. Bach"
 }
 
@@ -15,13 +16,13 @@ global = {
 soprano = \relative c'' {
   \partial 4 g8  a8 
     bes4 a8 g8 fis4 g8 a8 
-  bes4 a4 g4 bes4 
+  bes4 a4 g4 \fermata bes4 
   c4 c4 d4 bes4 
-  c4 c4 d4 d4 
+  c4 c4 d4 \fermata d4 
   ees4 d8 ees8 f8 ees8 d4   %5
-  c8 bes8 c4 bes4 d4 
+  c8 bes8 c4 bes4 \fermata d4 
   bes4 c4 bes4 a4 
-  g4 fis4 g2
+  g4 fis4 g2 \fermata
 }
 
 alto = \relative c' {

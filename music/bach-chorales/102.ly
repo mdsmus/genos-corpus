@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "102 - Ermuntre dich, mein schwacher Geist"
+  title = "102 - ERMUNTRE DICH, MEIN SCHWACHER GEIST"
+  subtitle = "BWV 43. Gott fähret auf mit Jauchzen / J. Schop (1595?-1667)"
   composer = "J. S. Bach"
 }
 
@@ -17,7 +18,7 @@ soprano = \relative c'' {
     g4 g4 a4 
     b4. c8 d4 
     d4 d4 cis4 
-    d2 b4 
+    d2 \fermata b4 
     c2 b4     %5
     a2. 
     g4 fis2 
@@ -25,17 +26,17 @@ soprano = \relative c'' {
   a4 a4 b4 
   c2 c4   %10
   b4. a8 b4 
-  a2. 
+  a2. \fermata
   b4 b4 b4 
   c4. d8 e4 
   e4 dis4 dis4   %15
-  e2 fis4 
+  e2 \fermata fis4 
   g2 b,4 
   c2 b4 
-  a4 a4 d4 
+  a4 a4 \fermata d4 
   e4. d8 c4   %20
   b4 a2 
-  g2. 
+  g2. \fermata
   
 }
 
