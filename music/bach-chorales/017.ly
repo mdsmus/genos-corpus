@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "17 - Erschienen ist der herrliche Tag"
+  title = "17 - ERSCHIENEN IST DER HERRLICH TAG"
+  subtitle = "BWV 145. Ich lebe, mein Herze / N. Herman (1480?-1561)"
   composer = "J. S. Bach"
 }
 
@@ -79,24 +80,24 @@ tenor = \relative c' {
 }
 
 baixo = \relative c {
-  e8 fis8 g4 a4~ 
+  e8 fis8 g4 a4 
   a4 gis4 a4 
   fis4 d4 e4 
-  a,2.\fermata
+  a,2.
   gis'4 a4 fis4   %5
   e8 dis8 e8 fis8 g4 
   fis4 e4 fis4 
-  b,2\fermata e4 
+  b,2 e4 
   fis2 g4 
   cis,2 d4   %10
   b4 g4 a4 
-  d2\fermata b4 
+  d2 b4 
   e2 fis4 
   g4 dis2 
   e4 b'4 fis4   %15
-  g2\fermata a4 
+  g2 a4 
   b4 b,2 
-  e2.\fermata
+  e2.
   
 }
 

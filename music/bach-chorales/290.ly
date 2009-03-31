@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "290 - Es ist das Heil uns kommen her"
+  title = "290 - ES IST DAS HEIL UNS KOMMEN HER"
+  subtitle = "BWV 9. Es ist das Heil uns kommen her / Nürnberg, 1523"
   composer = "J. S. Bach"
 }
 
@@ -16,15 +17,15 @@ soprano = \relative c'' {
   \repeat volta 2 {
     \partial 4 b4 
     b4 b4 b8 cis8 d4 
-    cis4 b4 a4 b8 a8 
+    cis4 b4 a4  \fermata b8 a8 
     gis8 fis8 e8 fis8 gis4 ais4 
     b4 cis4 b4 } b4 
   e4 dis4 cis4 dis4   %5
-  e8 dis8 cis4 b4 b4 
+  e8 dis8 cis4 b4  \fermata b4 
   e4 b4 cis4 gis8 a8 
-  b4 a4 gis4 gis4 
+  b4 a4 gis4  \fermata gis4 
   fis8 gis8 a4 gis4 fis4 
-  cis4 dis4 e4 
+  cis4 dis4 e4  \fermata
 }
 
 alto = \relative c'' {

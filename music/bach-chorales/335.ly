@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "335 - Es ist das Heil uns kommen her"
+  title = "335 - ES IST DAS HEIL UNS KOMMEN HER"
+  subtitle = "BWV 155. Mein Gott, wie lang, ach lange / Nürnberg, 1523"
   composer = "J. S. Bach"
 }
 
@@ -16,15 +17,15 @@ soprano = \relative c'' {
   \repeat volta 2 {
     \partial 4 c4 
     c4 c4 c8 d8 ees4 
-    d4 c4 bes4 c8 bes8 
+    d4 c4 bes4  \fermata c8 bes8 
     a8 g8 f8 g8 a4 b4 
     c8. d16 d4 c4 } c4 
   f4 e4 d4 e4   %5
-  f8 e8 d4 c4 c4 
+  f8 e8 d4 c4  \fermata c4 
   f4 c4 d4 a8 bes8 
-  c4 bes4 a4 a4 
+  c4 bes4 a4  \fermata a4 
   g8 a8 bes4 a4 g4 
-  d4 e4 f4   %10
+  d4 e4 f4  \fermata %10
   
 }
 

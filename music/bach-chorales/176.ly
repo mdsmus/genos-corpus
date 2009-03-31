@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "176 - Erstanden ist der heil'ge Christ"
+  title = "176 - WRSCHIENEN IST DER HEILGE CHRIST"
+  subtitle = "BWV 306. / Wittenberg, 1533"
   composer = "J. S. Bach"
 }
 
@@ -17,19 +18,19 @@ soprano = \relative c' {
     f4. g8 a8 bes8 
   c2 g4 
   a2 b4 
-  c2 bes4 
+  c2  \fermata bes4 
   a4. g8 a8 bes8   %5
   c2 bes4 
   a2 g4 
-  a2 a4 
+  a2  \fermata a4 
   c2 bes4 
   a2 g4   %10
   f2 e4 
-  f2 f4 
+  f2  \fermata f4 
   g8 f8 g8 a8 bes4 
   a2 g4 
   f2 e4   %15
-  f2 
+  f2  \fermata
   
 }
 
