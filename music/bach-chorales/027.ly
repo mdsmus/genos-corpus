@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "27 - Es spricht der Unweisen Mund"
+  title = "27 - ES SPRICHT DER UNWEISEN MUND"
+  subtitle = "BWV 308. / Wittenberg, 1524"
   composer = "J. S. Bach"
 }
 
@@ -16,15 +17,15 @@ soprano = \relative c'' {
   \repeat volta 2 {
     \partial 4 bes4 
     bes4 a8 g8 f4 bes4 
-    c4 d4 bes4 f4 
+    c4 d4 bes4 \fermata f4 
     bes4 c4 d4 ees4 
     c8 bes8 c4 bes4 } bes4 
   g4 a4 bes8 a8 g4   %5
-  f4 e4 f4 f4 
+  f4 e4 f4 \fermata f4 
   bes4 c4 d4 ees4 
-  d4 c4 d4 c4 
+  d4 c4 d4 \fermata c4 
   d4 ees4 f8 ees8 d4 
-  c8 bes8 c4 bes   %10
+  c8 bes8 c4 bes \fermata  %10
   
 }
 

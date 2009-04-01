@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "333 - Es woll' uns Gott genädig sein"
+  title = "333 - ES WOLL UNS GOTT GENÄDIG SEIN"
+  subtitle = "BWV 69. Lobe den Herrn, meine Seele / M. Greitter (1490?-1550?)"
   composer = "J. S. Bach"
 }
 
@@ -16,29 +17,29 @@ soprano = \relative c'' {
   \repeat volta 2 {
     d cis b cis8 d 
     e4 fis e d 
-    cis2 r4 e 
+    cis2 \fermata r4 e 
     d cis d b 
     a fis8 g a4 g 
   } 
   \alternative {
     { 
-      fis2. cis'4 
+      fis2. \fermata cis'4 
     }
     { 
-      fis,2. a4 
+      fis,2. \fermata a4 
     }
   }
   g fis e fis 
-  d e fis cis' 
+  d e fis \fermata cis' 
   d cis8 b a4 b8 cis 
-  d4 e cis fis 
-  e8 d cis d e4 b 
-  a g fis e 
+  d4 e cis \fermata fis 
+  e4 cis8 d e4 b 
+  a g fis \fermata e 
   a b cis8 d e4 
-  d cis b d 
+  d cis b \fermata d 
   cis b a fis8 g 
   a2 g 
-  fis2. 
+  fis2. \fermata
 }
 
 
@@ -67,8 +68,8 @@ alto = \relative c' {
   a a e8 fis g fis 
   e d e4 d cis 
   cis8 a' gis fis e fis g4 
-  fis8 b4 ais8 fis4 b~
-  b8 a~ a g~ g fis16 e d4~
+  fis8 b4 ais8 fis4 b
+  b8 a a g g fis16 e d4~
   d8 e8 fis4 e2 
   d2. 
 }
@@ -93,12 +94,12 @@ tenor = \relative c' {
     }
   }
   a a a a 
-  a b8 cis a4 e' 
+  a b8 cis fis,4 e' 
   d g, d'8 e fis4 
   fis8 d b e e4 d 
   cis8 fis e d cis4 b 
   e, a a a 
-  a e'8 d e d cis4~
+  a e'8 d e d cis4
   cis8 b cis e d4 e 
   e d e8 a, a4 
   d2. cis4 

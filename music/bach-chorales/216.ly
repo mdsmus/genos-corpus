@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "216 - Es ist genug, so nimm, Herr"
+  title = "216 - ES IST GENUG"
+  subtitle = "BWV 60. O Ewigkeit, du Donnerwort / J. R. Ahle (1625-1673)"
   composer = "J. S. Bach"
 }
 
@@ -14,25 +15,25 @@ global = {
 
 soprano = \relative c'' {
   a2 b4 cis4 
-  dis2 r4 dis4 
+  dis2 \fermata r4 dis4 
   e4 b4 b4 d4 
-  cis2. b4 
+  cis2. \fermata b4 
   cis8 dis8 e4 e4 dis4   %5
-  e2 a,2 
-  b4 cis4 dis2 
+  e2 \fermata a,2 
+  b4 cis4 dis2 \fermata
   r4 dis4 e4 b4 
-  b4 d4 cis2 
+  b4 d4 cis2 \fermata
   r4 b4 cis8 dis8 e4   %10
-  e4 dis4 e2 
+  e4 dis4 e2 \fermata
   r4 b4 b4 b4 
   cis4 b4 d4 cis4 
-  cis2 b2 
+  cis2 b2 \fermata
   r4 b4 b4 b4   %15
   cis4 b4 d4 cis4 
-  cis2 b2 
+  cis2 b2 \fermata
   r4 e4 cis4 b4 
-  a2 r4 e'4 
-  cis4 b4 a2   %20
+  a2 \fermata r4 e'4 
+  cis4 b4 a2 \fermata  %20
   
 }
 
@@ -51,7 +52,7 @@ alto = \relative c' {
   r4 gis8 a8 b8 a8 b8 gis8 
   a4 b4 a4 a4 
   a8 gis8 a8 fis8 gis2 
-  r4 fis4 b,4 b'4   %15
+  r4 fis4 b4 b4   %15
   ais4 a4 gis4 a4 
   a8 fis8 dis4 e2 
   r4 e4 e4 fis8 gis8 

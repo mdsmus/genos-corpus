@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "238 - Es wird schier der letzte Tag"
+  title = "238 - ES WIRD SCHIER DER LETZTE TAG HERKOMMEN"
+  subtitle = "BWV 310. / Jungbunzlau, 1531"
   composer = "J. S. Bach"
 }
 
@@ -15,14 +16,14 @@ global = {
 soprano = \relative c' {
   e4 e4 b'4 b8 c8 
   d4 b4 g4 a8 b8 
-  c2 b2 
+  c2 b2 \fermata
   a4 a4 g4 a4 
   b4 a4 g4 fis4   %5
-  e2 d2 
+  e2 d2 \fermata
   g4 fis4 g8 a8 b4 
-  a8 g8 fis4 e2 
+  a8 g8 fis4 e2 \fermata
   fis4 e8 fis8 g4 fis4 
-  e1   %10
+  e1 \fermata  %10
   
 }
 
@@ -30,7 +31,7 @@ alto = \relative c' {
   b4 b4 e8 fis8 g4 
   a8 fis8 g8 fis8 e4 fis8 g8~ 
   g8 fis16 e16 fis4 g2 
-  g4. fis8 fis8 e8 d8 a'8 
+  g4. fis8~ fis8 e8 d8 a'8 
   a8 g4 fis8 e4 a,8 d8   %5
   d8 cis16 b16 cis4 a2 
   e'4 fis4 e4 e4 
@@ -48,7 +49,7 @@ tenor = \relative c' {
   d4 d4. cis8 d8 a8   %5
   b8 g8 e8 a16 g16 fis2 
   b4 b4 b4 b4 
-  c4 c8 b16 a16 g2 
+  c4~ c8 b16 a16 g2 
   b4. a8 b4~ b8. a16 
   gis1   %10
   

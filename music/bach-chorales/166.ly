@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "166 - Es stehn vor Gottes Throne"
+  title = "166 - ES STEHN VOR GOTTES THRONE"
+  subtitle = "BWV 309. / J. von Burgk (1541?-1610)"
   composer = "J. S. Bach"
 }
 
@@ -16,18 +17,18 @@ soprano = \relative c'' {
   \repeat volta 2 {
     \partial 4 g4 
     bes4 g4 fis4 g4 
-    a2 bes4 bes4 
+    a2 bes4 \fermata bes4 
     a4 bes4 c4 a4 
-    bes2 a4 bes4 
+    bes2 a4 \fermata bes4 
     a4 g4 g4 fis4     %5
     g2. } bes4 
   bes4 bes4 a4 bes4 
-  g2 fis4 bes4 
+  g2 fis4 \fermata bes4 
   bes4 bes4 a4 bes4 
-  g2 fis4 g4   %10
+  g2 fis4 \fermata g4   %10
   a8 b8 c4 c4 b4 
-  c4 a4 bes4 a4 
-  g4 fis4 g
+  c4 \fermata a4 bes4 a4 
+  g4 fis4 g \fermata
   
 }
 
