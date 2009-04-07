@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "282 - Freu'dich sehr, o meine Seele"
+  title = "282 - FREU DICH SEHR, O MEINE SEELE"
+  subtitle = "BWV 25. Es ist nichts Gesundes an meinem Leibe / L. Bourgeois (1510?-1561)"
   composer = "J. S. Bach"
 }
 
@@ -15,18 +16,18 @@ global = {
 soprano = \relative c'' {
   \repeat volta 2 {
     c4 d4 e4 d4 
-    c4 b4 a4 g4 
+    c4 b4 a4 g4 \fermata
     c4 d4 e4 d8 e16 f16 
     e4 d8. c16 c2 }
   e4 f4 g4 f4   %5
-  e4 d4 e2 
+  e4 d4 e2 \fermata
   g4 g4 a4 g4 
-  f4 e4 d2 
+  f4 e4 d2 \fermata
   e4 g4 f4 e8 d8 
   c4 d4 e2   %10
-  c2 e4 g4 
+  c2 \fermata e4 g4 
   f4 e4 d4 c4 
-  d2 c2 
+  d2 c2 \fermata
   
 }
 
@@ -52,7 +53,7 @@ tenor = \relative c' {
   \repeat volta 2 {
     e4 b4 c4 d4 
     e8 fis8 g4 g8 fis8 b,4 
-    c4 f4 g8 c,8 d4~ 
+    c4 f4 g8 c,8 d4 
     d8 c8 c8 b8 e2 }
   c4 c4 c4 c8 d8   %5
   e8 a,8 a8 b8 cis2 

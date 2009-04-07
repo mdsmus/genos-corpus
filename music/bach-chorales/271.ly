@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "271 - Gib dich zufrieden und sei stille"
+  title = "271 - GIB DICH ZUFRIEDEN UND SEI STILLE"
+  subtitle = "BWV 315. / J. S. Bach"
   composer = "J. S. Bach"
 }
 
@@ -17,16 +18,16 @@ soprano = \relative c'' {
     \partial 4 b4 
     g4 a8 b16 c16 b4. a8 
     g4 fis8 g16 a16 g4. fis8 
-    e2 c'4 b4 
+    e2 \fermata c'4 b4 
     e4 d4 fis,8 c'8 b8 a8 
     a2 g4 } b4   %5
   a4 b8 g8 a4 b8 c8 
-  d4 c8 b8 c8 b8 a4 
+  d4 c8 b8 c8 b8 a4 \fermata 
   r4 c4 fis,4 e'8 dis8 
   e8 d8 c8 b8 a8 g'8 fis8 e8 
-  dis8 cis8 b4 r4 e4   %10
-  c4 b8 a8 b8 dis,8 e8 a8 
-  g4 fis8 e8 e4
+  dis8 cis8 b4 \fermata r4 e4   %10
+  \appoggiatura d8 c4 b8 a8 b8 dis,8 e8 a8 
+  g4 fis8 e8 e4 \fermata
   
 }
 

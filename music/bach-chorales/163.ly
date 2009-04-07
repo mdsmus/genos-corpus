@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "163 - Für Freuden laßt uns springen"
+  title = "163 - FÜR FREUDEN LAßT UNS SPRINGEN"
+  subtitle = "BWV 313. / Gotha, 1648"
   composer = "J. S. Bach"
 }
 
@@ -16,14 +17,14 @@ soprano = \relative c'' {
   \repeat volta 2 {
     \partial 4 d4 
     d4 d4 d4 c4 
-    bes2 a4 d4 
+    bes2 a4 \fermata d4 
     d8 ees8 f4 ees4 d4 
     c2 d4 } d4 
   c4 bes4 a4 g4   %5
-  a4 bes4 a4 d4 
+  a4 bes4 a4 \fermata d4 
   bes4 bes4 c4 d4 
   ees4 d4 c4 c4 
-  d4. c8 b4
+  d4. c8 b4 \fermata
   
 }
 
@@ -46,7 +47,7 @@ tenor = \relative c' {
   \repeat volta 2 {
     \partial 4 bes8  c8 
     d8 c16 bes16 a4. bes8 c8 d8 
-    d4 d4 d4 d8 c8 
+    d2 d4 d8 c8 
     bes4 bes4. a16 g16 f8 f'8 
     g4 f4 f4 } f4 
   ees8 d8 e4 a,8 d16 c16 bes8 c16 bes16   %5

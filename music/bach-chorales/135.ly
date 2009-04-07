@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "135 - Gott der Vater wohn uns bei"
+  title = "135 - GOTT DER VATER WOHN UNS BEI"
+  subtitle = "BWV 312. / Wittenberg, 1524"
   composer = "J. S. Bach"
 }
 
@@ -15,23 +16,23 @@ global = {
 soprano = \relative c'' {
   \repeat volta 2 {
     a4 a4 b4 cis4 
-    d4 d4 cis4 b4 
+    d4 d4 cis4 \fermata b4 
     d4 a4 fis4 g4 
     fis4 e4 d2 }
   \repeat volta 2 {
     d4 e4 fis4. e8   %5
-    d4 e4 fis4 d'4 
+    d4 e4 fis4 \fermata d'4 
     cis4 d4 e4. d8 
-    cis4 b4 a4 a4 
+    cis4 b4 a4 \fermata a4 
     a4 d4 cis4 a4 
-    b8 a8 g4 fis4 e4   %10
+    b8 a8 g4 fis4 \fermata e4   %10
     fis4 g4 a4. g8 
-    fis4 e4 d2
+    fis4 e4 d2 
   }
   d4 e4 fis4. e8 
-  d4 e4 fis4 a4 
+  d4 e4 fis4 \fermata a4 
   a4 a4 fis4 g4 
-  fis4 e4 d2 
+  fis4 e4 d2 \fermata
   
 }
 

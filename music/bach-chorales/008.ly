@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "8 - Freuet euch, ihr Christen"
+  title = "8 - FREUET EUCH, IHR CHRISTEN ALLE"
+  subtitle = "BWV 40. Dazu ist erschiene / A. Hammerschmidt (1612-1675)"
   composer = "J. S. Bach"
 }
 
@@ -14,25 +15,25 @@ global = {
 
 soprano = \relative c'' {
   c4 c4 bes4 aes4 
-  g4. f8 f4 f4 
+  g4. f8 f4 f4 \fermata
   aes4. bes8 c4 c4 
-  bes4. aes8 aes2 
+  bes4. aes8 aes2 \fermata
   aes4 bes4 bes4 aes4   %5
-  g4. f8 f2 
+  g4. f8 f2 \fermata
   c'4 c4 des4 des4 
-  bes4 bes4 c4 c4 
+  bes4 bes4 c4 c4 \fermata
   aes4 aes4 des4 des4 
-  c4 c4 bes2   %10
+  c4 c4 bes2  \fermata %10
   g4 aes4 bes4 aes4 
-  g4 g4 f2 
+  g4 g4 f2 \fermata
   f'4 f4 ees4 ees4 
-  d4 d4 c4 c4 
+  d4 d4 c4 c4 \fermata
   c4 c4 des4 c4   %15
-  bes4. aes8 aes4 aes4 
+  bes4. aes8 aes4 aes4 \fermata
   aes4 aes4 des4 des4 
   bes4 bes4 ees4 ees4 
   c4 c4 f4 f4 
-  e4 e4 f4 f4   %20
+  e4 e4 f4 f4 \fermata  %20
   
 }
 

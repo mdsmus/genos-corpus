@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "160 - Gelobet seist du, Jesu Christ"
+  title = "160 - GELOBET SEIST DU, JESU CHRIST"
+  subtitle = "BWV 64. Sehet, weich eine Liebe / Wittenberg, 1524"
   composer = "J. S. Bach"
 }
 
@@ -15,15 +16,15 @@ global = {
 soprano = \relative c'' {
   \partial 4 g4 
     g4 g4 a4 g4 
-  c4 d4 c2 
+  c4 d4 c2 \fermata
   b4 d4 e4 d4 
-  b4 a4 g4 g4 
+  b4 a4 g4 \fermata g4 
   c4 b4 d4 a4   %5
-  g4 e4 d4 d4 
+  g4 e4 d4 \fermata d4 
   a'4 a4 a4 b4 
   c4 a4 g8 a8 b4 
   a2 g4 g4 
-  g1   %10
+  g1 \fermata  %10
   
 }
 
@@ -37,7 +38,7 @@ alto = \relative c' {
   e8 d8 cis4 a4 d4 
   d4 a'8 g8 fis4 gis4 
   a4 f4 e8 fis8 g4~ 
-  g4 f4. e8 e4~ 
+  g4 f4. d8 e4~ 
   e4 d8 c8 d2   %10
   
 }

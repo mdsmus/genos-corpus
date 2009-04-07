@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "16 - Es woll' uns Gott genadig sein"
+  title = "16 - ES WOLL UNS GOTT GENÄDIG SEIN"
+  subtitle = "BWV 311. / M. Greitter (1490?-1550?)"
   composer = "J. S. Bach"
 }
 
@@ -17,21 +18,21 @@ soprano = \relative c'' {
     \partial 4 cis4 
     d4 cis4 b4 cis8 d8 
     e4 fis4 e4 d4 
-    cis2 r4 e4 
+    cis2 \fermata r4 e4 
     d4 cis4 d4 b4 
     a4 fis8 g8 a4 g4     %5
     fis2. } a4 
   g4 fis4 e4 fis4 
-  d4 e4 fis4 cis'4 
+  d4 e4 fis4 \fermata cis'4 
   d4 cis4 b4 cis8 d8 
-  e4 d4 cis4 fis4   %10
+  e4 d4 cis4 \fermata fis4   %10
   e8 d8 cis8 d8 e4 b4 
-  a4 g4 fis4 e4 
+  a4 g4 fis4 \fermata e4 
   a4 b4 cis8 d8 e4 
-  d4 cis4 b4 d4 
+  d4 cis4 b4 \fermata d4 
   cis4 b4 a8 g8 fis8 g8   %15
   a4 g4 fis2~ 
-  fis2.
+  fis2. \fermata
   
 }
 

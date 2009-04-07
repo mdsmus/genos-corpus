@@ -1,8 +1,10 @@
 \version "2.10.33"
 
 \header {
-  title = "29 - Freu' dich sehr, o meine Seele"
+  title = "29 - FREU DICH SEHR, O MEINE SEELE"
+  subtitle = "BWV 32. Liebster Jesu, mein Verlangen / L. Bourgeois (1510?-1561)"
   composer = "J. S. Bach"
+
 }
 
 
@@ -15,18 +17,18 @@ global = {
 soprano = \relative c'' {
   \repeat volta 2 {
     g4 a4 b4 a4 
-    g4 fis4 e4 d4 
+    g4 fis4 e4 d4 \fermata
     g4 a4 b4 c4 
     b4 a4 g2 }
   b4 c4 d4 c4   %5
-  b4 a4 b2 
+  b4 a4 b2 \fermata
   d4 d4 e4 d4 
-  c4 b4 a2 
+  c4 b4 a2 \fermata
   b4 d4 c4 b8 a8 
   g4 a4 b2   %10
-  g2 b8 c8 d4 
+  g2 \fermata b8 c8 d4 
   c4 b4 a4 b4 
-  a2 g2 
+  a2 g2 \fermata
   
 }
 
@@ -37,10 +39,10 @@ alto = \relative c' {
     e'4 d4 d4 a'4 
     d,4 d4 d2 }
   g4 g4 fis4 g4   %5
-  g4~ g8 fis8 g2 
-  g4 g4 g4~ g8 fis8 
+  g4 g8 fis8 g2 
+  g4 g4 g4 g8 fis8 
   e4 d8 e8 fis2 
-  g4~ g8 fis8 e8 fis8 g8 fis8 
+  g4 g8 fis8 e8 fis8 g8 fis8 
   e4 fis4 g2   %10
   e2 g4 a4 
   g4 d8 e8 fis4 g4 
@@ -50,7 +52,7 @@ alto = \relative c' {
 
 tenor = \relative c' {
   \repeat volta 2 {
-    b4 a4 g4~ g8 fis8 
+    b4 a4 g4 g8 fis8 
     g4 a4 a8 g8 fis4 
     b4 a4 g8 fis8 e8 fis8 
     g4 g8 fis8 b2 }

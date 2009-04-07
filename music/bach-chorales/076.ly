@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "76 - Freu' dich sehr, o meine Seele"
+  title = "76 - FREU DICH SEHR, O MEINE SEELE"
+  subtitle = "BWV 30. Freue dich, erlöste Schaar / L. Bourgeois (1510?-1561)"
   composer = "J. S. Bach"
 }
 
@@ -15,18 +16,18 @@ soprano = \relative c'' {
   \repeat volta 2 {
     g4 a4 b4 a4  
     g4 fis4 e2  
-    d2 g4 a4  
+    d2 \fermata g4 a4  
     b4 c4 b4 a4  
     g1  }  %5
   b4 c4 d4 c4  
-  b4 a4 b2  
+  b4 a4 b2 \fermata 
   d4 d4 e4 d4  
-  c4 b4 a2  
+  c4 b4 a2 \fermata 
   b8 c8 d4 c4 b8 a8    %10
   g4 a4 b2  
-  g2 b8 c8 d4  
+  g2 \fermata b8 c8 d4  
   c4 b4 a4 b8. c16  
-  a2 g2  
+  a2 g2 \fermata 
   
 }
 

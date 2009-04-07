@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "225 - Gott, der du selber bist das Licht"
+  title = "225 - GOTT, DER DU SELBER BIST DAS LICHT"
+  subtitle = "BWV 316. / J. Crüger (1598-1662)"
   composer = "J. S. Bach"
 }
 
@@ -16,15 +17,15 @@ soprano = \relative c'' {
   \repeat volta 2 {
     \partial 4 d4 
     g,4 a8 bes8 c4 bes4 
-    a4 a4 g4 c4 
+    a4 a4 g4 \fermata c4 
     c4 c4 d4 c4 
-    d4 e4 f4 d4 
+    d4 e4 f4 \fermata d4 
     c4 bes4 a4 g4     %5
     a2 g4 } a4 
   bes4 c4 d4 ees4 
-  d4 c4 bes4 d4 
+  d4 c4 bes4 \fermata d4 
   f4 ees4 d4 g,8 a8 
-  bes4 a g   %10
+  bes4 a g \fermata  %10
   
 }
 

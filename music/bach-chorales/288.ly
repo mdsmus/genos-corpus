@@ -1,9 +1,11 @@
 \version "2.10.33"
 
 \header {
-  title = "288 - Gelobet seist du, Jesu Christ"
+  title = "288 - GELOBET SEIST DU, JESU CHRIST"
+  subtitle = "BWV 314. / Wittenberg, 1524"
   composer = "J. S. Bach"
 }
+
 
 
 global = {
@@ -15,15 +17,15 @@ global = {
 soprano = \relative c'' {
   \partial 4 a4 
     a4 a4 b4 a4 
-  d4 e4 d2 
+  d4 e4 d2 \fermata
   cis8 d8 e4 fis4 e8 d8 
-  cis4 b4 a4 a4 
+  cis4 b4 a4 \fermata a4 
   d4 cis8 d8 e4 b4   %5
-  a8 gis8 fis4 e4 e4 
+  a8 gis8 fis4 e4 \fermata e4 
   b'4 b4 b4 cis4 
   d8 cis8 b4 a8 b8 cis4 
-  b2 a4 a4 
-  a2 a4   %10
+  b2 \fermata a4 a4 
+  a2 a4 \fermata  %10
   
 }
 
