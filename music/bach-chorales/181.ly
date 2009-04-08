@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "181 - Gott hat das Evangelium"
+  title = "181 - GOTT HAT DAS EVANGELIUM"
+  subtitle = "BWV 319. / Wittenberg, 1548" 
   composer = "J. S. Bach"
 }
 
@@ -15,16 +16,16 @@ global = {
 soprano = \relative c'' {
   \partial 4 b4 
     b4 b8 c8 d8 c8 b4 
-  a4 b8 a8 g4 b4 
+  a4 b8 a8 g4 \fermata b4 
   b4 b8 c8 d8 c8 b4 
-  a4 b4 g4 b4 
+  a4 b4 g4 \fermata b4 
   c4 b4 a4 g8 a8   %5
-  b4 fis4 e4 b'4 
+  b4 fis4 e4 \fermata b'4 
   c4 b4 a4 g8 a8 
-  b4 fis4 e4 b'4 
+  b4 fis4 e4 \fermata b'4 
   b4 a4 g8 fis8 e8 fis8 
   g4 g4 a4 a4   %10
-  b2.
+  b2. \fermata
   
 }
 

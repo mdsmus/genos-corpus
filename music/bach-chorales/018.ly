@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "18 - Gottes Sohn ist kommen"
+  title = "18 - GOTTES SOHN IST KOMMEN"
+  subtitle = "BWV 318. / Jungbunzlau, 1531" 
   composer = "J. S. Bach"
 }
 
@@ -65,18 +66,18 @@ tenor = \relative c' {
 
 baixo = \relative c' {
   g4 c,4 g8 g'8 a4 
-  b8 a8 g8 a8 d,2\fermata 
+  b8 a8 g8 a8 d,2
   a'4 d,4 e4 fis4 
-  g4 a4 d,2\fermata 
+  g4 a4 d,2
   e4 fis4 g4 e4   %5
-  d8 c8 d4 g,2\fermata 
+  d8 c8 d4 g,2
   d'4 e4 fis4 g4 
   cis,4 a4 d4 a4 
-  d1\fermata 
+  d1
   b4 c4 g'4 e4   %10
-  d4 c4 g'2\fermata 
+  d4 c4 g'2
   e4 fis4 g4 e4 
-  d2 g2\fermata 
+  d2 g2
   
 }
 

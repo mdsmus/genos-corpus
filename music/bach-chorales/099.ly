@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "99 - Helft mir Gotts Güte preisen"
+  title = "99 - HELFT MIR GOTTS GÜTE PREISEN"
+  subtitle = "BWV 16. Herr Gott, dic loben wir / Eufurt, 1572"
   composer = "J. S. Bach"
 }
 
@@ -16,15 +17,15 @@ soprano = \relative c'' {
   \repeat volta 2 {
     \partial 4 a4 
     a4 b4 c4 d4 
-    b4. c8 d4 e4 
+    b4. c8 d4 \fermata e4 
     c4 a4 b4 b4 
     a2. } e'4 
   d4 c4 b4 a4   %5
-  b2. b4 
+  b2. \fermata b4 
   c4 d4 e4 e4 
-  d2 b4 b4 
+  d2 b4 \fermata b4 
   c4 d4 e4 e4 
-  d4. c8 b4 e4   %10
+  d4. c8 b4 \fermata e4   %10
   d8 c8 b8 a8 b4 b4 
   a2. 
 }
@@ -57,7 +58,7 @@ tenor = \relative c' {
   b2. e4 
   e4 f4 g4 c,8 b8 
   a4 d4 d4 d4 
-  g,4 a4 ais4 a8 g8 
+  g,4 a4 bes4 a8 g8 
   a2 e'4 e4   %10
   e,4 a4 a4 gis4 
   e2. 

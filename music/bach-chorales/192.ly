@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "192 - Gottlob, es geht nunmehr zu Ende"
+  title = "192 - GOTTLOB, ES GEHT NUNMEHR ZU ENDE"
+  subtitle = "BWV 321. / Berlin, 1769" 
   composer = "J. S. Bach"
 }
 
@@ -17,7 +18,7 @@ soprano = \relative c'' {
     d4 bes4 d4 
     ees2 d4 
     c2 bes4 
-    c2 c4 
+    c2 c4 \fermata
     d4 d4 d4     %5
     g,2 a4 
     bes2 bes4 
@@ -25,11 +26,11 @@ soprano = \relative c'' {
   f4 c'4 c4 
   c2 d4   %10
   ees2 ees4 
-  d2. 
+  d2. \fermata
   f4 f4 f4 
   ees2. 
   d4 d4 c4   %15
-  bes2. 
+  bes2. \fermata
   
 }
 

@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "123 - Helft mir Gotts Güte preisen"
+  title = "123 - HELFT MIR GOTTS GÜTE PREISEN"
+  subtitle = "BWV 183. Sie werden euch in den Bann tun / Erfurt, 1572"
   composer = "J. S. Bach"
 }
 
@@ -16,17 +17,17 @@ soprano = \relative c'' {
   \repeat volta 2 {
     \partial 4 a4 
     a4 b4 c4 d4 
-    b8 c4 b16 c16 d4 e4 
+    b8 c8 c8 b16 c16 d4 \fermata e4 
     d8 c8 b8 a8 c4 b8 a8 
     a2. } e'4 
   d4 c4 b4 a4   %5
-  b2. b4 
+  b2. \fermata b4 
   c4 d4 e4 e4 
-  d8 c8 b8 c8 b4 b4 
+  d8 c8 b8 c8 b4 \fermata b4 
   c4 d4 e4 e4 
-  d8 c8 b8 c8 b4 e4   %10
+  d8 c8 b8 c8 b4 \fermata e4   %10
   d8 c8 b8 a8 c4 b8 a8 
-  a1 
+  a2. \fermata
   
 }
 
@@ -43,8 +44,8 @@ alto = \relative c' {
   a8 g8 fis4 g4 b4 
   a4 g4 g4 g4 
   fis8 gis8 a4 gis4 c8 b8   %10
-  a4 gis8 a8 a8 fis8 gis4 
-  e1 
+  a4 gis4 a8 fis8 gis4 
+  e2. 
   
 }
 
@@ -62,7 +63,7 @@ tenor = \relative c' {
   e4 b4 c4 b4 
   a8 e'8 d8 a8 e'4 a,4   %10
   d8 e8 f8 d8 e4 d8 cis8 
-  cis1 
+  cis2. 
   
 }
 
@@ -80,7 +81,7 @@ baixo = \relative c {
   a8 g8 f8 g8 f8 e8 d8 c8 
   d8 e8 f8 d8 e4 c4   %10
   f8 e8 d8 f8 e8 d8 e4 
-  a,1 
+  a,2. 
   
 }
 

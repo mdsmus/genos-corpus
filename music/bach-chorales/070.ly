@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "70 - Gott sei gelobet und gebenedeiet"
+  title = "70 - GOTT SEI GELOBET UND GEBENEDEIET"
+  subtitle = "BWV 322. / Wittenberg, 1524" 
   composer = "J. S. Bach"
 }
 
@@ -16,25 +17,25 @@ soprano = \relative c'' {
   \repeat volta 2 {
     \partial 4 g4 
     g4 g4 a2 
-    g2 c4 d4 
+    g2 \fermata c4 d4 
     c4 b4 a2 
-    g2 a8 b8 c4 
+    g2 \fermata a8 b8 c4 
     g8 f8 e4 f4 e4     %5
     d2 c4 } g'4 
   g4 g4 a4. g8 
-  fis8 g8 a4 g2 
+  fis8 g8 a4 g2 \fermata
   g4 g4 a4 b4 
   c4 b4 a2   %10
-  g2 b4 c4 
+  g2 \fermata b4 c4 
   d4 d4 d4 a4 
-  g4 e4 d2 
+  g4 e4 d2 \fermata
   e4 fis4 g8 f8 e4 
-  fis2 g2   %15
+  fis2 g2 \fermata  %15
   d8 e8 f4 e4 d4 
-  e4 d4 c2 
+  e4 d4 c2 \fermata
   r4 g'4 g4 g4 
   a4. g8 fis8 g8 a4 
-  g2.   %20
+  g2. \fermata  %20
   
 }
 

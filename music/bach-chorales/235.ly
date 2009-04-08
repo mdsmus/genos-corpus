@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "235 - Heilig, heilig"
+  title = "235 - HEILIG, HEILIG"
+  subtitle = "BWV 325. / Steinau, 1726"
   composer = "J. S. Bach"
 }
 
@@ -14,22 +15,22 @@ global = {
 
 soprano = \relative c'' {
   c4 a4 g2 
-  f2 c'4 d4 
-  c2 f4 f4 
+  f2 \fermata c'4 d4 
+  c2 \fermata f4 f4 
   e4 e4 d4. c8 
-  c2 c4 d4   %5
-  c4 bes4 a2 
+  c2 \fermata c4 d4   %5
+  c4 bes4 a2 \fermata
   r4 g4 a8 b8 c4 
-  c4 b4 c2 
+  c4 b4 c2 \fermata
   c4 d4 bes4 bes4 
   a4 bes4 a4 g4   %10
-  f2 r4 a4 
-  g2 f4 c'4 
-  c4 b4 c4 f4 
+  f2 \fermata r4 a4 
+  g2 f4 \fermata c'4 
+  c4 b4 c4 \fermata f4 
   f4 e4 d2 
-  c2 c4 d8 c8   %15
+  c2 \fermata c4 d8 c8   %15
   bes4 bes4 a4 bes8 a8 
-  g2 f2 
+  g2 f2 \fermata
   
 }
 

@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "88 - Helft mir Gott's Güte preisen"
+  title = "88 - HELFT MIR GOTTS GÜTE PREISEN"
+  subtitle = "BWV 28. Gottlob, nun geht das Jahr zu Ende / Eufurt, 1572"
   composer = "J. S. Bach"
 }
 
@@ -16,17 +17,17 @@ soprano = \relative c'' {
   \repeat volta 2 {
     \partial 4 a4 
     a4 b4 c4 d4 
-    b4. c8 d4 e4 
+    b4. c8 d4 \fermata e4 
     c4 a4 b4 b4 
     a2. } e'4 
   d4 c4 b4 a4   %5
-  b2. b4 
+  b2. \fermata b4 
   c4 d4 e4 c4 
-  d4. c8 b4 b4 
+  d4. c8 b4 \fermata b4 
   c4 d4 e4 c4 
-  d4. c8 b4 e4   %10
+  d4. c8 b4 \fermata e4   %10
   c8 b8 a4 b4 b4 
-  a2. 
+  a2. \fermata
 }
 
 alto = \relative c' {

@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "234 - Gott lebet noch"
+  title = "234 - GOTT LEBET NOCH"
+  subtitle = "BWV 320. / Halle, 1714" 
   composer = "J. S. Bach"
 }
 
@@ -14,11 +15,11 @@ global = {
 
 soprano = \relative c' {
   f4 a4 b4 
-  c2. 
+  c2. \fermata
   c4 bes4 c4 
   d4 c4 d4 
   e4 d4 e4   %5
-  f2. 
+  f2. \fermata
   a,2 bes4 
   c4 bes4 a4 
   g2 a4 
@@ -26,7 +27,7 @@ soprano = \relative c' {
   f2 g4 
   a2 g4 
   a2 b4 
-  c2. 
+  c2. \fermata
   e2 f4   %15
   d2 f4 
   e2 d4 
@@ -34,7 +35,7 @@ soprano = \relative c' {
   d2 a4 
   bes4 a4 g4   %20
   f2 e8 f8 
-  d2. 
+  d2. \fermata
   fis2 fis4 
   g4 fis4 g4 
   a4 bes4 c4   %25
@@ -42,7 +43,7 @@ soprano = \relative c' {
   c2 c4 
   c4 d4 e4 
   f4 e4 d4 
-  e2 c4   %30
+  e2 c4 \fermata  %30
   f4 c4 a4 
   d2 c4 
   bes4 c4 a4 
@@ -50,7 +51,7 @@ soprano = \relative c' {
   c4 a4 f4   %35
   d'4 e4 f4 
   a,2 g8 f8 
-  f2. 
+  f2. \fermata 
   
 }
 
