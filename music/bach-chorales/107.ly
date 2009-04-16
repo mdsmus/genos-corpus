@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "107 - Herzlich lieb hab ich dich, o Herr"
+  title = "107 - HERZLICH LIEB HAB ICH DICH, O HERR"
+  subtitle = "BWV 245. Johannes-Passion / Straßburg, 1577"
   composer = "J. S. Bach"
 }
 
@@ -16,26 +17,26 @@ soprano = \relative c'' {
   \repeat volta 2 {
     \partial 4 ees4 
     d4 c4 bes4 aes8 g8 
-    c4 c4 bes4 ees4 
+    c4 c4 bes4 \fermata ees4 
     d4 c4 bes4 aes8 g8 
-    c4 c4 bes4 bes4 
+    c4 c4 bes4 \fermata bes4 
     c4 d4 ees8 f8 g4     %5
     f4 ees2 d4 
     ees2. } ees4 
   ees4 f4 ees8 d8 c8 d8 
-  ees4 ees4 d4 d4 
+  ees4 ees4 d4 \fermata d4 
   ees4 f4 ees8 d8 c8 d8   %10
-  ees8 g8 f4 d4 g4 
+  ees8 g8 f4 d4 \fermata g4 
   g4 g4 f4 ees4 
-  ees4 d4 ees4 d4 
+  ees4 d4 ees4 \fermata d4 
   ees4 d4 c4 bes4 
-  bes4 a4 bes4 g'4   %15
-  f4 ees4 d4 g4 
+  bes4 a4 bes4 \fermata g'4   %15
+  f4 ees4 d4 \fermata g4 
   aes8 g8 f4 g4 ees4 
-  ees4 d4 ees4 ees4 
+  ees4 d4 ees4 \fermata ees4 
   ees4 ees4 f4 ees4 
   ees2. d4   %20
-  ees1 
+  ees2. \fermata 
   
 }
 
@@ -62,7 +63,7 @@ alto = \relative c'' {
   ges8 f8 f4 g4 g4 
   aes4 aes4 aes4 g4 
   f2 f2   %20
-  g1 
+  g2. 
   
 }
 
@@ -89,7 +90,7 @@ tenor = \relative c'' {
   c4 bes4 bes4 des4 
   c8 d8 ees4 bes4 bes4 
   c2 bes2   %20
-  bes1 
+  bes2. 
   
 }
 
@@ -116,7 +117,7 @@ baixo = \relative c {
   a'4 bes4 ees,4 ees4 
   aes8 bes8 c4 d,4 ees4 
   a,2 bes2   %20
-  ees,1 
+  ees,2. 
   
 }
 

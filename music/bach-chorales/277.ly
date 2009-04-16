@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "277 - Herzlich lieb hab'ich dich, o Herr"
+  title = "277 - HERZLICH LIEB HAB ICH DICH, O HERR"
+  subtitle = "BWV 340. / Straßburg, 1577"
   composer = "J. S. Bach"
 }
 
@@ -16,24 +17,24 @@ soprano = \relative c'' {
   \repeat volta 2 {
     \partial 4 c4 
     b4 a4 g8 f8 e4 
-    a4 a4 g4 c4 
+    a4 a4 g4 \fermata c4 
     b4 a4 g8 f8 e4 
-    a4 a4 g4 g4 
+    a4 a4 g4 \fermata g4 
     a4 b4 c8 d8 e4     %5
     d2 c4 } c4 
   c4 d4 c4 a8 b8 
-  c4. d8 b4 b4 
+  c4. d8 b4 \fermata b4 
   c4 d4 c8 b8 a8 b8 
-  c4. d8 b4 e4   %10
+  c4. d8 b4 \fermata e4   %10
   f8 e8 d4 e8 d8 c4 
-  c4 b4 c4 b4 
+  c4 b4 c4 \fermata b4 
   c4 b4 a8 b8 g4 
-  g8 a8 fis4 g4 e'4 
-  d4 c4 b4 e4   %15
+  g8 a8 fis4 g4 \fermata e'4 
+  d4 c4 b4 \fermata e4   %15
   f8 e8 d4 e8 d8 c8 b8 
-  a8 d8 b4 c4 c4 
+  a8 d8 b4 c4 \fermata c4 
   c4 c4 d4 c4 
-  c4 b4 c4 
+  c4 b4 c4 \fermata
   
 }
 

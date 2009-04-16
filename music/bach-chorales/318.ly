@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "318 - Herr, wie du willst, so schick's mit mir"
+  title = "318 - HERR, WIE DU WILLT, SO SCHICKS MIT MIR (AUS TIEFER NOT - 2.)"
+  subtitle = "BWV 339. / Straßburg, 1525" 
   composer = "J. S. Bach"
 }
 
@@ -16,17 +17,17 @@ soprano = \relative c {
   \repeat volta 2 {
     r4 a''4 gis4 a4 
     b4 b4 a4 b4 
-    cis2 r4 d4 
+    cis2 \fermata r4 d4 
     cis4 b4 a4 gis8 a8 
     b2 a2 }  %5
   r4 a4 b8 cis8 d4 
   cis8 b8 a4 b8 a8 gis4 
-  fis2 r4 gis4 
+  fis2 \fermata r4 gis4 
   e4 e4 b'4 cis4 
-  d8 cis8 b4 a2   %10
+  d8 cis8 b4 a2 \fermata   %10
   r4 e'4 cis4 cis4 
   b4 a4 gis4 a4 
-  b2 a2 
+  b2 a2 \fermata
   
 }
 

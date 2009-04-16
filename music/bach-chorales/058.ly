@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "58 - Herzlich lieb hab' ich dich, o Herr"
+  title = "58 - HERZLICH LIEB HAB ICH DICH, O HERR"
+  subtitle = "BWV 174. Ich liebe den Höchsten von ganzem Gemüthe / Straßburg, 1577"
   composer = "J. S. Bach"
 }
 
@@ -16,24 +17,24 @@ soprano = \relative c'' {
   \repeat volta 2 {
     \partial 4 d4 
     cis4 b4 a4 g8 fis8 
-    b4 b4 a4 d4 
+    b4 b4 a4 \fermata d4 
     cis4 b4 a4 g8 fis8 
-    b4 b4 a4 a4 
+    b4 b4 a4 \fermata a4 
     b4 cis4 d8 e8 fis4     %5
     e8 d8 e4 d4 } d4 
   d4 e4 d4 b8 cis8 
-  d4 d4 cis4 cis4 
+  d4 d4 cis4 \fermata cis4 
   d4 e4 d4 b8 cis8 
-  d4 d4 cis4 fis4   %10
+  d4 d4 cis4 \fermata fis4   %10
   g8 fis8 e4 fis8 e8 d4 
-  d4 cis4 d4 cis4 
+  d4 cis4 d4 \fermata cis4 
   d4 cis4 b4 a4 
-  a4 gis4 a4 fis'4 
-  e4 d4 cis4 fis4   %15
+  a4 gis4 a4 \fermata fis'4 
+  e4 d4 cis4 \fermata fis4   %15
   g8 fis8 e4 fis8 e8 d4 
-  d4 cis4 d4 d4 
+  d4 cis4 d4 \fermata d4 
   d4 d4 e4 d4 
-  d4 cis4 d
+  d4 cis4 d \fermata
   
 }
 
@@ -46,7 +47,7 @@ alto = \relative c' {
     fis4 f4 fis4 fis8 e8 
     d8 b'8 a8 g8 fis8 g8 a8 b8     %5
     e,8 fis8 g4 fis4 } a4 
-  a8 g4 fis8 fis4 e4 
+  a8 g8 g8 fis8 fis4 e4 
   e4 e4 e4 e4 
   fis4 g4 fis4 e4 
   d8 e8 fis4 fis4 fis4   %10

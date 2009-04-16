@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "190 - Herr, nun laß in Frieden"
+  title = "190 - HERR, NUN LAß IN FRIEDE"
+  subtitle = "BWV 337. / Lissa, 1694"
   composer = "J. S. Bach"
 }
 
@@ -14,17 +15,17 @@ global = {
 
 soprano = \relative c' {
   e4 e4 fis4 gis4 
-  a2 gis2 
+  a2 gis2 \fermata 
   gis4 gis4 a4 b4 
-  c2 b2 
+  c2 b2 \fermata
   c4 c4 b4 b4   %5
-  a2 gis2 
+  a2 gis2 \fermata
   a4 a4 g4 g4 
-  f2 e2 
+  f2 e2 \fermata
   e'4 e4 d4 d4 
-  c2 b2   %10
+  c2 b2 \fermata  %10
   a4 a4 g4 g4 
-  f2 e2 
+  f2 e2 \fermata
   
 }
 

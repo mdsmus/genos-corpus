@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "284 - Herr Jesu Christ, wahr'r Mensch und Gott"
+  title = "284 - HERR JESU CHRIST, WAHR MENSCH UND GOTT"
+  subtitle = "BWV 127. Herr Jesu Christ, wahr Mensch und Gott / L. Bourgeois (1510?-1561)"
   composer = "J. S. Bach"
 }
 
@@ -15,17 +16,17 @@ global = {
 soprano = \relative c'' {
   \partial 4 f4 
     f4 f4 e4 c4 
-  d4 e4 f4 f4 
+  d4 e4 f4 \fermata f4 
   e4 d4 c4 bes4 
-  a4 g4 a4 a4 
+  a4 g4 a4 \fermata a4 
   g4 a8 b8 c4 d4   %5
-  c4 b4 c4 c4 
+  c4 b4 c4 \fermata c4 
   d4 e4 f4 e4 
-  d4 d4 c4 c4 
+  d4 d4 c4 \fermata c4 
   bes4 a4 d4 c4 
-  bes4 a4 g4 g4   %10
+  bes4 a4 g4 \fermata g4   %10
   a4 b4 c4 d4 
-  c4 b4 c4 
+  c4 b4 c4 \fermata
   
 }
 

@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "221 - Herr, straf mich nicht in deinem Zorn"
+  title = "221 - HERR, STRAF MICH NICHT IN DEINEM ZORN"
+  subtitle = "BWV 338. / J. Crüger (1598-1662)"
   composer = "J. S. Bach"
 }
 
@@ -16,15 +17,15 @@ soprano = \relative c'' {
   \repeat volta 2 {
     \partial 4 a4 
     c4 b4 a4 a4 
-    g4 f4 e4 e4 
+    g4 f4 e4 \fermata e4 
     fis4 gis4 a4 c4 
     b2 a4 } b4 
   b4 b4 b4 g4   %5
-  a4 b4 c4 b4 
+  a4 b4 c4 \fermata b4 
   b4 b4 c4 b4 
-  a4 a4 gis4 gis4 
+  a4 a4 gis4 \fermata gis4 
   a4 b4 c4 d4 
-  b2 a2   %10
+  b2 a4  \fermata %10
   
 }
 
@@ -40,7 +41,7 @@ alto = \relative c' {
   fis16 g16 a4 gis8 a4. g8~ 
   g8 f16 e16 d4 e4 e4 
   e4 e4. a16 gis16 a4~ 
-  a8 gis16 fis16 gis4 e2   %10
+  a8 gis16 fis16 gis4 e4   %10
   
 }
 
@@ -56,7 +57,7 @@ tenor = \relative c' {
   b4 e4 e4 e8. d16 
   c4 b8 a8 b4 b4 
   c4 b4 a4. f'8 
-  e8 b8 e8 d8 cis2   %10
+  e8 b8 e8 d8 cis4   %10
   
 }
 
@@ -72,7 +73,7 @@ baixo = \relative c {
   dis4 d4 c8 d8 e4 
   f8 e8 f4 e4 e8 d8 
   c8 b8 a8 gis8 a4 f'8 d8 
-  e2 a,2   %10
+  e2 a,4   %10
   
 }
 

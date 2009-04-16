@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "189 - Herr Jesu Christ, wahr'r Mensch und Gott"
+  title = "189 - HERR JESU CHRIST, WAHR MENSCH UND GOTT"
+  subtitle = "BWV 336. / J. Eccard (1553-1611)"
   composer = "J. S. Bach"
 }
 
@@ -15,13 +16,13 @@ global = {
 soprano = \relative c'' {
   \partial 4 a4 
     a4 a4 fis4 b4 
-  a4 a4 gis4 cis4 
+  a4 a4 gis4 \fermata cis4 
   cis4 cis4 fis4 e4 
-  e4 dis4 e4 cis4 
+  e4 dis4 e4 \fermata cis4 
   cis4 cis4 d4 cis4   %5
-  b4 ais4 b4 cis4 
+  b4 ais4 b4 \fermata cis4 
   cis4 cis4 b4 a4 
-  a4 gis4 a
+  a4 gis4 a \fermata
   
 }
 
