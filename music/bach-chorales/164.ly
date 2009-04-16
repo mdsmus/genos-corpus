@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "164 - Herr Gott, dich loben alle wir"
+  title = "164 - HERR GOTT, DICH LOBEN ALLE WIR"
+  subtitle = "BWV 325. / L. Bourgeois (1510?-1561)"
   composer = "J. S. Bach"
 }
 
@@ -18,18 +19,18 @@ soprano = \relative c'' {
   g2 f4 
   bes4 c2 
   d2 d4 
-  d2 d4   %5
+  d2 \fermata d4   %5
   c2 d4 
-  ees4 d2 
-  c2 bes4 
+  ees4  d2 
+  c2 \fermata bes4 
   c2 d4 
   c2 bes4   %10
   g4 a2 
-  bes2 f'4 
+  bes2 \fermata f'4 
   d2 bes4 
   c2 ees4 
   d4 c2   %15
-  bes2 
+  bes2 \fermata
   
 }
 

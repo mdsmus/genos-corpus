@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "205 - Herr Gott, dich loben wir"
+  title = "205 - HERR GOTT, DICH LOBEN WIR"
+  subtitle = "BWV 328. / M. Luther (1483-1546)"
   composer = "J. S. Bach"
 }
 
@@ -13,11 +14,11 @@ global =  {
 soprano = \relative c' {
   \partial 4 e4 
   g a c a
-  a2 r4 c
+  a2 \fermata r4 c
   c b a a
-  g2. \repeat volta 2 { c4
+  g2. \fermata \repeat volta 2 { c4
   c c b a  %% 05
-  b a a a
+  b a a \fermata a
   a g a b
   c a g } \repeat volta 2 { e
   g a b b
@@ -26,40 +27,40 @@ soprano = \relative c' {
   a g a b
   c a g \repeat volta 2 { c4
   c c b a
-  b a a a  %% 15
+  b a a \fermata a  %% 15
   a g a b
   c a g } \repeat volta 2 { a
   a a g b
-  b a a a
+  b a a \fermata a
   a g a8 b c4  %% 20
   g g e } f
   d f e d
-  e fis g g
+  e fis g \fermata g
   g g a4. f8
-  g4 f e c  %% 25
+  g4 f e \fermata c  %% 25
   d f e d
-  f d c g'
+  f d c \fermata g'
   g g a4. f8
-  g4 f e f
+  g4 f e \fermata f
   f f e d  %% 30
-  f d c g'
+  f d c \fermata g'
   g g a4. f8
-  g4 f e e8 f
+  g4 f e \fermata e8 f
   g4 a a a
-  c a a a  %% 35
+  c a a \fermata a  %% 35
   a g a8 b c4
-  g g e \repeat volta 2 { a
+  g g e \fermata \repeat volta 2 { a
   a a g b
-  b b a a
+  b b a \fermata a
   a g a c  %% 40
   g g e } f8 e
   d4 f g a
-  g f e f
+  g f e \fermata f
   f g a g8 f
-  g4 f e g  %% 45
+  g4 f e \fermata g  %% 45
   e c d2
   e1~
-  e  
+  e  \fermata
 }
 
 
@@ -105,7 +106,7 @@ alto = \relative c' {
   f e8 d16 c b4 b8 c16 e
   e4~ e16 fis g8~ g fis f4
   f c c c8 d  %% 40
-  e4 e16 cis d8~ d cis} d4
+  e4~ e16 cis d8~ d cis} d4
   a8 bes16 c d4~ d8 e~ e d~
   d cis d4 cis d
   d~ d8 e f e d4

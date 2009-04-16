@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "33 - Herr, ich habe mißgehandelt"
+  title = "33 - HERR, ICH HABE MIßGEHANDELT"
+  subtitle = "BWV 330. / J. Crüger (1598-1662)"
   composer = "J. S. Bach"
 }
 
@@ -15,14 +16,14 @@ global = {
 soprano = \relative c'' {
   \repeat volta 2 {
     a4 e8 fis8 gis4 a4 
-    b8 c16 d16 c8 b8 b4 a4 
+    b8 c16 d16 c8 b8 b4 a4 \fermata
     c4 b4 a4 b4 
     c4 d4 e2 }
   e4 f4 g4 c,4   %5
-  f4 e4 d4 c4 
+  f4 e4 d4 c4 \fermata
   d4 d4 e4 a,4 
   d4 c8 b8 b2 
-  a2. r4
+  a2. \fermata r4
 }
 
 alto = \relative c' {

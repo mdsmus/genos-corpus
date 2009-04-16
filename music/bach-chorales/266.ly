@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "266 - Herr Jesu Christ, du höchstes Gut"
+  title = "266 - HERR JESU CHRIST, DU HÖCHSTES GUT (HERR JESU CHRIST, ICH WEIß GAR WOHL)"
+  subtitle = "BWV 48. Ich elender Mensch, wer wird mich erlösen / Dresden, 1593"
   composer = "J. S. Bach"
 }
 
@@ -16,16 +17,16 @@ soprano = \relative c'' {
   \repeat volta 2 {
     \partial 4 g4 
     g4 fis4 g4 a4 
-    bes4 a4 g4 g4 
+    bes4 a4 g4 \fermata g4 
     a4 a4 d4 c4 
     bes2 a4 } d4 
   c4 bes4 a4 c4   %5
-  bes4 a4 g4 bes4 
+  bes4 a4 g4 \fermata bes4 
   a4 g4 f8 e8 d8 e8 
-  f4 g4 a4 g8 a8 
+  f4 g4 a4 \fermata g8 a8 
   bes4 c4 d4. c8 
   bes4 c8 bes8 a2   %10
-  g2.
+  g2. \fermata
   
 }
 

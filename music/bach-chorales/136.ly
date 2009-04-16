@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "136 - Herr Jesu Christ, dich zu uns wend"
+  title = "136 - HERR JESU CHRIST, DICH ZU UNS WEND"
+  subtitle = "BWV 332. / Gochsheim, 1628"
   composer = "J. S. Bach"
 }
 
@@ -15,13 +16,13 @@ global = {
 soprano = \relative c'' {
   \partial 4 g4 
     b4 d4 b4 a4 
-  b4 cis4 d4 e4 
+  b4 cis4 d4 \fermata e4 
   d8 c8 b4 a4 g8 a8 
-  b4 a4 g4 a4 
+  b4 a4 g4 \fermata a4 
   b4 b4 a4 d4   %5
-  d4 cis4 d4 b4 
+  d4 cis4 d4 \fermata b4 
   c4 b4 a4 g4 
-  g4 fis4 g2 
+  g4 fis4 g4 \fermata
   
 }
 
@@ -34,7 +35,7 @@ alto = \relative c' {
   g4 g4 g4 fis4   %5
   e4 e4 fis4 d4 
   e4 d8 g4 fis4 e8 
-  d4 d4 d2 
+  d4 d4 d4 
   
 }
 
@@ -47,7 +48,7 @@ tenor = \relative c' {
   d4 d4 d4 a8 d8   %5
   b8 g8 a4 a4 g4 
   g8 a8 b4 e8 b8 b4 
-  b4 a4 b2 
+  b4 a4 b4 
   
 }
 
@@ -60,7 +61,7 @@ baixo = \relative c {
   g,8 a8 b8 cis8 d8 e8 fis8 b8   %5
   g8 e8 a8 a,8 d4 g8 f8 
   e8 fis8 g4 cis,8 dis8 e4 
-  b8 c8 d4 g,2 
+  b8 c8 d4 g,4 
   
 }
 

@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "334 - Für deinen Thron tret' ich hiermit"
+  title = "334 - HERR GOTT, DICH LOBEN ALLE WIR (FÜR DEINEN THRON TRET ICH HIERMIT)"
+  subtitle = "BWV 327. / L. Bourgeois (1510?-1561)"
   composer = "J. S. Bach"
 }
 
@@ -17,19 +18,19 @@ soprano = \relative c'' {
   d2 cis4 
   b2 a4 
   d4 e2 
-  fis2 fis4 
+  fis2 \fermata fis4 
   fis2 fis4   %5
   e2 fis4 
   g4 fis2 
-  e2 d4 
+  e2 \fermata d4 
   e2 fis4 
   e2 d4   %10
   b4 cis2 
-  d2 a'4 
+  d2 \fermata a'4 
   fis2 d4 
   e2 g4 
   fis4 e2   %15
-  d2
+  d2 \fermata
   
 }
 
@@ -63,7 +64,7 @@ tenor = \relative c' {
   d2 d4   %5
   d4 cis4 d4 
   e4 a,4 d4 
-  cis2 fis4 
+  e2 fis4 
   e2 d4 
   d4 cis4 d4   %10
   d4 g4 fis4 
@@ -84,7 +85,7 @@ baixo = \relative c {
   b2 a4   %5
   gis4 a4 fis4 
   cis4 d4 fis4 
-  a2 b4 
+  cis'2 b4 
   cis2 d4 
   g,4 a4 b4   %10
   g4 e4 fis4 

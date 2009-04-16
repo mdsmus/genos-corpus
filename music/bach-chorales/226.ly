@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "226 - Herr Jesu Christ, du hast bereit"
+  title = "226 - HERR JESU CHRIST, DU HAST BEREIT"
+  subtitle = "BWV 333. / Hirschberg, 1747"
   composer = "J. S. Bach"
 }
 
@@ -16,15 +17,15 @@ soprano = \relative c'' {
   \repeat volta 2 {
     \partial 4 g4 
     g8 a8 bes4 a8 g8 f4 
-    bes4 a4 bes4 bes4 
+    bes4 a4 bes4 \fermata  bes4 
     a4 g4 c4 bes4 
     a2 g4 } d'4 
   bes4 c4 d4 c4   %5
-  bes4 bes4 a4 bes4 
+  bes4 bes4 a4 \fermata  bes4 
   bes4 a4 bes4 a4 
-  g4 g4 fis4 bes4 
+  g4 g4 fis4 \fermata  bes4 
   a4 g4 c4 bes4 
-  a2 g4   %10
+  a2 g4 \fermata   %10
   
 }
 

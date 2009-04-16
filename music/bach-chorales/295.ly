@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "295 - Herr Jesu Christ, mein's Lebens Licht"
+  title = "295 - HERR JESU CHRIST, MEIN LEBENS LICHT"
+  subtitle = "BWV 335. / Erfurt, 1594"
   composer = "J. S. Bach"
 }
 
@@ -15,13 +16,13 @@ global = {
 soprano = \relative c'' {
   \partial 4 b4 
     b4 a4 b4 g4 
-  fis8 g16 a16 fis4 e4 e8 fis8 
+  fis8 g16 a16 fis4 e4 \fermata e8 fis8 
   g4 a4 b4 a4 
-  d4 cis4 b4 b4 
+  d4 cis4 b4 \fermata b4 
   e4 fis4 e4 b4   %5
-  cis4 b4 a4 a8 b8 
+  cis4 b4 a4 \fermata a8 b8 
   cis4 dis4 e4 d4 
-  cis8 d16 e16 cis4 b4 
+  cis8 d16 e16 cis4 b4 \fermata
   
 }
 

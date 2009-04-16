@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "303 - Herr Christ, der ein'ge Gott'ssohn"
+  title = "303 - HERR CHRIST, DER EINIG GOTTS-SOHN"
+  subtitle = "BWV 96. Herr Christ, der einig Gotts-Sohn / Erfurt, 1524"
   composer = "J. S. Bach"
 }
 
@@ -16,13 +17,13 @@ soprano = \relative c' {
   \repeat volta 2 {
     \partial 4 f4 
     f8 g8 a4 g4 f4 
-    e2 d4 a'4 
+    e2 d4 \fermata a'4 
     bes4 g4 a4 g4 
     f2. } f8 g8 
   a4 a4 bes4 bes4   %5
-  c2 g4 c4 
+  c2 g4 \fermata c4 
   a4 a4 g4 f4 
-  e2 d4 a'4 
+  e2 d4 \fermata a'4 
   bes4 g4 a4 g4 
   f2.  %10
   

@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "294 - Herr Jesu Christ, du höchstes Gut"
+  title = "294 - HERR JESU CHRIST, DU HÖCHSTES GUT (HERR JESU CHRIST, ICH WEIß GAR WOHL)"
+  subtitle = "BWV 113. Herr Jesu Christ, du höchstes Gut / Dresden, 1593"
   composer = "J. S. Bach"
 }
 
@@ -16,16 +17,16 @@ soprano = \relative c'' {
   \repeat volta 2 {
     \partial 4 b4 
     b4 ais4 b4 cis4 
-    d4 cis4 b4 b4 
+    d4 cis4 b4 \fermata b4 
     cis4 cis4 fis4 e4 
     d2 cis4 } fis4 
   e4 d4 cis8 d8 e4   %5
-  d4 cis4 b4 d4 
+  d4 cis4 b4 \fermata d4 
   cis4 b4 a8 gis8 fis8 gis8 
-  a8 b8 b4 cis4 cis4 
+  a8 b8 b4 cis4 \fermata cis4 
   d4 e4 fis4. e8 
   d4 e4 cis2   %10
-  b2. 
+  b2. \fermata 
 }
 
 alto = \relative c' {

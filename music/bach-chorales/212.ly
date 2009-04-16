@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "212 - Herr, ich denk' an jene Zeit"
+  title = "212 - HERR ICH DENK AN JENE ZEIT"
+  subtitle = "BWV 329. / Eibenschitz, 1566" 
   composer = "J. S. Bach"
 }
 
@@ -14,19 +15,19 @@ global = {
 
 soprano = \relative c' {
   ees4 ees4 bes'4 bes4 
-  c4 d4 ees2 
+  c4 d4 ees2 \fermata 
   d4. ees8 f4 bes,4 
   ees4 d4 c2 
-  bes2 ees4 ees4   %5
+  bes2 \fermata ees4 ees4   %5
   bes4 bes4 aes4 aes4 
-  g2 bes4 bes4 
+  g2 \fermata bes4 bes4 
   aes4 g4 f2 
-  ees2 f4 f4 
+  ees2 \fermata f4 f4 
   g8 a8 bes4 bes4 a4   %10
-  bes2 c4 d4 
-  ees2 bes4 bes4 
+  bes2 \fermata c4 d4 
+  ees2 \fermata bes4 bes4 
   aes4 g4 f2 
-  ees1 
+  ees1 \fermata
   
 }
 
