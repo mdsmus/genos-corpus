@@ -59,10 +59,11 @@ tenor = \relative c {
     ees4 d8 c bes2 }
   d4 d8. c16 bes8 c d4 
   c bes8 a a2 
-  f4 f f bes 
-  a4~ a16 bes16 c8 bes2 
+  f4 f f bes
+  a4~ a16 bes16 c8 bes2
   d4 f f f 
-  ees8 c d bes4 a16 g a4 
+  ees8 c d bes8~
+  bes a16 g a4 
   bes2 d4 c 
   c8 bes16 a bes4 a bes 
   bes a f2 
