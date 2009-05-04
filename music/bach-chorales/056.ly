@@ -18,7 +18,7 @@ soprano = \relative c' {
     g4 g4 a4 b4~ 
   b4 e,4 a4 g4 
   fis2. \fermata a4 
-  b8 cis8 d2 cis4 
+  b8 cis8 d4~d cis4 
   b4 a4 b8 cis8 d4   %5
   d2. \fermata a4 
   b8 cis8 d2 cis4 
