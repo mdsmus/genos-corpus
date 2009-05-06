@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "106 - Jesu Kreuz, Leiden und Pein"
+  title = "106 - JESU LEIDEN, PEIN UND TOP (JESU KREUZ, LEIDEN UND PEIN)"
+  subtitle = "BWV 245. Johannes-Passion / M. Vulpius (1560?-1615)"
   composer = "J. S. Bach"
 }
 
@@ -14,21 +15,21 @@ global = {
 
 soprano = \relative c'' {
   cis4 b4 a4 b4 
-  cis4 dis4 e2 
+  cis4 dis4 e2 \fermata
   fis4 e4 d4 cis8 b8 
-  b2 a2 
+  b2 a2 \fermata
   cis4 e4 d4 cis4   %5
-  b4 a4 gis2 
+  b4 a4 gis2 \fermata
   a4 b4 cis4 cis8 d16 e16 
-  d2 cis2 
+  d2 cis2 \fermata
   cis4 d4 e4 d4 
-  cis4 b4 cis2   %10
+  cis4 b4 cis2 \fermata  %10
   b4 b4 cis8 dis8 e4 
-  e4 dis4 e2 
+  e4 dis4 e2 \fermata
   e4 cis4 fis4. e8 
-  d4 cis8 b8 b2 
+  d4 cis8 b8 b2 \fermata 
   cis4 e4 d4 cis8 b8   %15
-  b2 a2 
+  b2 a2 \fermata
   
 }
 
@@ -38,7 +39,7 @@ alto = \relative c'' {
   b4 b4 gis4 a4 
   a4 gis4 e2 
   a4 b4 a4 gis4   %5
-  fis4 fis4 f2 
+  fis4 fis4 eis2 
   cis4 e4 e4 e4 
   a4 b4 a2 
   a4 a4 a4 a4 
@@ -65,7 +66,7 @@ tenor = \relative c' {
   cis8 d8 e4 e2   %10
   e4 b4 a4 b4 
   cis4 b4 b2 
-  ais4 a4 a8 b8 cis4 
+  bes4 a4 a8 b8 cis4 
   d4 e4 e2 
   e4 e4 fis4 fis4   %15
   fis4 e8 d8 cis2 

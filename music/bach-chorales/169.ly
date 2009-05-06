@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "169 - Jesu, der du selbsten wohl"
+  title = "169 - JESU, DER DU SELBST SO WOHL"
+  subtitle = "BWV 355. / Breslau, 1662"
   composer = "J. S. Bach"
 }
 
@@ -14,21 +15,21 @@ global = {
 
 soprano = \relative c'' {
   cis4 a4 b4 b4 
-  cis4 dis4 e2 
+  cis4 dis4 e2 \fermata
   b4 cis4 d4 cis4 
-  b2 a2 
+  b2 a2 \fermata
   b4 b4 e4 e4   %5
-  d4 d4 cis2 
+  d4 d4 cis2 \fermata
   b4 b4 a4 gis4 
-  fis2 e2 
+  fis2 e2 \fermata
   a4 a4 d4 d4 
-  cis4 cis4 b2   %10
+  cis4 cis4 b2  \fermata %10
   a4 a4 a4 a4 
-  b2 e,2 
+  b2 e,2 \fermata
   e'4 d4 cis4 b4 
-  a4 gis4 fis2 
+  a4 gis4 fis2 \fermata
   b4 a4 d4 cis4   %15
-  b2 a2 
+  b2 a2 \fermata
   
 }
 

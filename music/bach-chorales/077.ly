@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "77 - In dich hab' ich gehoffet, Herr"
+  title = "77 - IN DICH HAB ICH GEHOFFET, HERR"
+  subtitle = "BWV 244. Weihnachts-Oratorium / Straﬂburg, 1560"
   composer = "J. S. Bach"
 }
 
@@ -16,16 +17,16 @@ soprano = \relative c'' {
   \partial 4 a4 
     a4 e'4 e4 d8 cis8 
   b4 cis4 d8 cis8 b4 
-  a2 r4 a4 
+  a2 \fermata r4 a4 
   b4 cis4 d4 b4 
-  e4 fis4 e4 cis4   %5
+  e4 fis4 e4 \fermata cis4   %5
   cis8 d8 e4 d4 cis8 b8 
-  a8 b8 cis4 b4 cis4 
-  a4 b8 cis8 d4 cis4 
-  b4 cis4 d4 cis4 
+  a8 b8 cis4 b4 \fermata cis4 
+  a4 b8 cis8 d4 \fermata cis4 
+  b4 cis4 d4 \fermata cis4 
   b4 a4 e'4. d8   %10
   cis4 d8 cis8 b2 
-  a2.
+  a2. \fermata
   
 }
 
@@ -41,7 +42,7 @@ alto = \relative c' {
   fis4. gis16 ais16 b4 ais4 
   b8 a8 g4 fis4 e8 a8~ 
   a8 gis4 fis8 gis8 a8 b4~   %10
-  b8 e,8 a2 gis4 
+  b8 e,8 a4 a4 gis4 
   e2.
   
 }
@@ -57,7 +58,7 @@ tenor = \relative c' {
   e8 d8 cis8 dis8 e4 e4 
   d8 cis8 d8 e8 fis4 fis8 e8 
   d4 e4 a,4 a4 
-  b4 cis8 dis8 e2   %10
+  b4 cis8 dis8 e2~   %10
   e8 cis8 a8 cis8 fis8 d8 b8 e8 
   cis2. 
   
@@ -69,7 +70,7 @@ baixo = \relative c {
   a8 g8 fis8 e8 fis8 d8 e4 
   a,2 r4 d4 
   dis8 e4 eis8~ eis fis8 gis8 a8 
-  gis8 e8 b'8 b,8 e4 a8 gis8   %5
+  gis8 e8 b'4 e,4 a8 gis8   %5
   fis8 e8 d8 cis8 b4 e8 d8 
   cis8 b8 a4 e'4 a,4 
   d8 e8 d8 cis8 b4 fis'4 

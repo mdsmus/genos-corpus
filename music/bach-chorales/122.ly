@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "122 - Ist Gott mein Schild und Helfersmann"
+  title = "122 - IST GOTT MEIN SCHILD UND HELFFERSMANN"
+  subtitle = "BWV 85. Ich bin ein guter Hirt / Dresden, 1694"
   composer = "J. S. Bach"
 }
 
@@ -15,19 +16,19 @@ global = {
 soprano = \relative c'' {
   \partial 4 g4 
     c4 b4 c4 d8 ees8 
-  bes4. aes8 g4 g4 
+  bes4. aes8 g4 \fermata g4 
   f4 bes4 g4 c4 
-  b4. c8 d4 ees4 
+  b4. c8 d4 \fermata ees4 
   d8 c8 bes8 aes8 g4 aes8 bes8   %5
-  f2 ees4 ees'4 
+  f2 ees4 \fermata ees'4 
   d4 c8 bes8 bes4 c4 
-  bes4 aes8 g8 g4 f4 
+  bes4 aes8 g8 g4 \fermata f4 
   bes4. aes8 g4 ees'8 d8 
-  b4. c8 d4 ees4   %10
+  b4. c8 d4 \fermata ees4   %10
   f8 ees8 d8 c8 b4 c8 d8 
-  d4. c8 c4 ees4 
+  d4. c8 c4 \fermata ees4 
   ees8 d8 c8 b8 g'4 c,8 a8 
-  b4. c8 c2 
+  b4. c8 c4 \fermata
   
 }
 
@@ -36,7 +37,7 @@ alto = \relative c' {
     g4 g4 g4 f8 ees8 
   f4 d4 ees4 ees4 
   c4 bes8 f'8 ees8 d8 c8 g'8 
-  f8 ees8 ees8 g16 fis16 g4 g4 
+  f8 d8 ees8 g16 fis16 g4 g4 
   f4. d8 ees4 ees4   %5
   ees4 d4 bes4 g'4 
   f4 ees8 f8 g4 aes8 g8 
@@ -46,7 +47,7 @@ alto = \relative c' {
   f8 g8 aes4 aes4 g8 aes8 
   g4 f8 ees8 ees4 aes4 
   aes4 aes8 g8 g4 g8 f8 
-  d8 ees16 f16 g4 g2 
+  d8 ees16 f16 g4 g4
   
 }
 
@@ -65,7 +66,7 @@ tenor = \relative c' {
   c4 f4 f4 ees8 c8 
   c8 a8 b4 c4 c4 
   c8 f8 ees8 d8 c8 b8 c8 d8 
-  g,4 d'4 e2 
+  g,4 d'4 e4 
   
 }
 
@@ -84,7 +85,7 @@ baixo = \relative c {
   aes8 g8 f8 ees8 d4 ees8 f8 
   g4 g,4 aes4 aes'8 g8 
   f4 f4 ees8 d8 ees8 f8 
-  g4 g,4 c2 
+  g4 g,4 c4 
   
 }
 

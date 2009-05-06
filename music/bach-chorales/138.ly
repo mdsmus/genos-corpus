@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "138 - Jesu, meine Freude"
+  title = "138 - JESU, MEINE FREUDE"
+  subtitle = "BWV 64. Sehet, welch eine Liebe / J. Crüger (1598-1662)" 
   composer = "J. S. Bach"
 }
 
@@ -15,18 +16,18 @@ global = {
 soprano = \relative c'' {
   \repeat volta 2 {
     b4 b4 a4 g4 
-    fis2 e2 
+    fis2 e2 \fermata
     b'4 b4 cis4 dis4 
-    e2 dis2 
+    e2 dis2 \fermata
     e4 g4 fis4. e8     %5
     e1 }
   b4 b4 c4 b4 
-  a4. g8 g2 
+  a4. g8 g2 \fermata 
   b4 cis4 d4 b4 
   e4 d4 cis2   %10
-  b2 b4 b4 
+  b2 \fermata b4 b4 
   a4 g4 fis2 
-  e1 
+  e1 \fermata 
   
 }
 
@@ -38,7 +39,7 @@ alto = \relative c'' {
     e4 fis4 fis2 
     g8 a8 b4 b4 a4     %5
     g1 }
-  g8 fis8 e8 ees8 e8 fis8 g4 
+  g8 fis8 e8 dis8 e8 fis8 g4 
   g4 fis4 d2 
   g4 g4 fis4 fis4 
   g4 fis4 fis4. e8   %10
@@ -80,7 +81,7 @@ baixo = \relative c {
   cis4 d8 e8 fis2   %10
   b,2 b8 cis8 d4 
   cis8 dis8 e4 ais,4 b4 
-  e,1 
+  e1 
   
 }
 

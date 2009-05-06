@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "243 - Jesu, du mein liebstes Leben"
+  title = "243 - JESU, DU MEIN LIEBSTES LEBEN"
+  subtitle = "BWV 356. / J. Shop (1595?-1667)"
   composer = "J. S. Bach"
 }
 
@@ -17,7 +18,7 @@ soprano = \relative c'' {
     g2 a4 
     bes4 c4 d4 
     c2 bes4 
-    a2 g4 
+    a2 g4 \fermata
     d'4 ees4 f4     %5
     bes,4 c4 d4 
     c2 c4 
@@ -25,15 +26,15 @@ soprano = \relative c'' {
   a2 g4 
   a4 bes4 c4   %10
   bes2 a4 
-  g2 f4 
+  g2 f4 \fermata
   bes2 a4 
   bes4 c4 d4 
   d2 c4   %15
-  d2. 
+  d2. \fermata
   a2 d4 
   g,4 a4 bes4 
   a2 a4 
-  g2.   %20
+  g2. \fermata  %20
   
 }
 

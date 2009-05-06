@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "229 - Ich danke dir, o Gott, in deinem Throne"
+  title = "229 -  ICH DANK DIR, O GOTT, IN DEINEM THRONE (MEIN HÜTER UND MEIN HIRT IST GOTT, DER HERRE)"
+  subtitle = "BWV 350. / L. Bourgeois (1510?-1561)" 
   composer = "J. S. Bach"
 }
 
@@ -16,22 +17,22 @@ soprano = \relative c'' {
   \partial 4 g4 
   g4 g4 f8 ees8 d4 
   f4 g4 a4 g4 
-  g4 fis4 g4 bes4 
+  g4 fis4 g4 \fermata bes4 
   a4 g4 f4 d4 
   f4 g4 a4 g4   %5
-  g4 fis4 g4 d'4 
+  g4 fis4 g4 \fermata d'4 
   d4 d4 g,4 c4 
   c4 bes4 a4 g4 
-  f2 d4 g4 
+  f2 d4 \fermata g4 
   g4 fis4 g4 fis4   %10
   g4 fis4 g4 a4 
-  bes2 a4 bes4 
+  bes2 a4 \fermata bes4 
   a4 g4 f4 d8 ees8 
   f4 f4 g4 f4 
-  ees2 d4 d'4   %15
+  ees2 d4 \fermata d'4   %15
   c4 bes4 a4 fis4 
   g4 a8 bes8 c4 bes4 
-  a2 g4
+  a2 g4 \fermata
   
 }
 

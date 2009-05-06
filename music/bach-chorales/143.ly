@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "143 - In dulci jubilo"
+  title = "143 - IN DULCI JUBILO"
+  subtitle = "BWV 368. / Wittenberg, 1533"
   composer = "J. S. Bach"
 }
 
@@ -17,41 +18,41 @@ soprano = \relative c' {
     f2 f4 
   a2 bes4 
   c2 d4 
-  c2. 
+  c2. \fermata
   f,2 f4   %5
   a2 bes4 
   c2 d4 
-  c2. 
+  c2. \fermata
   c2 d4 
   c2 bes4   %10
   a4. bes8 a8 g8 
-  f2 f4 
+  f2 \fermata f4 
   g2 g4 
   a2 g4 
   f2 g4   %15
-  a2. 
+  a2. \fermata
   c2 d4 
   c2 bes4 
   a4. bes8 a8 g8 
-  f2 f4   %20
+  f2 \fermata f4   %20
   g2 g4 
   a2 g4 
   f2 g4 
-  a2. 
+  a2. \fermata
   d,2 d4   %25
   e2 e4 
   f8 e8 f8 g8 a8 bes8 
-  c2. 
+  c2. \fermata 
   a2 a4 
   g2 g4   %30
   f2.~ 
-  f2. 
+  f2. \fermata
   
 }
 
 alto = \relative c' {
   \partial 4 c4 
-    d2 d4 
+  d2 d4 
   e2 e4 
   f2. 
   f2. 
@@ -62,7 +63,7 @@ alto = \relative c' {
   f2 f4 
   e4 f4 g4   %10
   cis,4 d4 e4 
-  d2 f4 
+  a,2 f'4 
   f4 e8 d8 e4 
   f2 e4 
   f4. g8 f8 e8   %15
@@ -99,7 +100,7 @@ tenor = \relative c' {
   a2 bes4 
   c4 d4 e4   %10
   a,4 b4 cis4 
-  a2 c4 
+  d2 c4 
   d4 bes4 c4 
   c2 c4 
   c4 a4 c4   %15

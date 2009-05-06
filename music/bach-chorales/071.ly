@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "71 - Ich ruf' zu dir, Herr Jesu Christ"
+  title = "71 - ICH RUF ZU DIR, HERR JESU CHRIST"
+  subtitle = "BWV 177. Ich ruf zu dir, Herr Jesu Christ / Wittenberg, 1533"
   composer = "J. S. Bach"
 }
 
@@ -16,18 +17,18 @@ soprano = \relative c'' {
   \repeat volta 2 {
     \partial 4 b4 
     g4 fis8 g16 a16 g8 fis8 e8 fis8 
-    g8. a16 a4 b4 b8 c8 
+    g8. a16 a4 b4 \fermata  b8 c8 
     d8 c8 b8 a8 g4 a8 b8 
     c2 b4 } d4 
   e4 d8 c8 b8 a8 g8 a8   %5
   b8 c8 a4 g4 b4 
-  b4 b4 a4 g8 fis8 
-  fis2 e2 
+  b4 b4 a4 g8 \fermata fis8 
+  fis2 e2 \fermata 
   g4 fis4 e2 
-  d4 d4 g4 g4   %10
-  a4 a4 b4 c4 
+  d4 \fermata d4 g4 g4   %10
+  a4 a4 b4 \fermata c4 
   b4 a4 g8 fis8 e8 fis8 
-  g4 fis4 e4
+  g4 fis4 e4 \fermata
   
 }
 

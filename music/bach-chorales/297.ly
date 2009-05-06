@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "297 - Jesu, der du meine Seele"
+  title = "297 - JESU, DER DU MEINE SEELE"
+  subtitle = "BWV 78. Jesu, der du meine Seele / Frankfurt, 1662"
   composer = "J. S. Bach"
 }
 
@@ -14,21 +15,21 @@ global = {
 
 soprano = \relative c'' {
   d4 d4 a4 bes4 
-  c4 bes8 a8 a4 g4 
+  c4 bes8 a8 a4 g4 \fermata
   bes4 bes4 a4 g4 
-  fis4 g4 a2 
+  fis4 g4 a2 \fermata
   d4 d4 a4 bes4   %5
-  c4 bes8 a8 a4 g4 
+  c4 bes8 a8 a4 g4 \fermata
   bes4 bes4 a4 g4 
-  fis4 g4 a2 
+  fis4 g4 a2 \fermata
   a4 bes4 c4 a4 
-  bes4 a8 g8 g4 f4   %10
+  bes4 a8 g8 g4 f4 \fermata  %10
   bes4 c4 d4 d4 
-  ees4 d8 c8 c4 bes4 
+  ees4 d8 c8 c4 bes4 \fermata
   d4 d4 c4 d4 
-  bes4 c4 d2 
+  bes4 c4 d2 \fermata
   d4 d4 c4 bes4   %15
-  a4 a4 g2 
+  a4 a4 g2 \fermata 
   
 }
 
@@ -81,8 +82,8 @@ baixo = \relative c' {
   ees4 c4 d4 g,4 
   g'8 f8 ees8 d8 c8 d8 ees4 
   a,4 g4 d'2 
-  d4 g8 f8 e4 f8 ees8 
-  d8 c8 bes4 c4 f4   %10
+  d4 g8 f8 e4 f4 
+  d4 bes4 c4 f4   %10
   d4 c4 bes4 bes'8 a8 
   g4 ees4 f4 bes,4 
   bes8 c8 d8 ees8 f4 fis4 

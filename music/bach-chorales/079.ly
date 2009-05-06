@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "79 - Heut' triumphieret Gottes Sohn"
+  title = "79 - HEUT TRIUMPHIERET GOTTES SOHN"
+  subtitle = "BWV 342. / B. Gesius (1555?-1613)"
   composer = "J. S. Bach"
 }
 
@@ -16,27 +17,27 @@ soprano = \relative c'' {
   c4 c4 d4 
   e2 d4 
   c2 b4 
-  c2. 
+  c2. \fermata
   c4 c4 c4   %5
   d4 c4 b4 
   a2 gis4 
-  a2 b4 
+  a2 \fermata b4 
   c2 d4 
   e4. f8 g4   %10
   f4( e4) d4 
-  e2. 
+  e2. \fermata 
   e4 e4 e4 
   d2 d4 
   e4 d4 c4   %15
-  b2. 
+  b2. \fermata
   b4 b4 cis4 
   d4 c4 b4 
   a2 gis4 
-  a2 b4   %20
+  a2 \fermata b4   %20
   c2 d4 
   e2 e4 
   e4 dis2 
-  e2. 
+  e2. \fermata
   
 }
 

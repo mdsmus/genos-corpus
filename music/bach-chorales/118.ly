@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "118 - In dich hab ich gehoffet, Herr 1"
+  title = "118 - IN DICH HAB ICH GEHOFFET, HERR"
+  subtitle = "BWV 244. Matth‰us-Passion / Straﬂburg, 1560"
   composer = "J. S. Bach"
 }
 
@@ -16,15 +17,15 @@ soprano = \relative c'' {
   \partial 4 bes4 
     bes4 f'4 f4 ees8 d8 
   c4 d4 ees8 d8 c4 
-  bes4 bes4 c4 d4 
+  bes4 \fermata bes4 c4 d4 
   ees4 c4 f4 g4 
-  f4 d4 d8 ees8 f4   %5
+  f4 \fermata d4 d8 ees8 f4   %5
   ees4 d8 c8 bes8 c8 d8 c8 
-  c4 d4 bes8 c8 d4 
-  ees4 d4 c4 d4 
-  ees4 d4 c4 bes4 
+  c4 \fermata d4 bes8 c8 d4 
+  ees4 \fermata d4 c4 d4 
+  ees4 \fermata d4 c4 bes4 
   f'4. ees8 d4 ees8 d8   %10
-  c2 bes2 
+  c2 bes4 \fermata
   
 }
 
@@ -40,7 +41,7 @@ alto = \relative c' {
   c4 bes4 bes4 aes4 
   g4 f4 f8 ees8 d8 ees8 
   f8 g8 a2 g4   %10
-  g4 f8 ees8 d2 
+  g4 f8 ees8 d4 
   
 }
 
@@ -56,13 +57,13 @@ tenor = \relative c' {
   g4 g'8 f8 ees4 f4 
   bes,4 bes4 a4 bes4 
   c2. bes4   %10
-  bes4 a4 f2 
+  bes4 a4 f4
   
 }
 
 baixo = \relative c' {
   \partial 4 bes8  a8 
-    g4 d4 a'4 bes4~ 
+    g4 d4 a'4 bes4 
   bes4 aes4 g8 ees8 f4 
   bes,4 ees4 a,4 b4 
   c8 d8 ees4 d8 c8 bes8 c8 
@@ -72,7 +73,7 @@ baixo = \relative c' {
   c4 g'4 aes8 g8 f4 
   ees4 bes4 f'4 g4 
   a8 g8 f4 fis4 g8 f8   %10
-  e4 f4 bes,2 
+  e4 f4 bes,4 
   
 }
 

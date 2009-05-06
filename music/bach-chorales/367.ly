@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "367 - Befiehl du deine Wege"
+  title = "367 - HERZLICH TUT MICH VERLANGEN (BEFIEHL DU DEINE WEGE)"
+  subtitle = "BWV 271. / H. L. HaBler (1564-1612)"
   composer = "J. S. Bach"
 }
 
@@ -16,17 +17,17 @@ soprano = \relative c' {
   \repeat volta 2 {
     \partial 4 fis4 
     b4 a4 g4 fis4 
-    e2 fis4 cis'4 
+    e2 fis4 \fermata cis'4 
     d4 d4 cis8 b8 cis4 
     b2. } d4 
   cis8 b8 a4 b4 cis4   %5
-  d2 d4 a4 
+  d2 d4 \fermata a4 
   b4 a4 g4 g4 
-  fis2. d'4 
+  fis2. \fermata d'4 
   cis8 d8 e4 d4 cis4 
-  b2 cis4 fis,4   %10
+  b2 cis4 \fermata fis,4   %10
   g4 fis4 e4 a8 g8 
-  fis2.
+  fis2. \fermata
   
 }
 

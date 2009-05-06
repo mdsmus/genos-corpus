@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "140 - In allen meinen Taten"
+  title = "140 - IN ALLEN MEINEN TATEN"
+  subtitle = "BWV 367. / Leipzig, 1679"
   composer = "J. S. Bach"
 }
 
@@ -14,18 +15,18 @@ global = {
 
 soprano = \relative c'' {
   \partial 4 g4 
-    c4 c4 d4 d4 
-  e2 d4 d4 
+  c4 c4 d4 d4 
+  e2 d4 \fermata d4 
   c4 b4 a4 a4 
-  b2 b4 g4 
+  b2 b4 \fermata g4 
   g4 g4 c4 c4   %5
-  b2 r4 b4 
+  b2 \fermata r4 b4 
   e4 e4 c4 c4 
-  d2 b4 b4 
+  d2 b4 \fermata b4 
   c4 c4 a4 a4 
-  b2 g4 g4   %10
+  b2 g4 \fermata g4   %10
   c4 d4 e4 d4 
-  c2. 
+  c2. \fermata
   
 }
 

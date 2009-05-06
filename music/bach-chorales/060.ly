@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "60 - Ich freue mich in dir"
+  title = "60 - UCH FREUE MICH IN DIR (O STILLES GOTTESLAMM)"
+  subtitle= "BWV 133. Ich freue mich in dir / Frankfurt a.M. 1738"
   composer = "J. S. Bach"
 }
 
@@ -16,17 +17,17 @@ soprano = \relative c' {
   \repeat volta 2 {
     \partial 4 fis8  g8 
     a4 b4 a4 g8 fis8 
-    fis2 r4 a4 
+    fis2 \fermata r4 a4 
     b4 cis4 d4 d8 cis8 
     cis2 b4 } e8 d8 
   cis4 d8 cis8 b4. a8   %5
-  a2. a4 
-  b4 cis4 d4. d8 
-  cis2. a4 
+  a2. \fermata a4 
+  b4 cis4 d4. e8 
+  cis2. \fermata a4 
   a4 b4 a4 g8 fis8 
-  fis2 r4 a4   %10
+  fis2. \fermata a4   %10
   b8 cis8 d4 d4 cis4 
-  d2.
+  d2. \fermata
   
 }
 
@@ -42,7 +43,7 @@ alto = \relative c' {
   e8 fis8 gis4 a4 e4 
   e2. e4 
   fis4 g8 fis8 e4 e4 
-  d2 r4 d4   %10
+  d2. d4   %10
   d4 e4 e8 fis8 g4 
   fis2.
   
@@ -60,7 +61,7 @@ tenor = \relative c' {
   b4 e4 d8 cis8 b4 
   a2. cis4 
   d4 g,4 a8 b8 cis4 
-  b2 r4 a4   %10
+  b2. a4   %10
   g8 a8 b4 a4 a4 
   a2.
   
@@ -78,7 +79,7 @@ baixo = \relative c {
   gis4 e4 fis4 gis4 
   a2. g!4 
   fis4 e8 d8 cis4 a4 
-  b2 r4 fis'4   %10
+  b2. fis'4   %10
   g4 gis4 a4 a,4 
   d2.
   

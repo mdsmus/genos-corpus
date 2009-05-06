@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "59 - Herzliebster Jesu, was hast du"
+  title = "59 - HERZLIEBSTER JESU, WAS HAST DU VERBROCHEN"
+  subtitle = "BWV 245. Matthäus-Passion / J. Crüger (1598-1662)"
   composer = "J. S. Bach"
 }
 
@@ -14,17 +15,17 @@ global = {
 
 soprano = \relative c'' {
   \partial 4 g4 
-    g4 g4 fis4 d4 
+    g4 g4 fis4 \fermata d4 
   g4 a4 bes4 bes4 
-  c4 bes4 a4 a4 
+  c4 bes4 a4 \fermata a4 
   bes4 c4 d8 c8 bes4 
   ees4 ees4 d4 des8 c8   %5
-  c2 bes4 bes4 
+  c2 bes4 \fermata bes4 
   a4 g4 f4 d8 ees8 
   f4 f4 g4 f4 
-  ees2 d4 d'4 
+  ees2 d4 \fermata d'4 
   c4 bes8 a8 a2   %10
-  g2.
+  g2. \fermata 
   
 }
 
@@ -68,7 +69,7 @@ baixo = \relative c' {
   g4 c4 bes4 aes4 
   g4 ges4 f4 e4   %5
   f2 bes,4 g4 
-  c4 cis4 d4. c8 
+  c4 cis4 d4 d8 c8 
   bes8 c8 d8 bes8 ees4 f4 
   g4 a4 bes4 bes4 
   fis4 g4 cis,4 d4   %10

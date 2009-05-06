@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "369 - Jesu, der du meine Seele"
+  title = "369 - JESU, DER DU MEINE SEELE"
+  subtitle = "BWV 354. / Frankfurt, 1662"
   composer = "J. S. Bach"
 }
 
@@ -15,17 +16,17 @@ global = {
 soprano = \relative c'' {
   \repeat volta 2 {
     f4 f4 c4 des4 
-    ees4 des8 c8 c4 bes4 
+    ees4 des8 c8 c4 bes4 \fermata
     des4 des4 c4 bes4 
     a4 bes4 c2 }
   c4 des4 ees8 des8 c4   %5
-  des4 c8 bes8 bes4 aes4 
+  des4 c8 bes8 bes4 aes4 \fermata
   des4 ees4 f8 ees8 des4 
-  ges4 f4 ees4 des4 
+  ges4 f4 ees4 des4 \fermata
   c4 des4 ees4 f4 
-  ees4 des4 c2   %10
+  ees4 des4 c2 \fermata   %10
   bes4 c4 des4 ees8 des8 
-  c4. c8 bes2 
+  c4. c8 bes2 \fermata
   
 }
 

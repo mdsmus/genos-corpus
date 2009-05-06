@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "223 - Ich dank' dir, Gott f√ºr all' Wohltat"
+  title = "223 - ICH DANK DIR, GOTT, F‹R ALL WOHLTAT"
+  subtitle = " BWV 346. / Eisleben, 1568"
   composer = "J. S. Bach"
 }
 
@@ -14,21 +15,21 @@ global = {
 
 soprano = \relative c'' {
   \partial 4 g4 
-  e4 fis4 g4 g4 
+  e4 fis4 g4 \fermata g4 
   e4 d4 c4 c4 
   g'4 g4 a4 b4 
   c4 b4 a4 a4 
   g2 r4 g4   %5
-  a4 b4 c4 g4 
+  a4 b4 c4 \fermata g4 
   a4 g4 f4 f4 
-  e2 r4 c'4 
-  a4 b4 c4 a4 
-  g4 f4 e4 g4   %10
-  e4 fis4 g4 c4 
-  b4 a4 g4 g4 
+  e2 \fermata r4 c'4 
+  a4 b4 c4 \fermata a4 
+  g4 f4 e4 \fermata g4   %10
+  e4 fis4 g4 \fermata c4 
+  b4 a4 g4 \fermata g4 
   e8 f8 g4 a4 g4 
   f4 e4 d4 d4 
-  c1   %15
+  c1 \fermata  %15
   
 }
 

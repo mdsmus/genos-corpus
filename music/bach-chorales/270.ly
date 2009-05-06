@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "270 - Befiehl du deine Wege"
+  title = "270 - HERZLICH TUT MICH VERLANGEN"
+  subtitle = "BWV 161. Komm, du süBe Todesstunde / H. L. HaBler (1564-1612)"
   composer = "J. S. Bach"
 }
 
@@ -26,7 +27,7 @@ soprano = \relative c' {
   b4 d4 c4 b4 
   a2 b4 e,4   %10
   f4 e4 d4 g4 
-  e2. 
+  e2. \fermata 
 }
 
 alto = \relative c' {
@@ -58,7 +59,7 @@ tenor = \relative c' {
   f,4 g4 e4 f8 g8 
   a2 r4 a4 
   b4 b4 b8 a8 e'8 d8 
-  c8 cis8 d4 g,4 a8 g8   %10
+  c8 cis8 d4 gis,4 a8 g8   %10
   f8 g8 a4 a4 b4 
   b8 gis8 e8 c'8 b4 
 }

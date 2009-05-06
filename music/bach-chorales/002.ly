@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "2 - Ich dank' dir, lieber Herre"
+  title = "2 - ICH DANK DIR, LIEBER HERRE"
+  subtitle = "BWV 347. / Nürnberg, 1544" 
   composer = "J. S. Bach"
 }
 
@@ -16,18 +17,18 @@ soprano = \relative c'' {
   \repeat volta 2 {
     \partial 4 a4 
     a4 a4 a4 b4 
-    g4 fis4 e4 b'4 
+    g4 fis4 e4 \fermata b'4 
     cis4 b4 a4 gis8 fis8 
     gis4 fis4 e4 } e'4 
   d4 cis4 b4 a4   %5
-  a8 b8 cis4 b4 cis4 
+  a8 b8 cis4 b4 \fermata cis4 
   d4 cis4 b4 ais4 
-  b2. e,4 
+  b2. \fermata e,4 
   a4 b4 cis4 d4 
-  e4 d8 cis8 b4 d4   %10
+  e4 d8 cis8 b4 \fermata d4   %10
   cis4 b4 e4. d8 
   cis8 b8 a8 b8 cis4 b4 
-  a2. 
+  a2. \fermata
 }
 
 alto = \relative c' {

@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "341 - Ich dank dir, lieber Herre"
+  title = "341 - ICH DANK DIR, LIEBER HERRE"
+  subtitle = "BWV 37. Wer da glaubet und getauft wird / Nürnberg, 1544" 
   composer = "J. S. Bach"
 }
 
@@ -15,22 +16,22 @@ global = {
 soprano = \relative c'' {
   \partial 4 a4 
     a4 a4 a4 b4 
-  g4 fis4 e4 b'4 
+  g4 fis4 e4 \fermata b'4 
   cis4 b4 a4 gis8 fis8 
-  gis4 fis4 e4 e4 
+  gis4 fis4 e4 \fermata e4 
   a4 a4 a4 b4   %5
-  gis4 fis4 e4 b'4 
+  gis4 fis4 e4 \fermata b'4 
   cis4 b4 a4 gis8 fis8 
-  gis4 fis4 e4 e'4 
+  gis4 fis4 e4 \fermata e'4 
   d4 cis4 b4 a4 
-  a8 b8 cis4 b4 cis4   %10
+  a8 b8 cis4 b4 \fermata cis4   %10
   d4 cis4 b4 ais4 
   b2. e,4 
   a4 b4 cis4 d4 
-  e4 d8 cis8 b4 d4 
+  e4 d8 cis8 b4 \fermata d4 
   cis4 b4 e4. d8   %15
   cis8 b8 a8 b8 cis4 b4 
-  a2. 
+  a2. \fermata
 }
 
 alto = \relative c' {

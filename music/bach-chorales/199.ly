@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "199 - Hilf, Gott, la√ü mir's gelingen"
+  title = "199 - HILF, GOTT, DAﬂ MIRS GELINGE"
+  subtitle = "BWV 343. / Leopzig, 1545" 
   composer = "J. S. Bach"
 }
 
@@ -18,7 +19,7 @@ soprano = \relative c'' {
     a2 g4 
     f2 d4 
     f2. 
-    g2 a4 
+    g2 \fermata a4 
     bes2 d4     %5
     c2 bes4 
     a2. 
@@ -26,16 +27,16 @@ soprano = \relative c'' {
   c2 c4 
   d2 c4   %10
   bes4 a4 g4 
-  f2 f4 
+  f2 \fermata f4 
   bes2 a4 
   bes2 c4 
   d2 c4   %15
   bes4. a8 g4 
-  fis2 a4 
+  fis2 \fermata a4 
   bes2 d4 
   c2 bes4 
   a2.   %20
-  g2
+  g2 \fermata
  
 }
 
@@ -73,7 +74,7 @@ tenor = \relative c' {
     a2 g8 f8 
     c'2 c4 
     d4. c8 bes8 a8     %5
-    g8 fis8 g a d4 
+    g8 fis8 g4 d'4 
     ees4 d8 a8 d8 c8 
     bes2 } c8 bes8 
   a4 bes4 c4~ 

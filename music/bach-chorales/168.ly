@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "168 - Heut' ist, o Mensch, ein groÃŸer"
+  title = "168 - HEUT IST, O MENSCH, EIN GROßER TRAUERTAG"
+  subtitle = "BWV 341. / M. Apelles v. Löwenstern (1594-1648)" 
   composer = "J. S. Bach"
 }
 
@@ -14,20 +15,20 @@ global = {
 
 soprano = \relative c' {
   \partial 4 d4 
-    f4 g4 a4 bes4 
+    f4 g4 a4 \fermata bes4 
   a4 g4 c4 bes4 
-  a2 r4 d4 
+  a2 \fermata r4 d4 
   c4 bes4 a4 g4 
   f4 g4 f4 ees4   %5
-  d2 r4 a'4 
-  bes4 c4 d4 d4 
+  d2 \fermata r4 a'4 
+  bes4 c4 d4 \fermata d4 
   c4 g8 a8 bes4 a4 
-  g2.
+  g2. \fermata
   
 }
 
 alto = \relative c' {
-  \partial 4 d4 
+  \partial 4 bes4 
     a8 f'4 e8 f4 d8 e8 
   fis4 g4. a4 g8 
   fis2 r4 bes4~ 

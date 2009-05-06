@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "83 - Jesu Leiden, Pein und Tod"
+  title = "83 - JESU LEIDEN, PEIN UND TOP (JESU KREUZ, LEIDEN UND PEIN)"
+  subtitle = "BWV 245. Johannes-Passion / M. Vulpius (1560?-1615)"
   composer = "J. S. Bach"
 }
 
@@ -14,21 +15,21 @@ global = {
 
 soprano = \relative c'' {
   cis4 b4 a4 b4 
-  cis4 d4 e2 
+  cis4 d4 e2 \fermata
   fis4 e4 d4 cis8 b8 
-  b2 a2 
+  b2 a2 \fermata
   cis4 e4 d4 cis4   %5
-  b4 a4 gis2 
+  b4 a4 gis2 \fermata
   a4 b4 cis4 cis8 d16 e16 
-  d2 cis2 
+  d2 cis2 \fermata
   cis8 b8 cis8 d8 e4 d4 
-  cis4 b4 cis2   %10
+  cis4 b4 cis2 \fermata  %10
   b4 b4 cis8 dis8 e4 
-  e4 dis4 e2 
+  e4 dis4 e2 \fermata
   e4 cis4 fis4. e8 
-  d4 cis8 b8 b2 
+  d4 cis8 b8 b2 \fermata
   cis4 cis8 d16 e16 d4 cis8 b8   %15
-  b2 a2 
+  b2 a2 \fermata
   
 }
 

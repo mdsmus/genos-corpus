@@ -2,6 +2,7 @@
 
 \header {
   title = "251 - Ich bin ja, Herr, in deiner Macht"
+  subtitle = "BWV 3445 / J. S. Bach"
   composer = "J. S. Bach"
 }
 
@@ -16,15 +17,15 @@ soprano = \relative c'' {
   \repeat volta 2 {
     \partial 4 g4 
     a4 a8 bes16 c16 bes8 g8 d'4~ 
-    d8 c16 bes16 a8 g8 fis4 a4 
+    d8 c16 bes16 a8 g8 fis4 \fermata a4 
     bes4 c8 d16 ees16 d8 bes8 f'4~ 
-    f8 e16 d16 c8 bes8 a4 d4 
+    f8 e16 d16 c8 bes8 a4 \fermata d4 
     cis4 d4 e8 f16 g16 f8 e8     %5
     e2 d4 } d4 
   bes8 a8 b8 d8 g8 ees8 c4 
-  d8 f8 ees8 d8 ees4 a,4 
+  d8 f8 ees8 d8 ees4 \fermata a,4 
   d4 g,4 c8 d16 ees16 d8 c8 
-  bes4 a8 g8 g4  %10
+  bes4 a8 g8 g4 \fermata %10
   
 }
 
@@ -39,7 +40,7 @@ alto = \relative c' {
     e8 f8 g4 fis4 } a4 
   g4 g4 g4. ees8 
   aes4 g4 g4 fis4 
-  g8 f8 e4 fis8 g8 a4 
+  g8 f8 e4 fis8 g8 a4~ 
   a8 g8 fis4 d   %10
   
 }

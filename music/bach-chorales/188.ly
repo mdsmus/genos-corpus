@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "188 - Ich dank' dir schon durch deinen Sohn"
+  title = "188 - ICH DANK DIR, SCHON DURCH DEINEN SOHN"
+  subtitle = "BWV 349. Kanzyonal (G. Lomnicky) 1595" 
   composer = "J. S. Bach"
 }
 
@@ -16,19 +17,19 @@ soprano = \relative c' {
   f4 f4 f4 
   bes2 g4 
   a2 b4 
-  c2. 
+  c2. \fermata
   a4 bes4 c4   %5
   d2 bes4 
   c2. 
-  bes2. 
+  bes2. \fermata
   c4 a8 bes8 c4 
   d2 c4   %10
   c4. bes8 a4 
-  g2. 
+  g2. \fermata
   c4 c4 c4 
   bes2 a4 
   a4 g2   %15
-  f2. 
+  f2. \fermata
   
 }
 

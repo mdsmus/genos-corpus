@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "161 - Ihr Gestirn', ihr hohlen LÃ¼fte"
+  title = "161 - IHR GESTIRN, IHR HOHEN LÜFTE"
+  subtitle = "BWV 366. / Ch. Peter (1626-1669)"
   composer = "J. S. Bach"
 }
 
@@ -17,7 +18,7 @@ soprano = \relative c' {
     d2 e4 
     f2 g4 
     a2 d4 
-    cis2 cis4 
+    cis2 cis4 \fermata
     d2 e4     %5
     f2. 
     f,4 g4. g8 
@@ -25,11 +26,11 @@ soprano = \relative c' {
   g2 g4 
   a2 c4   %10
   bes2 g4 
-  a2 a4 
+  a2 a4 \fermata
   c2 c4 
   d2 f4 
   e4 d4 cis4   %15
-  d2 d4
+  d2 d4 \fermata
 }
 
 alto = \relative c' {

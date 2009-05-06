@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "244 - Jesu, Jesu, du bist mein"
+  title = "244 - JESU, JESU DU BIST MEIN"
+  subtitle = "BWV 357. / J. S. Bach ?"
   composer = "J. S. Bach"
 }
 
@@ -14,21 +15,21 @@ global = {
 
 soprano = \relative c'' {
   g4. c8 b4 c4 
-  d4 ees8 d8 d2 
+  d4 ees8 d8 d2 \fermata 
   ees4 c4 f4 ees4 
-  d4 d8. ees16 c4 c4 
+  d4 d8. ees16 c4 c4 \fermata 
   g4 g4 c4 bes4   %5
-  aes4 g8 f8 f2 
+  aes4 g8 f8 f2 \fermata
   bes4 g4 c8 d8 ees4 
-  g,4 f8 ees8 ees4 ees4 
+  g,4 f8 ees8 ees4 ees4 \fermata
   g4. a8 b4 b4 
-  c4 d4 b4 b4   %10
+  c4 d4 b4 b4 \fermata  %10
   c4 d4 ees4 c4 
-  f4 ees4 d4 d4 
+  f4 ees4 d4 d4 \fermata
   c4 g4 aes4 g4 
-  g4. f8 g2 
+  g4. f8 g2 \fermata
   c4 g4 aes8 g8 f8 ees16 d16   %15
-  ees4 d8 c8 c2 
+  ees4 d8 c8 c2 \fermata
   
 }
 

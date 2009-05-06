@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "155 - Hilf, Herr Jesu, la√ü gelingen"
+  title = "155 - HILF, HERR JESU, LAﬂ GELINGEN"
+  subtitle = "BWV 344. / J. Schop (1595?-1667)"
   composer = "J. S. Bach"
 }
 
@@ -16,27 +17,27 @@ soprano = \relative c'' {
   g2 g4 
   d'2 d4 
   c2 bes4 
-  a2 a4 
+  a2 a4 \fermata
   d2 f4   %5
   ees2 d4 
   c2 c4 
-  bes2. 
+  bes2. \fermata
   a2 bes4 
   c2 c4   %10
   bes2 c4 
-  a2 a4 
+  a2 a4 \fermata
   d2 d4 
   c2 bes4 
   a2 a4   %15
-  g2. 
+  g2. \fermata
   bes2 bes4 
   bes2 bes4 
   ees2 d4 
-  c2 c4   %20
+  c2 c4 \fermata  %20
   c2 d4 
   bes2 c4 
   a2 a4 
-  g2 g4
+  g2 g4 \fermata
 }
 
 alto = \relative c' {
@@ -76,7 +77,7 @@ tenor = \relative c' {
   g4 f4. ees8 
   d2. 
   d2 d4 
-  ees2 e8 d8   %10
+  ees2~ ees8 d8   %10
   d2 ees4 
   d2 d4 
   a4 d8 c8 bes4 
