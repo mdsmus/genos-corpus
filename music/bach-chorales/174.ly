@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "174 - Jesus Christus, unser Heiland, der den Tod"
+  title = "174 - JESU CHRISTUS, UNSER HEILAND, DER DEN TOD ÜBERWAND"
+  subtitle = "BWV 364. / Wittenberg, 1529"
   composer = "J. S. Bach"
 }
 
@@ -15,15 +16,15 @@ global = {
 soprano = \relative c'' {
   g4 f4 f4 g4 
   a4 g4 f4 e4 
-  d2 r4 f4 
+  d2 \fermata r4 f4 
   g4 a4 g4 fis4 
-  g2 r4 c4   %5
+  g2 \fermata r4 c4   %5
   g8 a8 bes4 a4 g4 
-  a2 r4 g4 
+  a2 \fermata r4 g4 
   f4 g4 a4 g4 
-  f4 e4 d4 f4 
+  f4 e4 d4 \fermata f4 
   g4 a4 g4 fis4   %10
-  g1 
+  g1 \fermata
   
 }
 

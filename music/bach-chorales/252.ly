@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "252 - Jesu, nun sei gepreiset"
+  title = "252 - JESU, NUN SEI GEPREISET"
+  subtitle = "BWV 362. / Wittenberg, 1591"
   composer = "J. S. Bach"
 }
 
@@ -14,19 +15,19 @@ soprano = \relative c {
  \repeat volta 2{
   \partial 4 d''4 
   d bes c d 
-  ees d8 c c4 c 
+  ees d8 c c4 \fermata c 
   c bes bes8 g a4 
-  bes2. c4 
+  bes2. \fermata c4 
   c c c8 d16 ees d8 c 
-  bes2 bes4 bes 
+  bes2 bes4 \fermata bes 
   a8 f bes ees d c c4 
   bes2. } a4 
   a a a a 
-  bes2 bes4 bes 
+  bes2 bes4 \fermata bes 
   a a a a 
-  bes2 bes4 d 
+  bes2 bes4 \fermata d 
   d8 c bes4 c d 
-  ees2 d4 d 
+  ees2 d4 \fermata d 
   c8 b c f ees d d4 
   \time 3/4
   c2 b4 
@@ -36,14 +37,14 @@ soprano = \relative c {
   d2 d4 
   c2 c4 
   c ees8 d c b 
-  c2 b4 
+  c2 \fermata b4 
   c2 c4 
   d2 d4 
   ees2. 
   d2 d4 
   c2 bes4 
   bes d8 c bes a 
-  bes2. 
+  bes2. \fermata
 }
 
 
@@ -105,8 +106,8 @@ tenor = \relative c {
   \time 3/4
   g2 d'4 
   c bes aes 
-  a2 bes4(
-  b) c2~
+  a2 bes4
+  b! c2~
   c4 bes4 bes 
   bes aes8 bes c d 
   ees4 f d 

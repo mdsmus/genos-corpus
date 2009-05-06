@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "283 - Jesu, meine Freude"
+  title = "283 - JESU, MEINE FREUDE"
+  subtitle = "BWV 227. Jesus, meine Freude (Motetta) / J. Crüger (1598-1662)"
   composer = "J. S. Bach"
 }
 
@@ -15,18 +16,18 @@ global = {
 soprano = \relative c'' {
   \repeat volta 2 {
     b4 b4 a4 g4 
-    fis2 e2 
+    fis2 e2 \fermata
     b'4 cis4 d4 b4 
-    e2 dis2 
+    e2 dis2 \fermata
     e8 fis8 g4 fis4. fis8     %5
     e1 }
   b4 b4 c4 b4 
-  a4 a4 g2 
+  a4 a4 g2 \fermata
   b4 cis4 d4 b4 
   e4 d4 cis2   %10
-  b2 b4 b4 
+  b2 \fermata b4 b4 
   a4 g4 fis2 
-  e1 
+  e1 \fermata
   
 }
 
@@ -43,8 +44,8 @@ alto = \relative c {
   g8 d8 g4 r8 a4 g16 fis16 
   e8 g8 fis8 b8 b4 ais4   %10
   b8 fis8 b8 a8 g2~ 
-  g8 fis4 e8 e8 d16 cis16 d4 
-  d8 e16 d16 c16 b16 c8 b2 
+  g8 fis4 e8 e8 d16 cis16 d4~ 
+  d8 e16 d16 c16 b16 c8 b2 \fermata 
   
 }
 
@@ -62,7 +63,7 @@ tenor = \relative c {
   d8 cis8 d8 e16 fis16 g8 cis,8 fis8 e8   %10
   dis4 r8 b8 e8 e16 dis16 e4~ 
   e8 dis8 e8 g,8 c8 a8 fis8 b8 
-  b8 gis8 e8 a4 gis8 gis4 
+  b8 gis8 e8 a4 gis8 gis4 \fermata
   
 }
 
@@ -80,7 +81,7 @@ baixo = \relative c {
   gis8 ais8 b8 g8 e8 eis8 fis4   %10
   b,2 r8 e8 g8 e8 
   c'8 r4 b8 a8 fis8 b8 a8 
-  gis8 e8 a8 a,8 e'2 
+  gis8 e8 a8 a,8 e'2 \fermata
   
 }
 

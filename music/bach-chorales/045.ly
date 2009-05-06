@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "45 - Kommt her zu mir, spricht"
+  title = "45 - KOMMT HER ZU MIR, SPRICHT GOTTES SOHN"
+  subtitle = "BWV 108. Es ist euch gut, daB ich hingehe / Leipzig, 1530"
   composer = "J. S. Bach"
 }
 
@@ -15,18 +16,18 @@ global = {
 soprano = \relative c'' {
   \partial 4 b4 
     b4 b4 fis'4 e4 
-  fis8 e8 d4 cis4 b8 cis8 
+  fis8 e8 d4 cis4 \fermata b8 cis8 
   d4 cis4 d8 e8 fis4 
-  e4 d4 cis4 d8 cis8 
+  e4 d4 cis4 \fermata d8 cis8 
   b4 b4 e4. d8   %5
   cis8 d16 e16 d8 cis8 b2 
-  a4 a4 d4 cis4 
+  a4 \fermata a4 d4 cis4 
   d8 e8 fis4 e4 d4 
-  cis4 b8 cis8 d4 cis4 
+  cis4 \fermata b8 cis8 d4 cis4 
   d8 e8 fis4 e4 d4   %10
-  cis4 fis4 fis4 fis4 
+  cis4 \fermata fis4 fis4 fis4 
   e4. d8 cis4 d8 e8 
-  cis2 b4
+  cis2 b4 \fermata
   
 }
 

@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "43 - Liebster Gott, wann werd' ich sterben"
+  title = "43 - LIEBSTER GOTT, WENN WERD ICH STERBEN"
+  subtittle = "BWV 8. Gott, wenn werd ich sterben / D. Vetter (1592-1662?)"
   composer = "J. S. Bach"
 }
 
@@ -27,7 +28,7 @@ soprano = \relative c {
   cis2 r4 e8 b 
   cis4 gis8 a b4. a8 
   gis4 fis8 e dis4 e4~
-  e dis4 e2 
+  e dis4 e2 \fermata 
 }
 
 
@@ -78,7 +79,7 @@ baixo = \relative c {
     r2 r4 e8 e 
     a4 e fis dis 
     e b r2
-    r4 e4 e8 dis8 cis b 
+    r4 e4~ e8 dis8 cis b 
     fis' e fis4 b,2 
   }
   r2. cis8 dis 
@@ -90,7 +91,7 @@ baixo = \relative c {
   cis r4 cis'8 gis 
   a b cis4 gis dis 
   e a,2 ais4 
-  b2 e
+  b2 e,
 }
 
 

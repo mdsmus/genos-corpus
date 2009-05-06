@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "11 - Jesu, nun sei gepreiset"
+  title = "11 - JESU, NUN SEI GEPREISET"
+  subtitle = "BWV 41. Jesu, nun sei gepreiset; BWV 171. Gott, wie dein Name (in D-dur) / Wittenberg, 1591"
   composer = "J. S. Bach"
 }
 

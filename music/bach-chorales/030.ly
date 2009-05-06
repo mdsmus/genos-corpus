@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "30 - Jesus Christus, unser Heiland"
+  title = "30 - JESU CHRISTUS, UNSER HEILAND DER VON UNS DEN GOTTES-ZORN WAND"
+  subtitle = "BWV 363. / Erfurt, 1524"
   composer = "J. S. Bach"
 }
 
@@ -15,16 +16,16 @@ global = {
 soprano = \relative c' {
   e4 b'4 b4 a4 
   b4 e,8 fis8 g4 g4 
-  g4 fis4 e2 
+  g4 fis4 e2 \fermata
   g4 g4 g4 e4 
   g4 a4 b4 a4   %5
-  g4 fis4 e2 
+  g4 fis4 e2 \fermata
   g4 g4 g4 e4 
   g4 a4 b4 a4 
-  g2 r4 d'4 
+  g2 \fermata r4 d'4 
   e4 d8 c8 b8 a8 g8 a8   %10
   b4 a4 g4 fis4 
-  e2.
+  e2. \fermata
   
 }
 
@@ -64,7 +65,7 @@ baixo = \relative c {
   e4. d8 c2 
   b8 a'8 g8 fis8 e8 d8 c8 b8 
   ais4 b4 e,2 
-  e'8 d8 c4 b4 c4
+  e'8 d8 c4 b4 c4~ 
   c8 b8 a4 g4 a4   %5
   b2 e2 
   e4 b4 c8 d8 e8 d8 

@@ -14,29 +14,29 @@ global = {
 soprano = \relative c'' {
   \partial 4 d4
   e d8 c b c d4
-  a2 b4 cis
-  d2 r4 d
+  a2 \fermata b4 cis
+  d2 \fermata r4 d
   e d a8 b c4
-  b a g g
+  b a g \fermata g
   a8 b c4 b8 c d4~ 
   d a g8 fis e4
-  d2 r4 d
+  d2 \fermata r4 d
   g a b8 c d4~ 
   d c b a
-  b2 r4 b8 c
+  b2 \fermata r4 b8 c
   d4 e d a
-  b cis d d
+  b cis d \fermata d
   e d a8 b c4
-  b a g g
+  b a g \fermata g
   a8 b c4 b8 c d4~ 
   d a g8 fis e4
-  d2 r4 d
+  d2 \fermata r4 d
   g a b8 c d4~ 
   d c b a
-  e fis g a
+  e fis g \fermata a
   b g e2
-  d4 a'8 b16 c b2
-  a g4
+  d4 \fermata a'8 b16 c b2
+  a g4 \fermata
   
 }
 
@@ -58,7 +58,7 @@ alto = \relative c'' {
   e fis g4 fis e 
   d8 e fis4 d e 
   e e8 fis g2~  
-  g4 fis g8 d~ d cis
+  g4 fis g8 d d cis
   a2 r4 d8 c 
   b e d c b4. c16 d 
   e4 e e e8 d 
@@ -82,12 +82,12 @@ tenor = \relative c' {
   g c d8 c b a 
   gis fis e4 dis e 
   fis2 r4 g8 a 
-  b4 cis d4. c8 
+  b4 cis d4 d8 c8 
   b a g4 a b 
   c d d g,8 a 
   b g d' c b4 c 
   c8 b a4 b8 a g a 
-  b cis d2 a8 g 
+  b cis d4 d4 a8 g 
   fis2 r4 fis 
   g8 c b a g4. a8 
   b4. a8 g fis e4 

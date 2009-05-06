@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "132 - Kyrie, Gott Vater in Ewigkeit"
+  title = "132 - KYRIE, GOOTT VATER IN EWIGKEIT"
+  subtitle = "BWV 371. / Dresden, 1525"
   composer = "J. S. Bach"
 }
 
@@ -14,45 +15,45 @@ global = {
 
 soprano = \relative c'' {
   g2 a2 
-  b2 a4 c4 
+  b2 \fermata a4 c4 
   c4 b4 a4 a4 
-  g2 a4 a4 
+  g2 \fermata a4 a4 
   g4 f4 e4 e4   %5
-  d2 d4 a'4 
+  d2 \fermata d4 a'4 
   a4 g4 a4 b4 
   c4 b4 a2 
-  g2 g4 f8 g8 
+  g2 \fermata g4 f8 g8 
   a4 g4 g4 f4   %10
-  e1 
+  e1 \fermata \bar "||"
   e2 d2 
   g2 a4 b4 
-  c4 c4 c2 
+  c4 c4 c2 \fermata
   c4 c4 b4 a4   %15
   g4 a4 b4 b4 
-  b2 e,4 d4 
+  b2 \fermata e,4 d4 
   g4 a8 b8 c4 c4 
-  c2 c4 c4 
-  b4 a4 g4 a4   %20
+  c2 \fermata c4 c4 
+  b4 a4 g4 \fermata a4   %20
   a4 g4 f4 e4 
-  d2 d4 a'4 
+  d2 \fermata d4 a'4 
   a4 g4 a4 b4 
   c4 b4 a2 
-  g2 g4 f8 g8   %25
+  g2 \fermata g4 f8 g8   %25
   a4 g4 g4 f4 
-  e1 
+  e1 \fermata \bar "||"
   b'2 c2 
-  d2 r4 b4 
+  d2 \fermata r4 b4 
   d4 c4 b4 a4   %30
-  g2 b4 c4 
+  g2 \fermata b4 c4 
   d4 b8 c8 d4 c4 
-  b4 a4 g4 a4 
+  b4 a4 g4 \fermata a4 
   a4 g4 f4 e4 
-  d2 d4 a'4   %35
+  d2 \fermata d4 a'4   %35
   a4 g4 a4 b4 
   c4 b4 a2 
-  g2 g4 f8 g8 
+  g2 \fermata g4 f8 g8 
   a4 g4 g4 f4 
-  e1   %40
+  e1 \fermata  %40
 }
 
 alto = \relative c' {
@@ -66,7 +67,7 @@ alto = \relative c' {
   e16 fis16 g4 g4 fis16 e16 fis4 
   d2 e4 d4 
   c8 d8 e4 e4 d4   %10
-  c4 b8 a8 b2 
+  c4 b8 a8 b2 \bar "||" 
   b4 c8 b8 a4 b8 c8 
   d8 f8 e8 d8 c8 d16 e16 f4 
   e16 f16 g4 f4 e16 d16 e4 
@@ -82,7 +83,7 @@ alto = \relative c' {
   g8 d8 d8 g4 fis16 e16 fis4 
   d2 e4 f8 e8   %25
   f4. e16 d16 e4. d16 c16 
-  b8 d8 c2 b4 
+  b8 d8 c2 b4 \bar "||" 
   g'2 g2 
   g2 r4 g4 
   g4. a4 g4 fis8   %30
@@ -109,7 +110,7 @@ tenor = \relative c' {
   a8 g16 a16 b8 c16 d16 e8 c8 a8 d8 
   b2 c4. bes8 
   a8 b8 c8 bes8 a8 bes4 a8   %10
-  a4 gis8 fis8 gis2 
+  a4 gis8 fis8 gis2 \bar "||"
   g4 a8 g8 fis4 g4~ 
   g8 d'8 c8 b8 a4. g16 f16 
   g8 c16 bes16 a4 g2 
@@ -125,7 +126,7 @@ tenor = \relative c' {
   e8 a8 b8 e4 c8 a8 d16 c16 
   b2 c4. bes8   %25
   c16 bes16 c8 d8 g,8 c8 bes8 a8 b16 a16 
-  gis4 a2 gis4 
+  gis4 a2 gis4 \bar "||"
   e'2 e2 
   b2 r4 d4 
   d4 e8 d8 d4 e8 d16 c16   %30
@@ -152,7 +153,7 @@ baixo = \relative c {
   a8 e4 d8 c8 a8 d4 
   g,2 c4 d8 e8 
   f4 c4 cis4 d4   %10
-  e1 
+  e1 \bar "||"
   e8 d8 c2 b8 a8 
   b4 e2 d4 
   e4 f4 c2 
@@ -168,7 +169,7 @@ baixo = \relative c {
   e8 fis8 g8 e8 c8 a8 d4 
   g,2 c8 bes8 a8 g8   %25
   f8 a8 bes8 b8 c8 cis8 d4~ 
-  d8 c16 b16 c8 d8 e2 
+  d8 c16 b16 c8 d8 e2 \bar "||"
   e,4 e'2 d8 c8 
   g'2 r4 g,8 a8 
   b4 e,8 fis8 g8 b8 c8 d8   %30

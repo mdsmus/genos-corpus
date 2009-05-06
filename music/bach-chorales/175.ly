@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "175 - Jesus, meine Zuversicht"
+  title = "175 - JESU, MEINE ZUVERSICHT"
+  subtitle = "BWV 365. / Berlin, 1653"
   composer = "J. S. Bach"
 }
 
@@ -15,14 +16,14 @@ global = {
 soprano = \relative c'' {
   \repeat volta 2 {
     g4 e4 a4 b4 
-    c4 c4 b2 
+    c4 c4 b2 \fermata 
     a8 b8 c4 g4 e4 
     f4 e4 d2 
     c1 }  %5
   e4 fis4 gis4 a4 
-  b4 b4 a2 
+  b4 b4 a2 \fermata
   b4 c4 d4 e4 
-  d4. c8 c2 
+  d4. c8 c2 \fermata
   
 }
 

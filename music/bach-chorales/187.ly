@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "187 - Komm, Gott Schöpfer, heiliger Geist"
+  title = "187 - KOMM, GOTT SCHÖPFER, HEILIGER GEIST"
+  subtitle = "BWV 370. / M. Luther (1483-1546)"
   composer = "J. S. Bach"
 }
 
@@ -15,13 +16,13 @@ global = {
 soprano = \relative c'' {
   \partial 4 g4 
     a4 g4 f4 g4 
-  c4 d4 c4 c4 
+  c4 d4 c4 \fermata c4 
   g4 b4 c4 d4 
-  e4 e4 d4 d4 
+  e4 e4 d4 \fermata d4 
   e8 d8 c4 a4 g4   %5
-  b4 cis4 d4 g,4 
+  b4 cis4 d4 \fermata g,4 
   c4 a4 f4 a4 
-  g2 g4
+  g2 g4 \fermata
   
 }
 
@@ -46,7 +47,7 @@ tenor = \relative c' {
   d8 c16 b16 c8 a8 b4 b4 
   c8 b8 c4 c4 c4   %5
   d4 e4 f4 b,4 
-  a4 a4 a8 ais8 c4 
+  a4 a4 a8 bes8 c4 
   d4~ d8 c~ c b
   
 }

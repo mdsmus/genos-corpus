@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "370 - Kommt her zu mir, spricht Gottes Sohn"
+  title = "370 - KOMMT HER ZU MIR, SPRICHT GOTTES SOHN"
+  subtitle = "BWV 74. Wer mich liebet, der wird mein Wort halten / Leipzig, 1530"
   composer = "J. S. Bach"
 }
 
@@ -15,18 +16,18 @@ global = {
 soprano = \relative c'' {
   \partial 4 a4 
     a4 a4 e'4 d4 
-  e4 c4 b4 a8 b8 
+  e4 c4 b4 \fermata a8 b8 
   c4 b4 c8 d8 e4 
-  d4 c4 b4 c8 b8 
+  d4 c4 b4 \fermata c8 b8 
   a4 a4 d8 c8 b8 c8   %5
-  a2 g4 g4 
+  a2 g4 \fermata g4 
   c4 b4 c8 d8 e4 
-  d4 c4 b4 a8 b8 
+  d4 c4 b4 \fermata a8 b8 
   c4 b4 c8 d8 e4 
-  d4 c4 b4 e4   %10
+  d4 c4 b4 \fermata e4   %10
   e4 e4 d8 c8 b8 c8 
   b8 gis8 a8 b8 b2 
-  a2. 
+  a2. \fermata
   
 }
 

@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "218 - Laß, o Herr, dein Ohr sich neigen"
+  title = "218 - LAß, O HERR, DEINS OHR SICH NEIGEN"
+  subtitle = "BWV 372. / L. Bourgeois (1510?-1561)"
   composer = "J. S. Bach"
 }
 
@@ -12,22 +13,22 @@ global =  {
 
 soprano = \relative c {
   \repeat volta 2 {
-    g''4 g 
-    fis g a bes 
-    a2 g }
-  bes4 a g bes 
-  a g fis2 
-  f4 ees d g 
-  g fis g2 
-  bes4 c d d 
-  c bes c2 
-  bes bes4 c 
-  d d c bes 
-  c2 bes 
-  bes4 a g bes 
-  a g fis2 
-  f4 ees d g 
-  g fis g2
+  g''4 g fis g 
+  a bes a2
+  g } bes4 a 
+  g bes a g 
+  fis2 \fermata f4 ees
+  d g g fis
+  g2 \fermata bes4 c
+  d d c bes
+  c2 bes \fermata
+  bes4 c d d
+  c bes c2
+  bes \fermata bes4 a
+  g bes a g 
+  fis2 \fermata f4 ees 
+  d g g fis 
+  g2 \fermata
 }
 
 
@@ -47,7 +48,7 @@ alto = \relative c {
   g f8 ees d2 
   d4 d8 c bes4 ees8 d 
   c d d4 d2 
-  d4 d8 c16 bes a4 d 
+  d4~ d8 c16 bes a4 d 
   ees d d2 
 }
 
@@ -62,8 +63,8 @@ tenor = \relative c {
   f4 f f bes 
   a4~ a16 bes16 c8 bes2 
   d4 f f f 
-  ees8 c d bes4 a16 g a4 
-  bes2 d4 c 
+  ees8 c d bes8~ bes4 a16 g a4 
+  bes2 d4 c~ 
   c8 bes16 a bes4 a bes 
   bes a f2 
   g4 fis g g 

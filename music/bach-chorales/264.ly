@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "264 - Jesu, meines Herzens Freud'"
+  title = "264 - JESU, MEINES HERZENS FREUD"
+  subtitle = "BWV 361. / Greifswald, 1661"
   composer = "J. S. Bach"
 }
 
@@ -14,18 +15,18 @@ global = {
 
 soprano = \relative c'' {
   d4 d8 ees8 f8 ees8 d4 
-  c4. c8 c2 
+  c4. c8 c2 \fermata
   d4 ees8 d8 c4. bes8 
-  bes2 a8 g8 a8 bes8 
+  bes2 \fermata a8 g8 a8 bes8 
   c8 bes8 a4 g4. g8   %5
-  g2 a4 bes8 a8 
-  g4. f8 f2 
+  g2 \fermata a4 bes8 a8 
+  g4. f8 f2 \fermata
   d'4 d8 ees8 f4 ees8 d8 
-  c4. c8 c2 
+  c4. c8 c2 \fermata
   d4 ees8 d8 c4. bes8   %10
-  bes2 ees8 d8 ees8 f8 
+  bes2 \fermata ees8 d8 ees8 f8 
   d8 c8 d8 ees8 c4. bes8 
-  bes1 
+  bes1 \fermata
   
 }
 
@@ -34,7 +35,7 @@ alto = \relative c' {
   g4 f8 e8 f2 
   f4 ees8 f8 g4 f16 ees16 d16 ees16 
   d2 c4 f4 
-  f4 f4 f8 e8 d4   %5
+  f4 f4~ f8 e8 d4   %5
   e2 e4 d4 
   d4 c4 c2 
   c4 bes4 c4 f4 

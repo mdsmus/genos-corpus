@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "131 - Liebster Jesu, wir sind hier"
+  title = "131 - LIEBSTER JESU, WIRD SIND HIER"
+  subtittle = "BWV 373. / J. R. Ahle (1625-1673)"
   composer = "J. S. Bach"
 }
 
@@ -15,15 +16,15 @@ global = {
 soprano = \relative c'' {
   \repeat volta 2 {
     b4 a8 g8 a4 d4 
-    b4 g4 a2 
+    b4 g4 a2 \fermata
     g4 g4 g4 g4 
     a4 b4 a2 
     g1 }  %5
   d4 d4 e4 fis4 
-  g4 a4 fis4 d4 
-  g4 g4 g4 g4 
+  g4 a4 fis4 d4 \fermata
+  g4 g4 g4 g4  
   a4 b4 a2 
-  g1   %10
+  g1 \fermata   %10
   
 }
 
@@ -37,7 +38,7 @@ alto = \relative c' {
   b4 a4 b8 cis8 d4 
   e4 e4 d4 a4 
   d8 b8 c8 d8 e4 e4 
-  e8 fis8 g4. e8 fis4 
+  e8 fis8 g4 g4 fis 
   d1   %10
   
 }
@@ -64,10 +65,10 @@ baixo = \relative c {
     e,8 e'4 d8 c,8 c'4 b8 
     a4 g8 b8 c8 a8 d4 
     g,1 }  %5
-  g8 g'4 fis8 e4 d4~ 
+  g8 g'4 fis8 e4 d4 
   d4 cis4 d4 d4 
   b8 g8 a8 b8 c8 d8 c8 b8 
-  a4 g4 d'2 
+  a4 g8 b8 d2 
   g,1   %10
   
 }

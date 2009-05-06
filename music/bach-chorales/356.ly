@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "356 - Jesu, meine Freude"
+  title = "356 - JESU, MEINE FREUDE"
+  subtitle = "BWV 358. / J. Crüger (1598-1662)"
   composer = "J. S. Bach"
 }
 
@@ -15,18 +16,18 @@ global = {
 soprano = \relative c'' {
   \repeat volta 2 {
     a4 a4 g4 f4 
-    e2 d2 
+    e2 d2 \fermata
     a'4 b4 c4 a4 
-    d2 cis2 
+    d2 cis2 \fermata
     d8 e8 f4 e4 e4     %5
     d1 }
   a4 a4 bes4 a4 
-  g4 g4 f2 
+  g4 g4 f2 \fermata
   a4 b4 c8 b8 a4 
   d4 c8 b8 b2   %10
-  a2 a4 a4 
+  a2 a4 a4 \fermata
   g4 f4 e2 
-  d1 
+  d1 \fermata
   
 }
 

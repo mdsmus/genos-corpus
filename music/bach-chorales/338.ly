@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "338 - Jesus, meine Zuversicht"
+  title = "338 - JESU, MEINE ZUVERSICHT"
+  subtitle = "BWV 145. So du mit deinem Munde bekennest Jesum / Berlin, 1653"
   composer = "J. S. Bach"
 }
 
@@ -15,13 +16,13 @@ global = {
 soprano = \relative c'' {
   \repeat volta 2 {
     a4 g8 fis8 b4 cis4 
-    d4 d4 cis2 
+    d4 d4 cis2 \fermata
     b8 cis8 d4 a8 g8 fis4 
-    g4 fis4 e4 d4 }
+    g4 fis4 e4 d4 \fermata }
   fis4 gis4 ais4 b8 cis8   %5
-  d4 cis4 b2 
+  d4 cis4 b2 \fermata 
   cis4 d4 e4 fis4 
-  e4 e4 d2 
+  e4 e4 d2 \fermata
   
 }
 
@@ -57,7 +58,7 @@ baixo = \relative c {
     b4 e4 a,2 
     g'4 fis4 cis4 d8 c8 
     b8 bes8 a8 gis8 a4 d4 }
-  dis4 e4. d8 g4   %5
+  dis4 e4 e8 d8 g4   %5
   fis8 e8 fis4 b,2 
   e4 d4 d8 cis8 d4 
   g4 a4 d,2 

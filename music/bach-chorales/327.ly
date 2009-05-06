@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "327 - Jesu, nun sei gepreiset"
+  title = "327 - JESU, NUN SEI GEPREISET"
+  subtitle = "BWV 190. Singet dem Herrn ein neues Lied / Wittenberg, 1591"
   composer = "J. S. Bach"
 }
 
@@ -11,26 +12,25 @@ global =  {
 }
 
 soprano = \relative c {
-  \partial 4 fis''4 
-  \repeat volta 2 {
+  \repeat volta 2 { \partial 4 fis''4 
   fis d e fis 
-  g2 e4 e 
+  g2 e4 \fermata e 
   e d d cis 
-  d2. e4 
+  d2. \fermata e4  
   e e e fis 
-  d2 d4 d 
+  d2 d4 \fermata d 
   cis d e e 
-  d2. }
+  d2. \fermata }
   \repeat volta 2 {cis4 
   cis cis cis cis 
-  d2 d4 } 
+  d2 d4 \fermata } 
   \repeat volta 2 { fis 
   fis d e fis 
-  g2 fis4 fis 
+  g2 fis4 \fermata fis 
   e fis dis dis 
-  e2. } fis4 
+  e2. \fermata } fis4 
   fis d e fis 
-  g2 e4 e 
+  g2 e4 \fermata e 
   e d d cis 
   d2. 
 }

@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "263 - Jesu, meine Freude"
+  title = "263 - JESU, MEINE FREUDE"
+  subtitle = "BWV 227. Jesus, meine Freude (Motetta) / J. Crüger (1598-1662)"
   composer = "J. S. Bach"
 }
 
@@ -15,18 +16,18 @@ global = {
 soprano = \relative c'' {
   \repeat volta 2 {
     b4 b4 a4 g4 
-    fis2 e2 
+    fis2 e2 \fermata
     b'4 cis4 d4 b4 
-    e2 dis2 
+    e2 dis2 \fermata
     e8 fis8 g4 fis4. fis8     %5
     e1 }
   b4 b4 c4 b4 
-  a4. a8 g2 
+  a4. a8 g2 \fermata
   b4 cis4 d4 b4 
   e4 d8 cis8 cis2   %10
-  b2 b4 b4 
+  b2 \fermata b4 b4 
   a4 g8 fis8 fis2 
-  e1 
+  e1 \fermata
   
 }
 

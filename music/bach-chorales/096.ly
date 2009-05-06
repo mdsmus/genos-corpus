@@ -1,32 +1,33 @@
 \version "2.10.33"
 
 \header {
-  title = "96 - Jesu, meine Freude"
+  title = "96 - JESU, MEINE FREUDE"
+  subtitle = "BWV 87. Bis her habt ihr nichts gebeten / J. Crüger (1598-1662)"
   composer = "J. S. Bach"
 }
 
 
 global = {
   \time 4/4
-  \key d \minor
+ 
 }
 
 
 soprano = \relative c'' {
   \repeat volta 2 {
     a4 a4 g4 f4 
-    e2 d2 
+    e2 d2 \fermata
     a'4 a4 b4 cis4 
-    d2 cis2 
+    d2 cis2 \fermata
     d8 e8 f4 e4 e4     %5
     d1 }
   a4 a4 bes4 a4 
-  g8 a16 bes16 g4 f2 
+  g8 a16 bes16 g4 f2 \fermata 
   a4 b4 c4 a4 
   d4 c8 b8 b2   %10
-  a2 a4 d4 
+  a2 \fermata a4 d4 
   g,4 f8 e8 e2 
-  d1 
+  d1 \fermata
   
 }
 

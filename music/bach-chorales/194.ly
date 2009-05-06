@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "194 - Liebster Immanuel, Herzog der Frommen"
+  title = "194 - LIEBSTER IMMANUELM HERZOG DER FROMMEN"
+  subtittle = "BWV 123. Liebster Immanuel / Leipzig, 1679"
   composer = "J. S. Bach"
 }
 
@@ -15,21 +16,21 @@ global = {
 soprano = \relative c'' {
   \repeat volta 2 {
     d2 d2 d2 
-    cis2. b4 a2 
+    cis2. b4 a2 \fermata
     b2 g2 fis4 e4 
-    e1 d2 
+    e1 d2 \fermata
     a'2 a2 fis2     %5
-    b2. cis4 d2 
+    b2. cis4 d2 \fermata
     d,4 e4 e2. fis4 
     fis1. }
   fis2 fis2 g2 
-  a2 fis1   %10
+  a2 fis1 \fermata  %10
   b2 ais2 b2 
-  cis2 ais1 
+  cis2 ais1 \fermata
   d2 cis2 b2 
   ais2. fis4 b2 
   cis4 d4 ais2. b4   %15
-  b1. 
+  b1. \fermata
   
 }
 
