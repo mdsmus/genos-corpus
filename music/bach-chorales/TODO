@@ -1,0 +1,51 @@
+* coral 046: ultimo compasso, ultimo tempo, seminima e nao minima [deve ser minima]
+* coral 065: ultima nota minima ou seminima? [deve ser seminima]
+* coral 098: nota final minima pontuada e nao semibreve [deve ser minima pontuada]
+* coral 101: duracao final [deve ser minima pontuada]
+* coral 104: duracao final [deve ser seminima]
+* coral 105: duracao final [deve ser minima pontuada]
+* coral 107: duracao final [deve ser minima pontuada]
+* coral 108: duracao final [deve ser minima pontuada]
+* coral 110: duracao final [deve ser seminima]
+* coral 111: duracao final [deve ser minima pontuada]
+* coral 112: duracao final [deve ser seminima]
+* coral 114: duracao final [deve ser minima pontuada]
+* coral 115: duracao final [deve ser seminima]
+* coral 117: duracao final [deve ser seminima]
+* coral 118: duracao final [deve ser seminima]
+* coral 120: duracao final [deve ser seminima]
+* coral 122: duracao final [deve ser seminima]
+* coral 126: duracao final [deve ser minima pontuada]
+* coral 129: duracao final [deve ser minima pontuada]
+* coral 136: duracao final [deve ser seminima]
+* coral 145: duracao final [deve ser seminima]
+* coral 147: duracao final [deve ser minima pontuada]
+* coral 193: duracao final [deve ser minima com pausa]
+
+* coral 004: pausa seminima compasso 4
+* coral 015: compaso 5 apenas pausa? (seminima)
+* coral 032: compasso 3, 4o tempo, breitkopf tem colcheias, rieman tem [8. 16]
+             compasso 11, mesma coisa
+* coral 048: compasso 8, 3o tempo, soprano nota do?
+* coral 049: penultimo compasso, soprano, ritmo rieman [c4 f4 e8 d4 cis8], breit [c4 f4 e8 d cis4]
+* coral 060: compasso 7, soprano, ultima colcheia, rieman tem ré, breitkopf tem mi
+* coral 071: 2a nota soprano é uma apojatura la (nao tem no .ly)
+* coral 087: escrito com repeticao rieman, sem repeticao breitkopf
+* coral 094: breit e riem diferem no ritmo
+* coral 100: b compasso 3 (breit natural, riem bemol)
+* coral 121: riem tem casa 1/2, breitf nao
+* coral 125: compasso 8-9, soprano, ultima nota, deve ser si (tem sol)
+             notas difentes do rieman e breit
+* coral 130: corrigir na mao
+* coral 142: c. 11 e 15, soprano rieman e breit tem si natural
+* coral 179: breit e riem sao diferentes
+* coral 184: c.9 sib soprano na breit, si na rieman (deve ser sib)
+* coral 195: c. 9 rieman e breit differ
+* coral 198: 3 antes final, do natural (implicito) na breit e do# na riem
+
+----------------------------------------------------------------------
+
+to craig
+
+* chorale 046: last bar wrog
+* chorale 088: there's no rest in bar 6 (dotted half note)
