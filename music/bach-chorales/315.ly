@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "315 - O Gott, du frommer Gott"
+  title = "315 - O GOT, DU FROMMER GOTT (2.)"
+  subtitle = "BWV 399. / Meiningen, 1693"
   composer = "J. S. Bach"
 }
 
@@ -16,17 +17,17 @@ soprano = \relative c'' {
   \repeat volta 2 {
     \partial 4 b4 
     b4 e4 d4 c16 b16 c8 
-    b2. b8 c8 
+    b2. \fermata b8 c8 
     d4 g,4 a4 b4 
     a2 g4 } a4 
   a4 b4 c8 e8 d8 c8   %5
-  b2. b4 
+  b2. \fermata b4 
   a4 d8 e16 fis16 e4 d8 cis8 
-  d2. d4 
+  d2.\fermata d4 
   d4 b4 c4 d4 
-  e2. a,4   %10
+  e2. \fermata a,4   %10
   b8 c16 d16 c8 b8 b4 a8 g8 
-  g2. 
+  g2. \fermata
   
 }
 

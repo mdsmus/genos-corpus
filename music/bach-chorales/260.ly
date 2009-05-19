@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "260 - Es ist gewißlich an der Zeit"
+  title = "260 - NUN FREUT EUCH, LIEBEN CHRISTEN GMEIN (2.) [Es ist gewißlich an der Zeit]"
+  subtitle = "BWV 307. / Wittenberg, 1529"
   composer = "J. S. Bach"
 }
 
@@ -16,15 +17,15 @@ soprano = \relative c'' {
   \repeat volta 2 {
     \partial 4 bes4 
     bes8 c8 d4 c4 bes4 
-    c4 c4 d4 bes8 c8 
+    c4 c4 d4 bes8 \fermata c8 
     d4 ees4 f8 ees8 d4 
     c2 bes4 } d4 
   d4 c4 bes4 a4   %5
-  bes8 c8 d4 c4 c4 
+  bes8 c8 d4 c4 \fermata c4 
   bes4 a4 bes4 f4 
-  bes4 c4 d4 bes8 c8 
+  bes4 c4 d4 \fermata bes8 c8 
   d4 ees4 f8 ees8 d4 
-  c2 bes4   %10
+  c2 bes4 \fermata   %10
   
 }
 
@@ -35,9 +36,9 @@ alto = \relative c' {
     g4 f4 f4 f4 
     bes4 bes4 c4 bes4 
     bes4 a4 f4 } f4 
-  f4 f8 ees8 d8 g8 g8 fis8   %5
+  f4 f8 ees8 d8 g8~ g8 fis8   %5
   g8 a8 bes4 a4 a4 
-  a8 g8 g8 fis8 g4 d4 
+  a8 g8~ g8 fis8 g4 d4 
   d4 g4 fis4 d4 
   g4 g4 f4 f4 
   g4 f8 ees8 d4   %10

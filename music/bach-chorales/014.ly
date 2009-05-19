@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "14 - O Herre Gott, dein göttlich Wort"
+  title = "14 -  O HERRE GOTT, DEIN GÖTTLICH WORT"
+  subtitle = "BWV 184. Erwünschtes Freudenlicht / Erfurt, 1527"
   composer = "J. S. Bach"
 }
 

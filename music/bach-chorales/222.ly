@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "222 - Nun preiset alle"
+  title = "222 - NUN PREISET ALLE GOTTES BERMHERZIGKEIT"
+  subtitle = "BWV 391. / M. Apelles v. Löwenstern (1594-1648)"
   composer = "J. S. Bach"
 }
 
@@ -12,24 +13,24 @@ global =  {
 
 soprano = \relative c {
   g''4 g a 
-  b g2 
+  b g2 \fermata
   a4 a b 
   c2 b4 
-  c2.     %% 5
+  c2. \fermata    %% 5
   b4 b cis 
-  d a2 
+  d a2 \fermata
   b4 cis d 
   d2 cis4 
-  d2.    %% 10
+  d2. \fermata   %% 10
   a4 a b 
   c d e 
   d2 c4 
-  b2 a4
+  b2 a4 \fermata
   \repeat volta 2 {
     e'4. d8 c4    %% 15
     d4. c8 b4 
     c c b 
-    a2 g4
+    a2 g4 \fermata
   }
 }
 
@@ -47,7 +48,7 @@ alto = \relative c {
   fis2.   %% 10
   fis4 fis gis 
   a4. gis8 a g 
-  fis4 gis a 
+  fis4 gis a \fermata
   a gis e 
   \repeat volta 2 {
     e8 fis g4 a    %% 15 

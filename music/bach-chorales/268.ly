@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "268 - Nun lob', mein' Seel', den Herren"
+  title = "268 - NUN LOB, MEIN SEEL, DEN HERREN"
+  subtitle = "BWV 389. / Augsburg, 1540"
   composer = "J. S. Bach"
 }
 
@@ -16,24 +17,24 @@ soprano = \relative c'' {
   \repeat volta 2 {
     \partial 4 c4 
     c4 b4 a4 g4 
-    c4 d4 e4 e4 
-    e8 d8 e4 e4 d4 
+    c4 d4 e4 \fermata e4 
+   e8 d8 e4 e4 d4 
     c8 d8 d4 c4 } c4 
   c8 d8 e4 d4 e4   %5
-  c4 b4 a4 a4 
+  c4 b4 a4 \fermata a4 
   d8 c8 b4 c8 b8 a4 
-  g4 g4 c4 c4 
+  g4 \fermata g4 c4 c4 
   d4 d4 e8 d8 e4 
-  c4 c4 f4 f4   %10
-  e8 d8 e4 d4 d4 
+  c4 \fermata c4 f4 f4   %10
+  e8 d8 e4 d4 \fermata d4 
   e4 e4 f4 f4 
-  g8 f16 e16 f8 g8 c,4 e4 
+  g8 f16 e16 f8 g8 c,4 \fermata e4 
   d8 c8 b4 c8 b8 a4 
-  g4 g4 c4 b4   %15
+  g4 \fermata g4 c4 b4   %15
   a4 g4 d'4 e4 
-  d4 e4 f4 e4 
+  d4 \fermata e4 f4 e4 
   d4 c8 d8 e4 d4 
-  c2. 
+  c2. \fermata
 }
 
 alto = \relative c'' {
