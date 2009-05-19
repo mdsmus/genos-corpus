@@ -2,7 +2,8 @@
 \version "2.10.33"
 
 \header {
-  title = "130 - Meine Seel erhebt den Herren"
+  title = "130 - MEINE SELL ERHEBT DEN HERREN"
+  subtitle = "BWV 323. / Wittenberg. 1535"
   composer = "J. S. Bach"
 }
 
@@ -16,7 +17,7 @@ soprano = \relative c {
   b4 b b b 
   c2 b 
   a a 
-  g1 
+  g1 \fermata
   b2 d 
   \time 4/1
   a\breve a\breve
@@ -24,7 +25,7 @@ soprano = \relative c {
   e2
   \time 4/4
   g fis
-  e1 
+  e1 \fermata
 }
 
 

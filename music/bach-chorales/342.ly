@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "342 - Lobt Gott, ihr Christen, allzugleich"
+  title = "342 - LOBT FOTT, IHR CHRISTEN ALLZUGLEICH"
+  subtitle = "BWV 376. / N. Herman (1480?-1561)"
   composer = "J. S. Bach"
 }
 
@@ -15,15 +16,15 @@ global = {
 soprano = \relative c'' {
   \partial 4 a4 
     e'4 e4 e4 e4 
-  fis4 e8 d8 cis4 b4 
+  fis4 e8 d8 cis4 \fermata b4 
   cis8 dis8 e4 e8 fis8 dis4 
-  e2. e4 
+  e2. \fermata e4 
   e4 e4 e8 d8 cis8 d8   %5
-  e4 d8 cis8 b4 e4 
+  e4 d8 cis8 b4 \fermata e4 
   d4 cis4 b4. cis8 
-  a8 b8 cis8 d8 e4 e4 
+  a8 b8 cis8 d8 e4 \fermata e4 
   d4 cis4 b4 b4 
-  a2.   %10
+  a2. \fermata  %10
   
 }
 

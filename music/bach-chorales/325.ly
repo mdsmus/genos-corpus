@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "325 - Mit Fried und Freud ich fahr dahin"
+  title = "325 - MIT FRIED UN FREUD ICH FAHR DAHIN"
+  subtitle = "BWV 83. Erfreute Zeit neuen Bunde / M. Luther (1483-1546)"
   composer = "J. S. Bach"
 }
 
@@ -15,17 +16,17 @@ global = {
 soprano = \relative c' {
   \partial 4 d4 
     a'4 a4 g4 d'4 
-  c4 b4 a4 c4 
+  c4 b4 a4 \fermata c4 
   a4 c4 b8 a8 b4 
-  a2. b4 
+  a2. \fermata b4 
   c4 b4 c4 a4   %5
   g4 f4 g4 e4 
-  d2 a'4. g8 
-  f8 e8 d4 c2 
+  d2 \fermata a'4. g8 
+  f8 e8 d4 c2 \fermata
   a'4 f4 c'4 a4 
-  g8 f8 g4 a4 g4   %10
+  g8 f8 g4 a4 \fermata g4   %10
   f4 e8 d8 cis4 f4 
-  e8 d8 e4 d4 
+  e8 d8 e4 d4 \fermata
   
 }
 

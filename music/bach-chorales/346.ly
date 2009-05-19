@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "346 - Meines Lebens letzte Zeit"
+  title = "346 - MEINES LEBENS LETZTE ZEIT"
+  subtitle = "BWV 381. / Gotha, 1726"
   composer = "J. S. Bach"
 }
 
@@ -14,20 +15,20 @@ global = {
 
 soprano = \relative c'' {
   b4 b4 c4 b4 
-  b4 a4 b2 
+  b4 a4 b2 \fermata
   d4 d4 e4 e4 
-  a,4 d8 c8 b4 b4 
+  a,4 d8 c8 b4 b4 \fermata
   g4. a8 b4 a8 g8   %5
-  fis4. e8 e2 
+  fis4. e8 e2 \fermata
   b'4. c8 d4 b4 
-  c4 b8 a8 a4 g4 
+  c4 b8 a8 a4 g4 \fermata
   b4 b4 e4 e4 
-  a,4 a4 b4 c4   %10
+  a,4 a4 \fermata  b4 c4   %10
   d4 d4 c4 b4 
-  a4 a4 b4. c8 
+  a4 a4 \fermata b4. c8 
   d4 b4 c4 b4 
   a4 b4 b4 a8 g8 
-  fis2 e2   %15
+  fis2 e2 \fermata   %15
   
 }
 
@@ -82,7 +83,7 @@ baixo = \relative c, {
   d2 g4 fis8 e8   %10
   fis8 e8 fis8 b8 e,8 fis8 g4 
   d2 g8 fis8 e4~ 
-  e8 d8 e8 gis8 a,4 b8 c8 
+  e4 e8 gis8 a,4 b8 c8 
   d4 dis4 e8 g8 c,8 b8 
   a4 b4 e2   %15
   

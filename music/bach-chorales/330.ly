@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "330 - Nun danket alle Gott"
+  title = "330 - NUN DANKET ALLE GOT"
+  subtitle = "BWV 252. Drei Choräle zur trauungen (Nach dem Segen) / J. Crüger (1598-1662)"
   composer = "J. S. Bach"
 }
 
@@ -16,17 +17,17 @@ soprano = \relative c'' {
   \repeat volta 2 {
     \partial 4 d4 
     d4 d4 e4 e4 
-    d2. b4 
+    d2. \fermata b4 
     c4 b4 a4 b8 c8 
     a2 g4 } a4 
   a4 a4 b4 b4   %5
-  a2. a4 
+  a2. \fermata a4 
   b8 cis8 d4 d4 cis4 
-  d2. d4 
+  d2. \fermata d4 
   e4 d4 c4 b4 
-  c2. b4   %10
+  c2. \fermata b4   %10
   a4 b8 c8 a4. g8 
-  g2. 
+  g2. \fermata
 }
 
 alto = \relative c'' {

@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "44 - Mach's mit mir, Gott, nach deiner Güt'"
+  title = "44 - MACHS MIT MIR, GOTT, NACH DEINER GÜT"
+  subtitle = "BWV 377. / B. Gesius (1555?-1613); J.H. Schein (1586-1630)"
   composer = "J. S. Bach"
 }
 
@@ -18,7 +19,7 @@ soprano = \relative c' {
     fis4 g4 a4 a4 
     g4 fis4 e4\fermata a4 
     b4 cis4 d4 cis4 
-    b2 a4\fermata } a4 
+    b2 a4 } a4 
   d4 cis4 b4 a4   %5
   g4 fis4 e4\fermata a4 
   g4 fis4 e8 fis8 g4 
@@ -58,13 +59,13 @@ baixo = \relative c {
   \repeat volta 2 {
     \partial 4 d4 
     d8 cis8 b4 cis4 d4 
-    e4 fis8 g8 a4\fermata cis4 
+    e4 fis8 g8 a4 cis4 
     b4 a4 gis4 a4 
-    d,4 e4 a,4\fermata } a'8 g8 
+    d,4 e4 a,4} a'8 g8 
   fis8 d8 e8 fis8 g8 fis8 e8 dis8   %5
-  e4 fis8 gis8 a4\fermata fis4 
+  e4 fis8 gis8 a4 fis4 
   b,8 cis8 d4 a4 b4 
-  a8 g8 a4 d,\fermata 
+  a8 g8 a4 d,
   
 }
 

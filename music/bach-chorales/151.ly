@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "151 - Meinen Jesum laß'ich nicht, Jesus"
+  title = "151 - MEINEM JESUM LAß ICH NICHT, JESUS"
+  subtitle = "BWV 379. / Lüneburg, 1668"
   composer = "J. S. Bach"
 }
 
@@ -15,14 +16,14 @@ global = {
 soprano = \relative c'' {
   \repeat volta 2 {
     b4 b4 b4 d4 
-    c4 c4 b2 
+    c4 c4 b2 \fermata
     b4 b4 a4 b4 
     c4 b4 a2 
     g1 }  %5
   b4 b4 a4 a4 
-  g4 g4 fis2 
+  g4 g4 fis2 \fermata
   e'4 d4 c4 b4 
-  a4 a4 g2 
+  a4 a4 g2 \fermata
   
 }
 

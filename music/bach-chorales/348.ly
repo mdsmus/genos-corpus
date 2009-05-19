@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "348 - Meinen Jesum laß ich nicht"
+  title = "348 - MEINEM JESUM LAß ICH NICHT"
+  subtitle = "BWV 70. Wachet, betet, seid bereit / A. Hammerschmidt (1612-1675)"
   composer = "J. S. Bach"
 }
 
@@ -14,18 +15,18 @@ global = {
 
 soprano = \relative c'' {
   g4 g4 a4 a4 
-  b4 b4 c2 
+  b4 b4 c2 \fermata
   d4 d4 c4 c4 
   b4 a8 b16 c16 a2 
-  g2 g4 g4   %5
+  g2 \fermata g4 g4   %5
   a4 a4 g4 f4 
-  e2 g4 g4 
+  e2 \fermata g4 g4 
   f4 f4 e4 d8 e16 f16 
-  d2 c2 
+  d2 c2 \fermata
   c'4 c4 b4 b4   %10
-  a4 a4 g2 
+  a4 a4 g2 \fermata
   g4 g4 f4 e4 
-  d4 d4 c2 
+  d4 d4 c2 \fermata
   
 }
 
@@ -33,7 +34,7 @@ alto = \relative c' {
   e4 e4 f4 f4 
   f8 e8 d4 e2 
   g4 g4 g4 fis4 
-  d4 c8 d16 e16 fis2 
+  d4 c8 d16 e16 d2 
   d2 e8 d8 c4   %5
   c4 d4 d8 e8 f8 d8 
   c2 b4 e4 
@@ -54,7 +55,7 @@ tenor = \relative c' {
   b2 c4 g4   %5
   f4 f4 g4 c8 g8 
   g2 g4 a4 
-  a4 g4 g4. f8~ 
+  a4 g4 g4. f8 
   f8 e8 d4 e2 
   g4. fis8 d'4 d4   %10
   d4 c8 a8 e'2 

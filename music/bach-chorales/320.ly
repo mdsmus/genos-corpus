@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "320 - Gott sei uns gnädig und barmherzig"
+  title = "320 - MEINE SELL ERHEBT DEN HERREN (Gott sei uns gnädig und barmherzig)"
+  subtitle = "BWV 323. / Wittenberg. 1535"
   composer = "J. S. Bach"
 }
 
@@ -17,19 +18,19 @@ soprano = \relative c'' {
   cis4 cis4 cis4 cis4 
   d2 cis2 
   b1 
-  a1   %5
+  a1 \fermata  %5
   cis2 e2 
   b4 b4 b4 b4 
   b2 fis4 gis4 
   a2 gis2 
   fis1~   %10
-  fis1 
+  fis1 \fermata
   
 }
 
 alto = \relative c' {
   fis2 e2 
-  e4 eis4 eis gis
+  e4 eis4 fis gis
   fis4 e2 fis4 
   fis2 e2 
   e1   %5

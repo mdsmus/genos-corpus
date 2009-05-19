@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "258 - Meine Augen schieß' ich jetzt"
+  title = "258 - MEIN AUGEN SCHLIEß ICH JETZT"
+  subtitle = "BWV 378. / M. Apelles v. Löwenstern (1594-1648)"
   composer = "J. S. Bach"
 }
 
@@ -15,21 +16,21 @@ global = {
 soprano = \relative c'' {
   \partial 4 g4 
   g4 d4 g4 a4 
-  b2 r4 d4 
+  b2 \fermata r4 d4 
   e4 d4 c4. d8 
-  b2 r4 d4 
+  b2 \fermata r4 d4 
   c4 b4 a4 g4   %5
-  a2 r4 b4 
+  a2 \fermata r4 b4 
   g4 c4 b4 a4 
-  g2 r4 b8 c8 
+  g2 \fermata r4 b8 c8 
   d4 d4 c4 b4 
-  a2 r4 b4   %10
+  a2 \fermata r4 b4   %10
   g4 g4 a4 b4 
-  c2 b4 d4 
+  c2 b4 \fermata d4 
   c4 a4 b4 c4 
-  d2 r4 g,4 
+  d2 \fermata r4 g,4 
   a4 b4 c4 b4   %15
-  a2 g4 
+  a2 g4 \fermata
   
 }
 
@@ -67,7 +68,7 @@ tenor = \relative c' {
   d8 c8 b4 c4 d4 
   d2 r4 b4   %10
   b8 c8 d4 c4 b4~ 
-  b8 a16 gis16 a4 a8 gis8 g4 
+  b8 a16 gis16 a4~ a8 gis8 g4 
   g4 d'4 d4 e4 
   d2 r4 b4 
   c8 d8 d8 e16 d16 c4 d4   %15
