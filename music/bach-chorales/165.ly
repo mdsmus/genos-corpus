@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "165 - O Lamm Gottes, unschuldig"
+  title = "165 - O LAMM GOTTES, UNSSCHULDIG"
+  subtitle = "BWV 401. / N. Decius (1485?-1546?)"
   composer = "J. S. Bach"
 }
 
@@ -16,16 +17,16 @@ soprano = \relative c' {
   \repeat volta 2 {
     \partial 4 f4 
     f4 f4 c'4 c4 
-    d2 c4 c4 
+    d2 c4 \fermata c4 
     f,4 g4 a4 bes4 
     a4 g8 f8 f4 } a4 
   a4 a4 g4 a4   %5
-  f8 e8 d4 c4 c'4 
+  f8 e8 d4 c4 \fermata c'4 
   d4 c4 c4 a8 bes8 
-  c4 bes4 a4 d4 
+  c4 bes4 a4 \fermata  d4 
   c8 bes8 a4 g4 a4 
   c4 a4 g2   %10
-  f2.
+  f2. \fermata
   
 }
 

@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "227 - Lobet den Herren, denn er ist sehr freundlich"
+  title = "227 - LOBET DEN HERREN, DENN ER IST SEHR FREUNDLICH"
+  subtitle = "BWV 374. / A. Scandelli (1515-1580)"
   composer = "J. S. Bach"
 }
 
@@ -15,24 +16,24 @@ global = {
 soprano = \relative c'' {
   \partial 4 g4 
     d4 g4 g2 
-  a2 r4 a4 
+  a2 \fermata r4 a4 
   bes8 c8 d4 cis2 
-  d2 bes4 bes4 
+  d2 \fermata  bes4 bes4 
   c4 c4 d2   %5
-  bes2 r4 d4 
+  bes2 \fermata  r4 d4 
   c4 c4 c4 a4 
   d4 c4 bes4 a4 
-  g2 a2 
+  g2 a2 \fermata  
   bes4 a4 g4 fis4   %10
-  g2 a2 
+  g2 a2 \fermata 
   r4 d4 bes4 bes4 
   bes4 d4 c4 bes4 
   a4 g4 a2 
-  g2 r4 g4   %15
+  g2 \fermata  r4 g4   %15
   d4 g4 g2 
-  a2 r4 a4 
+  a2 \fermata r4 a4 
   bes8 c8 d4 cis2 
-  d2.
+  d2. \fermata 
   
 }
 

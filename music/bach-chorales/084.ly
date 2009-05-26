@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "84 - Nun bitten wir den heiligen Geist"
+  title = "84 - NUM BITTEN WIR DEN HEILIGEN GEIST"
+  subtitle = "BWV 197. Gott ist unsre Zuversicht / Wittenberg. 1524"
   composer = "J. S. Bach"
 }
 
@@ -16,18 +17,18 @@ soprano = \relative c'' {
   \partial 4 a4 
     b4 b4 a4 gis8 fis8 
   e4 fis8 gis8 a4 b4 
-  a2. cis8 d8 
+  a2. \fermata cis8 d8 
   e4 fis4 e4. d8 
   cis8 b8 a8 gis8 fis4 gis4   %5
-  a2 cis4 cis4 
+  a2 \fermata cis4 cis4 
   cis4 b4 cis2 
   a4 a4 b8 cis8 d4 
-  cis4. b8 a2 
+  cis4. b8 a2 \fermata 
   b8 cis8 d4 cis8 b8 a8 gis8   %10
   fis4 gis8 a8 b4. a8 
-  gis4 fis4 e2 
+  gis4 fis4 e2 \fermata 
   fis4 gis4 a2~ 
-  a4 gis a
+  a4 gis a \fermata
   
 }
 
@@ -44,7 +45,7 @@ alto = \relative c' {
   b4 a8 g8 fis2 
   fis8 gis8 a8 b8 a8 gis8 fis8 e8   %10
   dis4 e8 fis8 gis4. fis8~ 
-  fis8 e4 dis8 b2 
+  fis8 e4 dis8 b2 \fermata
   d4 e4 e8 cis8 fis4 
   e2 e4
   

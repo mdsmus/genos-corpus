@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "203 - O Mensch, schau Jesum Christum an"
+  title = "203 - O MENSCH, SCHAU JESUM CHRISTUM AN"
+  subtitle = "BWV 403, Breslau, 1603"
   composer = "J. S. Bach"
 }
 
@@ -16,24 +17,24 @@ soprano = \relative c'' {
   g4 g4 g4 
   g2 ees4 
   d2 d4 
-  a'2 bes4 
+  a'2 \fermata bes4 
   a2 g4   %5
   f2 e4 
-  d2 d4 
+  d2 \fermata d4 
   g2 g4 
   fis2 fis4 
   g2 g4   %10
-  a2 a4 
+  a2 \fermata a4 
   a2 a4 
   bes2 bes4 
-  a2. 
+  a2. \fermata
   d2 c4   %15
   bes2 a4 
   g4 a4 b4 
-  c2 a4 
+  c2 \fermata a4 
   bes2 a4 
   g2 fis4   %20
-  g2. 
+  g2. \fermata
   
 }
 
@@ -42,7 +43,7 @@ alto = \relative c' {
   c4 b4 c8 a8 
   d8 c8 d4 d4 
   d2 d4 
-  cis4 d4 e4   %5
+  cis4 d4 e4~   %5
   e8 cis8 d4. cis8 
   a2 a4 
   d2 d4 

@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "358 - Meine Seel erhebt den Herren"
+  title = "358 - MEINE SELL ERHEBT DEN HERREN"
+  subtitle = "BWV 10. Meine Seel erhebt den Herren / Wittenberg. 1535"
   composer = "J. S. Bach"
 }
 
@@ -17,24 +18,24 @@ soprano = \relative c'' {
   d4 d4 d4 d4 
   ees2 d2 
   c2 c2 
-  bes1   %5
+  bes1 \fermata  %5
   d2 f2 
   c4 c4 c4 g4 
   bes2 a2 
-  g1 
+  g1 \fermata \bar "||"
   d'2 f2   %10
   d4 d4 d4 d4 
   ees2 d2 
   c2 c2 
-  bes1 
+  bes1 \fermata
   d2 f2   %15
   c4 c4 c4 c4 
   c2 g4 a4 
   bes2 a2 
   g1~ 
   g1~   %20
-  g1 
-  g1 
+  g1~ 
+  g1 \fermata 
   
 }
 
@@ -47,7 +48,7 @@ alto = \relative c'' {
   f1 
   f4 f4 ees4 g4 
   g2 fis2 
-  d1 
+  d1 \bar "||"
   g2 a2   %10
   f2. fis4 
   g4 a4 bes2~ 
@@ -73,7 +74,7 @@ tenor = \relative c' {
   bes1 
   a4 c4 g4 c4 
   d2. c4 
-  bes1 
+  bes1 \bar "||"
   bes2 c2   %10
   d4 c4 bes4 a4 
   bes4 c4 f,4 f'4 
@@ -99,7 +100,7 @@ baixo = \relative c' {
   bes'2 d,2 
   f4 a4 c4 ees,4 
   d4 c4 d2 
-  g,1 
+  g,1 \bar "||"
   g'2 f2   %10
   bes4 c4 d2
   d4 c4 bes4 d,4 

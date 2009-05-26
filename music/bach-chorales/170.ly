@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "170 - Nun komm, der Heiden Heiland"
+  title = "170 - NUM KOMM, DER HEIDEN HEILAND"
+  subtitle = "BWV 62. Nun komm, der Heiden Heiland / M. Luther (1483-1546)"
   composer = "J. S. Bach"
 }
 
@@ -14,13 +15,13 @@ global = {
 
 soprano = \relative c'' {
   a4 a4 g4 c4 
-  b8 a8 b4 a2 
+  b8 a8 b4 a2 \fermata 
   a8 b8 c4 d4 c4 
-  d4 e4 c2 
+  d4 e4 c2 \fermata 
   c4 d4 e8 d8 c4   %5
-  d8 c8 b4 a2 
+  d8 c8 b4 a2 \fermata 
   a4 a4 g4 c4 
-  b8 a8 b4 a2 
+  b8 a8 b4 a2 \fermata 
   
 }
 
@@ -49,7 +50,7 @@ tenor = \relative c' {
 }
 
 baixo = \relative c' {
-  a8 g8 f4 e4. fis8 
+  a8 g8 f4 e4 e8 fis8 
   gis8 a8 e4 a,2 
   a4 a'4 g8 f8 e4 
   d4 c4 f2 

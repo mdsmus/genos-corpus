@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "296 - Nun lob, mein Seel, den Herren"
+  title = "296 - UN LOB, MEIN SEEL, DEN HERREN"
+  subtitle = "BWV 390. / Augsburg, 1540"
   composer = "J. S. Bach"
 }
 
@@ -19,38 +20,38 @@ soprano = \relative c'' {
     a2 g4 
     c4 d2 
     e2 e4 
-    e2 e4     %5
+    e2 \fermata e4     %5
     e2 d4 
     c8 d8 d4. c8 
     c2 } c4 
   c4 d4 e4 
   d2 e4   %10
   c4 b8 a8 b4 
-  a2 a4 
+  a2 \fermata a4 
   d4 c4 b4 
   c4 a2 
-  g2 g4   %15
+  g2 \fermata g4   %15
   c2 c4 
   d4 e4 f4 
   e4 d4 e4 
-  c2 c4 
+  c2 \fermata c4 
   f2 f4   %20
   e4 d4 e4 
-  d2 d4 
+  d2 \fermata d4 
   e2 e4 
   f2 f4 
   g4. f8 e8 d8   %25
-  c2 e4 
+  c2 \fermata e4 
   d4 c4 b4 
   c4 a2 
-  g2 g4 
+  g2 \fermata g4 
   c2 b4   %30
   a2 g4 
   d'4 e4. d8 
-  d2 e4 
+  d2 \fermata e4 
   f4 e4 d4 
   c8 d8 d4. c8   %35
-  c2. 
+  c2. \fermata
   
 }
 

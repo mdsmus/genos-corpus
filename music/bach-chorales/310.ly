@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "310 - Mach's mit mir, Gott, nach deiner"
+  title = "310 - MACHS MIT MIR, GOTT, NACH DEINER GÜT"
+  subtitle = "BWV 245. Johannes-Passion / B. Gesius (1555?-1613); J.H. Schein (1586-1630)"
   composer = "J. S. Bach"
 }
 
@@ -16,13 +17,13 @@ soprano = \relative c' {
   \repeat volta 2 {
     \partial 4 e8  fis8 
     gis4 a4 b4 b4 
-    a4 gis4 fis4 b4 
+    a4 gis4 fis4 \fermata b4 
     cis4 dis4 e4 dis8 cis8 
     cis2 b4 } b4 
   e4 dis8 cis8 cis4 b4   %5
-  a4 gis8 fis8 fis4 b4 
+  a4 gis8 fis8 fis4 \fermata b4 
   a4 gis4 fis8 gis8 a4 
-  gis4 fis4 e4 
+  gis4 fis4 e4 \fermata
   
 }
 
@@ -33,10 +34,10 @@ alto = \relative c' {
     e8 dis8 e4 dis4 fis4 
     fis4 ais4 b8 fis8 fis8 gis8 
     gis4 ais4 fis4 } gis4 
-  cis4 b4. a4 gis8~   %5
+  cis4 b4 b8 a8 a8 gis8   %5
   gis8 fis8 e4 dis4 d4 
   c4 b4 a8 b8 c4 
-  b8 e4 dis8 b4 
+  b8 e8 e8 dis8 b4 
   
 }
 

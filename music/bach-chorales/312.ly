@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "312 - O Gott, du frommer Gott"
+  title = "312 - O GOT, DU FROMMER GOTT (1.)"
+  subtitle = "BWV 197a. Ehre sei Gott in der Höhe / A. Fritzsch, (1629-1701)"
   composer = "J. S. Bach"
 }
 
@@ -15,21 +16,21 @@ global = {
 soprano = \relative c'' {
   \partial 4 a4 
     fis4 d4 a'4 a4 
-  b2 r4 b4 
+  b2 \fermata r4 b4 
   e,4 e4 a4 g4 
-  fis4 e4 d4 a'4 
+  fis4 e4 d4 \fermata a'4 
   b4 b4 a4 g4   %5
-  fis2 r4 e4 
+  fis2 \fermata r4 e4 
   fis4 gis4 a4 b8 cis16 d16 
-  cis4 b4 a4 a4 
+  cis4 b4 a4 \fermata a4 
   a4 a4 d4 c8 b8 
-  b2 r4 b4   %10
+  b2 \fermata r4 b4   %10
   b4 b4 e4 d8 cis8 
-  cis2 r4 a4 
+  cis2 \fermata r4 a4 
   b4 a4 b4 cis4 
-  d2 r4 a4 
+  d2 \fermata r4 a4 
   b8 a8 g8 fis8 e4 e4   %15
-  d2. 
+  d2. \fermata
   
 }
 

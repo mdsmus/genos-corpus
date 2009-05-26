@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "257 - Nun laßt uns Gott, dem Herren"
+  title = "257 - NUN LAßT UNS GOTT, DEM HERREN"
+  subtitle = "BWV 194. Höchster Freudentfest / N. Selnecker (1530-1592)"
   composer = "J. S. Bach"
 }
 
@@ -17,19 +18,19 @@ soprano = \relative c'' {
   bes2 a4 
   g4 a4 bes4 
   c2. 
-  bes2 bes4 
+  bes2 \fermata bes4 
   bes2 c4   %5
   a4 g4 f4 
   bes2. 
-  a2 a4 
+  a2 \fermata a4 
   bes2 bes4 
   c2 d4   %10
   c2. 
-  c2 d4 
+  c2 \fermata d4 
   ees2 d4 
   c4 d8 c8 bes4~ 
   bes8 c8 c4. bes8   %15
-  bes2
+  bes2 \fermata
   
 }
 

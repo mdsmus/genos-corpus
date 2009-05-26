@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "57 - O Traurigkeit"
+  title = "57 - O TRAURIGKEIT, O HERZELEID"
+  subtitle = "BWV 404. / Mainz, 1628" 
   composer = "J. S. Bach"
 }
 
@@ -14,14 +15,14 @@ global = {
 
 soprano = \relative c'' {
   \partial 4 e4 
-    c8 b8 c4 b4 gis4 
+    c8 b8 c4 b4 \fermata gis4 
   a4 a4 gis4 e'4 
   e4 e4 f4 e8 d8 
-  d2 c2 
+  d2 c2 \fermata
   b4 c4 d4 e4   %5
-  d4 c4 b2 
+  d4 c4 b2 \fermata
   a4 b4 c4 d8 e8 
-  b2 a2 
+  b2 a2 \fermata
   
 }
 

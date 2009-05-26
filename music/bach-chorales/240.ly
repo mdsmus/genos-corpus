@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "240 - Nun sich der Tag geendet hat"
+  title = "240 - NUN SICH DER TAG GEENDET HAT"
+  subtitle = "BWV 396. / A. Krieger (1634-1666)"
   composer = "J. S. Bach"
 }
 
@@ -15,13 +16,13 @@ global = {
 soprano = \relative c'' {
   \partial 4 e4 
   a,4 b4 c4 c4 
-  d4 d4 e4 e4 
+  d4 d4 e4 \fermata e4 
   d4 e4 c4 c4 
-  b2 r4 e4 
+  b2 \fermata r4 e4 
   c4 b4 c4 a4   %5
-  gis4 a4 b4 e4 
+  gis4 a4 b4 \fermata e4 
   d4 c4 b4. b8 
-  a2. 
+  a2. \fermata
   
 }
 

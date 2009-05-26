@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "28 - Nun komm, der Heiden Heiland"
+  title = "28 - NUM KOMM, DER HEIDEN HEILAND"
+  subtitle = "BWV 36. Schwingt freudig euch empor / M. Luther (1483-1546)"
   composer = "J. S. Bach"
 }
 
@@ -14,13 +15,13 @@ global = {
 
 soprano = \relative c'' {
   b4 b4 a4 d4 
-  cis8 b8 cis4 b2 
+  cis8 b8 cis4 b2 \fermata
   b8 cis8 d4 e4 d4 
-  e4 fis4 d2 
+  e4 fis4 d2 \fermata
   d4 e4 fis8 e8 d4   %5
-  e8 d8 cis4 b2 
+  e8 d8 cis4 b2 \fermata
   b4 b4 a4 d4 
-  cis8 b8 cis4 b2 
+  cis8 b8 cis4 b2 \fermata
   
 }
 

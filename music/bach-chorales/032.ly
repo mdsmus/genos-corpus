@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "32 - Nun danket alle Gott"
+  title = "32 - NUN DANKET ALLE GOT"
+  subtitle = "BWV 386. / J. Crüger (1598-1662)"
   composer = "J. S. Bach"
 }
 
@@ -16,17 +17,17 @@ soprano = \relative c'' {
   \repeat volta 2 {
     \partial 4 e4 
     e4 e4 fis4 fis4 
-    e2 r4 cis4 
+    e2 \fermata r4 cis4 
     d4 cis4 b4 cis8. d16 
     b2 a4 } b4 
   b4 b4 cis4 cis4   %5
-  b2 r4 b4 
+  b2 \fermata r4 b4 
   cis8 dis8 e4 e4 dis4 
-  e2 r4 e4 
+  e2 \fermata r4 e4 
   fis4 e4 d4 cis4 
-  d2 r4 cis4   %10
+  d2 \fermata r4 cis4   %10
   b4 cis8. d16 b4. a8 
-  a2. 
+  a2. \fermata
 }
 
 alto = \relative c'' {
@@ -34,13 +35,13 @@ alto = \relative c'' {
     \partial 4 a4 
     a4 a4 a4 a4 
     a2 r4 a4 
-    b4 a4 gis4 a4 
+    b4 a4 gis4 a4~ 
     a8 fis8 gis4 e4 } gis8 fis8 
   e4 e4 e4 e4   %5
   e2 r4 gis4 
   a4 gis4 fis4 fis4 
   gis2 r4 a4 
-  a8 b8 cis4 cis8 b4 ais8 
+  a8 b8 cis4~ cis8 b4 ais8 
   b2 r4 a4   %10
   gis4 a4 a4 gis4 
   e2. 
@@ -53,7 +54,7 @@ tenor = \relative c' {
     cis2 r4 fis4 
     e4 e4 e4 e4 
     e8 d16 cis16 d4 cis4 } b8 a8 
-  gis8 a8 b4 b8 a16 gis16 a4   %5
+  gis8 a8 b4~ b8 a16 gis16 a4   %5
   gis2 r4 e'4 
   e4 e4 cis4 b4 
   b2 r4 cis4 

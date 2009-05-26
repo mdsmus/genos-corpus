@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "201 - O Mensch, bewein' dein' Sünde groß"
+  title = "201 - O MENSCH, BEWEIN DEIN SÜNDE GROß"
+  subtitle = "BWV 402. / M. Greitter (1490?-1550)"
   composer = "J. S. Bach"
 }
 
@@ -16,23 +17,23 @@ soprano = \relative c' {
   \repeat volta 2 {
     \partial 4 ees4 
     ees4 f4 g8 f8 ees4 
-    g4 a4 bes4 bes4 
+    g4 a4 bes4 \fermata bes4 
     aes4 g4 f4 ees8 f8 
-    g4 a4 bes4 c4 
+    g4 a4 bes4 \fermata c4 
     bes4 aes4 g4 aes4     %5
     f2 ees4 } ees'4 
   ees4 ees4 d4 bes4 
-  c4 c4 g4 ees'4 
+  c4 c4 g4 \fermata ees'4 
   ees4 ees4 d4 bes4 
-  c4 c4 bes4 g8 aes8   %10
+  c4 c4 bes4 \fermata g8 aes8   %10
   bes4 c4 bes4 g4 
-  aes2 g4 f4 
+  aes2 g4 \fermata f4 
   g4 aes4 bes4 bes4 
-  aes4 g4 f4 bes4 
+  aes4 g4 f4 \fermata bes4 
   c4 d4 ees4 d4   %15
-  c4 c4 bes4 ees,4 
+  c4 c4 bes4 \fermata ees,4 
   f4 g4 aes4 g4 
-  f2 ees4
+  f2 ees4 \fermata
   
 }
 
@@ -65,12 +66,12 @@ tenor = \relative c' {
     \partial 4 g4 
     aes4 aes4 g4 g4 
     c8 bes8 a4 g4 d'4 
-    ees8 bes8 bes4 c8 g8 g4 
+    ees8 bes8 bes4 c4 g4 
     c8 bes8 c4 bes4 aes4~ 
     aes8 g4 f8 ees4. bes'8     %5
     c8 aes8 f8 bes8 g4 } g8 aes8 
   bes4 c4~ c8 bes16 aes16 g4 
-  aes4 aes4 bes4 c4~
+  aes4 aes4 bes4 c4
   c8 bes8 a4 bes8 a8 bes4~ 
   bes8 a16 g16 a4 bes4 bes4   %10
   ees4 ees4 ees8 des8~ des c
@@ -102,7 +103,7 @@ baixo = \relative c {
   des4 c4 bes8 aes8 g4 
   f4 g8 aes8 bes4 bes'4 
   a4 aes4 g4. f8   %15
-  e4 fis4 g4 aes4
+  e4 fis4 g4 aes4~
   aes8 g8 f8 ees8 d8 bes8 ees8 g,8 
   aes4 bes4 ees,
   

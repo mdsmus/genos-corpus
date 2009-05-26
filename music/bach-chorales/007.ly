@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "7 - Nun lob', mein'Seel', den Herren"
+  title = "7 - NUN LOB, MEIN SEEL, DEN HERREN"
+  subtitle = "BWV 17. Wer Dank opfert, der preiset mich / Augsburg, 1540"
   composer = "J. S. Bach"
 }
 
@@ -18,7 +19,7 @@ soprano = \relative c'' {
     a2 gis4 
     fis2 e4 
     a4 b2 
-    cis2 cis4 
+    cis2 \fermata cis4 
     cis4 b4 cis4     %5
     cis2 b4 
     a4 b2 
@@ -26,32 +27,32 @@ soprano = \relative c'' {
   a4 b4 cis4 
   b2 cis4   %10
   a4 gis2 
-  fis2 b4 
+  fis2 \fermata b4 
   b4 a4 gis4 
   a4 fis2 
-  e2 e4   %15
+  e2 \fermata e4   %15
   a2 a4 
   b2 b4 
   cis4. b8 cis4 
-  a2 a4 
+  a2 \fermata a4 
   d2 d4   %20
   cis4 b4 cis4 
-  b2 b4 
+  b2 \fermata b4 
   cis2 cis4 
   d2 d4 
   e2.   %25
-  a,2 cis4 
+  a,2 \fermata cis4 
   b4 a4 gis4 
   a4 fis2 
-  e2 e4 
+  e2 \fermata e4 
   a2 gis4   %30
   fis2 e4 
   b'4 cis2 
-  b2 cis4 
+  b2 \fermata cis4 
   d2 cis4 
   b4 a8 gis8 a8 b8   %35
   cis4 b2 
-  a2 
+  a2 \fermata
 }
 
 alto = \relative c' {

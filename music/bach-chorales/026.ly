@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "26 - O Ewigkeit, du Donnerwort"
+  title = "26 - O EWIGKEIT, DU DONNERWORT"
+  subtitle = "BWV 20. O Ewigkeit, du Donnerwort / J. Schop (1595?-1667)"
   composer = "J. S. Bach"
 }
 
@@ -16,15 +17,15 @@ soprano = \relative c' {
   \repeat volta 2 {
     \partial 4 f8  g8 
     a4 bes4 c4 c4 
-    d4 e4 f4 f,8 g8 
+    d4 e4 f4 \fermata f,8 g8 
     a4 bes4 c4 c4 
-    bes4 a4 g4 a4 
+    bes4 a4 g4 \fermata a4 
     f4 f4 bes4 a4     %5
-    g2 f4 } c'4 
+    g2 f4 \fermata } c'4 
   g4 a4 bes4 bes4 
-  a4 a4 g4 c4 
+  a4 a4 g4 \fermata c4 
   d4 e4 f4 a,4 
-  g4 g4 f4 
+  g4 g4 f4 \fermata
 }
 
 alto = \relative c' {
@@ -32,13 +33,13 @@ alto = \relative c' {
     \partial 4 c4 
     f4 e4 f4 a4 
     bes8 a8 g4 a4 c,4 
-    f4 g4~ g4 f4~
-    f8 e8 f4 e4 e4~
-    e4 d4 d8 e8 f4~     %5
+    f4 g4 g4 f4
+    f8 e8 f4 e4 e4
+    e4 d4 d8 e8 f4     %5
     f4 e4 c4 } f4 
-  g4 g4 fis4 g4~ 
+  g4 g4 fis4 g4 
   g4 fis4 d4 f4 
-  f4 c'8 bes8 a8 g8 f4~
+  f4 c'8 bes8 a8 g8 f4
   f4 e4 c4 
 }
 

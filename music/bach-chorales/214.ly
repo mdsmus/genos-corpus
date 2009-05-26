@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "214 - Mitten wir im Leben sind"
+  title = "214 - MITTEN WIR IM LEBEN SIND"
+  subtitle = "BWV 383. / M. Luther (1483-1546)"
   composer = "J. S. Bach"
 }
 
@@ -16,31 +17,31 @@ soprano = \relative c'' {
   \repeat volta 2 {
     g4 g4 a4 b4 
     c4 c4 b2 
-    a2 b4 c4 
+    a2 \fermata b4 c4 
     d4 a4 g4 f4 
     e1 }  %5
   r4 d4 e4 f4 
   g4. f8 e4 d4 
-  c2 r4 c4 
+  c2 \fermata r4 c4 
   g'4 g4 a4 b4 
   c4 c4 b2   %10
-  a2 b4 c4 
+  a2 \fermata b4 c4 
   d4 a4 g4 f4 
-  e2 r4 a4 
+  e2 \fermata r4 a4 
   g4 e4 f4 g8. f16 
-  e2 r4 a4   %15
+  e2 \fermata r4 a4   %15
   g4 e4 f4 g4 
-  e2 a4 g4 
+  e2 \fermata a4 g4 
   a4 b4 c4 b8 a8 
-  g4 f4 e4 d4 
+  g4 f4 e4 \fermata d4 
   a'2 g4 f4   %20
-  e2 a4 g4 
+  e2 \fermata a4 g4 
   a4 b4 c8 b8 a4 
-  g2 c4 b4 
+  g2 \fermata c4 b4 
   d4 a4 g4 f4 
-  e2 r4 d4   %25
+  e2 \fermata r4 d4   %25
   a'2 g4 f4 
-  e1 
+  e1 \fermata
   
 }
 

@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "85 - O Gott, du frommer Gott"
+  title = "85 - O GOT, DU FROMMER GOTT (3.)"
+  subtitle = "BWV 45. Es ist dir gesagt, Mensch was gut ist / A. Fritzsch, (1629-1701)"
   composer = "J. S. Bach"
 }
 
@@ -15,21 +16,21 @@ global = {
 soprano = \relative c'' {
   \partial 4 b4 
   gis4 fis8 e8 b'4 b4 
-  cis2 r4 cis4 
+  cis2 \fermata r4 cis4 
   fis,4 fis4 b4 a4 
-  gis4 fis4 e4 b'4 
+  gis4 fis4 e4 \fermata b'4 
   cis4 cis4 b4 a4   %5
-  gis2 r4 fis4 
+  gis2 \fermata r4 fis4 
   gis4 ais4 b4 cis4 
-  dis4 cis8 b8 b4 b4 
+  dis4 cis8 b8 b4 \fermata b4 
   b4 b4 e4 d4 
-  cis2 r4 cis4   %10
+  cis2 \fermata r4 cis4   %10
   cis4 cis4 fis4 e4 
-  dis2 r4 b4 
+  dis2 \fermata r4 b4 
   cis4 b4 cis4 dis4 
-  e2 r4 b4 
+  e2 \fermata r4 b4 
   b4 a8 gis8 fis4 fis4   %15
-  e2. 
+  e2. \fermata
 }
 
 alto = \relative c' {

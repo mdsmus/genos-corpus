@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "183 - Nun freut euch, lieben Christen, g'mein"
+  title = "183 - NUN FREUT EUCH, LIEBEN CHRISTEN GMEIN (1.)"
+  subtitle = "BWV 388. / Wittenberg, 1523"
   composer = "J. S. Bach"
 }
 
@@ -16,15 +17,15 @@ soprano = \relative c'' {
   \repeat volta 2 {
     \partial 4 g4 
     g4 d4 g4 c4 
-    b4 a4 g4 g4 
+    b4 a4 g4 \fermata g4 
     a8 b8 c4 b4 a4 
     e4 fis4 g4 } g4 
   c4 b4 a4 d4   %5
-  d4 cis4 d4 d4 
+  d4 cis4 d4 \fermata d4 
   e4 c4 d4. c8 
-  b4 a4 g4 b4 
+  b4 a4 g4 \fermata b4 
   a4 d,4 g4 c4 
-  b4 a4 g   %10
+  b4 a4 g \fermata  %10
   
 }
 
@@ -66,7 +67,7 @@ baixo = \relative c {
     b8 c8 d8 c8 b4 a4 
     g8 b8 d4 g,4 e'4 
     d4 a4 b8 c8 d4 
-    c8 b8 a4 g4 } g'8 f8 
+    c8 b8 a4 g4 } g'8 fis8 
   e8 fis8 g4. a16 g16 fis8 b8   %5
   g4 a8 a,8 d4 b4 
   c8 d8 e4 fis8 d8 e8 fis8 

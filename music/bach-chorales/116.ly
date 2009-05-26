@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "116 - Nun lob, mein Seel, den Herren"
+  title = "116 - NUN LOB, MEIN SEEL, DEN HERREN"
+  subtitle = "BWV 29. Wir danken dir, Gott, wir danken dir / Augsburg, 1540"
   composer = "J. S. Bach"
 }
 
@@ -18,7 +19,7 @@ soprano = \relative c'' {
     d2 cis4 
     b2 a4 
     d4 e2 
-    fis2 fis4 
+    fis2 \fermata fis4 
     fis8 e8 fis2     %5
     fis2 e4 
     d8 e8 e2 
@@ -26,31 +27,31 @@ soprano = \relative c'' {
   d4 e4 fis4 
   e2 fis8 e8   %10
   d8 e8 cis2 
-  b2 e4 
+  b2 \fermata e4 
   e4 d4 cis4 
   d8 cis8 b2 
-  a2 a4   %15
+  a2 \fermata a4   %15
   d2 d4 
   e2 e4 
   fis4 e4 fis4 
-  d2 d4 
+  d2 \fermata d4 
   g2 g4   %20
   fis8 e8 fis2 
-  e2 e4 
+  e2 \fermata e4 
   fis2 fis4 
   g2 g4 
   a4. g8 fis8 e8   %25
-  d2 fis4 
+  d2 \fermata fis4 
   e4 d4 cis4 
   d8 cis8 b2 
-  a2 a4 
+  a2 \fermata a4 
   d2 cis4   %30
   b2 a4 
-  e'4 fis2 
-  e2 fis4 
+  e'4  fis2 
+  e2 \fermata fis4 
   g4 fis4 e4 
   fis8 g8 e2   %35
-  d2 
+  d2 \fermata
 }
 
 alto = \relative c'' {
@@ -168,7 +169,7 @@ baixo = \relative c' {
   fis8 e8 d4 e4 
   a,2 a'8 gis8 
   fis8 e8 fis8 gis8 a4   %30
-  dis,8 cis8 dis8 f8 fis8 e8 
+  dis,8 cis8 dis8 eis8 fis8 e8 
   d8 cis8 d2 
   a2 d8 cis8 
   b8 a8 b8 d8 cis8 e8 

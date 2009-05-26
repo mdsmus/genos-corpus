@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "362 - Es ist gewißlich an der Zeit"
+  title = "362 - NUN FREUT EUCH, LIEBEN CHRISTEN GMEIN (2.) [Es ist gewißlich an der Zeit]"
+  subtitle = "BWV 248. Weinhnachts-Oratorium / Wittenberg, 1529"
   composer = "J. S. Bach"
 }
 
@@ -16,15 +17,15 @@ soprano = \relative c'' {
   \repeat volta 2 {
     \partial 4 g4 
     g8 a8 b4 a4 g4 
-    a4 a4 b4 g8 a8 
+    a4 a4 b4 \fermata g8 a8 
     b4 c4 d4 c8 b8 
     a8 g8 a4 g4 } b4 
   b4 a4 g4 fis4   %5
-  g8 a8 b4 a4 a4 
+  g8 a8 b4 a4 \fermata a4 
   g4 fis4 g4 d4 
-  g4 a4 b4 g8 a8 
+  g4 a4 b4 \fermata g8 a8 
   b4 c4 d4 c8 b8 
-  a8 g8 a4 g4   %10
+  a8 g8 a4 g4 \fermata   %10
   
 }
 

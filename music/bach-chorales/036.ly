@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "36 - Nun bitten wir den heiligen Geist"
+  title = "36 - NUM BITTEN WIR DEN HEILIGEN GEIST"
+  subtitle = "BWV 385. / Wittenberg. 1524"
   composer = "J. S. Bach"
 }
 
@@ -14,20 +15,20 @@ global = {
 
 soprano = \relative c'' {
   \partial 4 a4 
-    b4 b4 a4 fis4 
+  b4 b4 a4 fis4 
   e4 fis8 gis8 a4 b4 
-  a2. cis8 d8 
+  a2. \fermata cis8 d8 
   e4 fis4 e4 cis4 
   a4 fis8 gis8 a4 b4   %5
-  a2 cis4 cis4 
+  a2 \fermata cis4 cis4 
   cis4 b4 cis2 
-  a2 r4 a4 
+  a2 \fermata r4 a4 
   b4 b4 cis2 
-  a2 b4 b4   %10
+  a2 \fermata b4 b4   %10
   cis8 b8 a8 gis8 fis4 b4 
   b4 a8 gis8 fis2 
-  e2 fis4 gis4 
-  a4 b4 a
+  e2 \fermata fis4 gis4 
+  a4 b4 a \fermata
   
 }
 

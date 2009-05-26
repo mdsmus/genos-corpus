@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "299 - Meinen Jesum laß ich nicht"
+  title = "299 - MEINEM JESUM LAß ICH NICHT"
+  subtitle = "BWV 380. / A. Hammerschmidt (1612-1675)"
   composer = "J. S. Bach"
 }
 
@@ -14,18 +15,18 @@ global = {
 
 soprano = \relative c'' {
   bes4 bes4 c4 c4 
-  d4 d8 ees16 f16 ees2 
+  d4 d8 ees16 f16 ees2 \fermata
   f4 f4 ees4 ees4 
   d4 c8 d16 ees16 c2 
-  bes2 bes4 bes4   %5
+  bes2 \fermata bes4 bes4   %5
   c4 c4 bes4 aes8 g8 
-  g2 bes4 bes4 
+  g2 \fermata bes4 bes4 
   aes4 aes4 g4 f8 g16 aes16 
-  f2 ees2 
+  f2 ees2 \fermata
   bes'4 bes4 c4 c4   %10
-  d4 d8 ees16 f16 ees2 
+  d4 d8 ees16 f16 ees2 \fermata
   bes4 bes8 c16 des16 c8 bes8 aes8 g8 
-  f8 g16 aes16 f4 ees2 
+  f8 g16 aes16 f4 ees2 \fermata
   
 }
 
@@ -41,7 +42,7 @@ alto = \relative c'' {
   ees4 d4 bes2 
   g'4 g4 aes4 aes8 g8   %10
   f4 g4 g2 
-  ees4 ees4 ees8 d8 ees4 
+  g4 ees4 ees8 d8 ees4 
   ees4 d4 bes2 
   
 }

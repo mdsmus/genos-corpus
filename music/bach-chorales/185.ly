@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "185 - Nun freut euch, Gottes Kinder all'"
+  title = "185 - NUN FREUT EUCH, GOTTES KINDER ALL"
+  subtitle = "BWV 387. / Wittenberg, 1546"
   composer = "J. S. Bach"
 }
 
@@ -15,13 +16,13 @@ global = {
 soprano = \relative c' {
   \partial 4 d4 
     d4 c4 f4 g4 
-  a4. gis8 a4 b4 
+  a4. gis8 a4 \fermata b4 
   c4 b4 c4 a4 
-  b8 d4 cis8 d4 d4 
+  b8 d4 cis8 d4 \fermata d4 
   c4 a4 f4 d4   %5
-  e4 d4 cis4 e4 
+  e4 d4 cis4 \fermata e4 
   g8 f8 e4 f4 d4 
-  e4. e8 d4
+  e4. e8 d4 \fermata
   
 }
 

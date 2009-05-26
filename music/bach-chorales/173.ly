@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "173 - O Herzensangst"
+  title = "173 - O HERZENSANGST"
+  subtitle = "BWV 400. / J. S. Bach (?)"
   composer = "J. S. Bach"
 }
 
@@ -14,23 +15,23 @@ global = {
 
 soprano = \relative c'' {
   bes4 g4 c4 
-  bes2 ees,4 
+  bes2 \fermata ees,4 
   f2 g4 
   aes2 bes4 
-  g4 ees2   %5
+  g4 ees2 \fermata  %5
   f4 g4 a4 
-  bes2 d4 
+  bes2 \fermata d4 
   c4 d4 ees4 
   d4 c2 
-  bes2.   %10
+  bes2. \fermata  %10
   bes4 b4 b4 
-  c2 d4 
+  c2 \fermata d4 
   ees4. ees8 f4 
   ees4 d2 
-  c2 bes4   %15
+  c2 \fermata bes4   %15
   c4. d8 ees4 
   ees2 d4 
-  ees2. 
+  ees2. \fermata
   
 }
 
@@ -64,7 +65,7 @@ tenor = \relative c' {
   bes4 g2   %5
   bes4 bes4 c4 
   f,2 bes4 
-  c4 bes4 bes4 
+  c4 bes4 bes4~
   bes2 a4 
   f2.   %10
   d'4 d4 g,4 

@@ -1,7 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "97 - Nun bitten wir den heiligen Geist"
+  title = "97 - NUM BITTEN WIR DEN HEILIGEN GEIST"
+  subtitle = "BWV 169. Gott soll allein mein Herze haben / Wittenberg. 1524"
   composer = "J. S. Bach"
 }
 
@@ -19,16 +20,16 @@ soprano = \relative c'' {
   a2. cis8 d8 
   e4 fis4 e4. d8 
   cis8 b8 a8 gis8 fis4 gis4   %5
-  a2 cis4 cis4 
+  a2 \fermata  cis4 cis4 
   cis4 b4 cis2 
-  a4 a4 b8 cis8 d4 
-  cis8 b8 cis4 a2 
+  a4 \fermata  a4 b8 cis8 d4 
+  cis8 b8 cis4 a2 \fermata  
   b8 cis8 d4 cis8 b8 a8 gis8   %10
   fis4 e4 a8 b8 cis4 
   b4. a8 gis4 fis4 
-  e2 fis4 gis4 
+  e2 \fermata fis4 gis4 
   a2 b2 
-  a2.   %15
+  a2. \fermata   %15
   
 }
 
