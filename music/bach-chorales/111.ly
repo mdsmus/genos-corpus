@@ -2,7 +2,7 @@
 
 \header {
   title = "111 - HERZLIEBSTER JESU, WAS HAST DU VERBROCHEN"
-  subtitle = "BWV 245. Matthäus-Passion / J. Crüger (1598-1662)"
+  subtitle = "BWV 245. MatthÃ¤us-Passion / J. CrÃ¼ger (1598-1662)"
   composer = "J. S. Bach"
 }
 

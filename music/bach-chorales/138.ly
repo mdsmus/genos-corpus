@@ -2,7 +2,7 @@
 
 \header {
   title = "138 - JESU, MEINE FREUDE"
-  subtitle = "BWV 64. Sehet, welch eine Liebe / J. Crüger (1598-1662)" 
+  subtitle = "BWV 64. Sehet, welch eine Liebe / J. CrÃ¼ger (1598-1662)" 
   composer = "J. S. Bach"
 }
 

@@ -2,7 +2,7 @@
 
 \header {
   title = "77 - IN DICH HAB ICH GEHOFFET, HERR"
-  subtitle = "BWV 244. Weihnachts-Oratorium / Straﬂburg, 1560"
+  subtitle = "BWV 244. Weihnachts-Oratorium / Stra√üburg, 1560"
   composer = "J. S. Bach"
 }
 

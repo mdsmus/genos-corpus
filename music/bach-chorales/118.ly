@@ -2,7 +2,7 @@
 
 \header {
   title = "118 - IN DICH HAB ICH GEHOFFET, HERR"
-  subtitle = "BWV 244. Matth‰us-Passion / Straﬂburg, 1560"
+  subtitle = "BWV 244. Matth√§us-Passion / Stra√üburg, 1560"
   composer = "J. S. Bach"
 }
 

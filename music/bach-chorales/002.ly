@@ -2,7 +2,7 @@
 
 \header {
   title = "2 - ICH DANK DIR, LIEBER HERRE"
-  subtitle = "BWV 347. / Nürnberg, 1544" 
+  subtitle = "BWV 347. / NÃ¼rnberg, 1544" 
   composer = "J. S. Bach"
 }
 
