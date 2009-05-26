@@ -2,7 +2,7 @@
 
 \header {
   title = "270 - HERZLICH TUT MICH VERLANGEN"
-  subtitle = "BWV 161. Komm, du süBe Todesstunde / H. L. HaBler (1564-1612)"
+  subtitle = "BWV 161. Komm, du sÃ¼Be Todesstunde / H. L. HaBler (1564-1612)"
   composer = "J. S. Bach"
 }
 

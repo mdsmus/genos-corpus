@@ -1,7 +1,7 @@
 \version "2.10.33"
 
 \header {
-  title = "223 - ICH DANK DIR, GOTT, FÜR ALL WOHLTAT"
+  title = "223 - ICH DANK DIR, GOTT, FÃœR ALL WOHLTAT"
   subtitle = " BWV 346. / Eisleben, 1568"
   composer = "J. S. Bach"
 }

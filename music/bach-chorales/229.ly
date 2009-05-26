@@ -1,7 +1,7 @@
 \version "2.10.33"
 
 \header {
-  title = "229 -  ICH DANK DIR, O GOTT, IN DEINEM THRONE (MEIN HÜTER UND MEIN HIRT IST GOTT, DER HERRE)"
+  title = "229 -  ICH DANK DIR, O GOTT, IN DEINEM THRONE (MEIN HÃœTER UND MEIN HIRT IST GOTT, DER HERRE)"
   subtitle = "BWV 350. / L. Bourgeois (1510?-1561)" 
   composer = "J. S. Bach"
 }

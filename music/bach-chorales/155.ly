@@ -1,7 +1,7 @@
 \version "2.10.33"
 
 \header {
-  title = "155 - HILF, HERR JESU, LAß GELINGEN"
+  title = "155 - HILF, HERR JESU, LAÃŸ GELINGEN"
   subtitle = "BWV 344. / J. Schop (1595?-1667)"
   composer = "J. S. Bach"
 }

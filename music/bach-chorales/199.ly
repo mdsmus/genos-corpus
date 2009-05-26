@@ -1,7 +1,7 @@
 \version "2.10.33"
 
 \header {
-  title = "199 - HILF, GOTT, DAß MIRS GELINGE"
+  title = "199 - HILF, GOTT, DAÃŸ MIRS GELINGE"
   subtitle = "BWV 343. / Leopzig, 1545" 
   composer = "J. S. Bach"
 }

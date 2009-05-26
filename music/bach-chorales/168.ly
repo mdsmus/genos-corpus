@@ -1,8 +1,8 @@
 \version "2.10.33"
 
 \header {
-  title = "168 - HEUT IST, O MENSCH, EIN GROßER TRAUERTAG"
-  subtitle = "BWV 341. / M. Apelles v. Löwenstern (1594-1648)" 
+  title = "168 - HEUT IST, O MENSCH, EIN GROÃŸER TRAUERTAG"
+  subtitle = "BWV 341. / M. Apelles v. LÃ¶wenstern (1594-1648)" 
   composer = "J. S. Bach"
 }
 

@@ -1,7 +1,7 @@
 \version "2.10.33"
 
 \header {
-  title = "161 - IHR GESTIRN, IHR HOHEN LÜFTE"
+  title = "161 - IHR GESTIRN, IHR HOHEN LÃœFTE"
   subtitle = "BWV 366. / Ch. Peter (1626-1669)"
   composer = "J. S. Bach"
 }
