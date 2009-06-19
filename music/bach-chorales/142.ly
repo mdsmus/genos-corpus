@@ -23,11 +23,11 @@ soprano = \relative c'' {
   g2 a2 
   f'4 f4 e4 e4 
   d4 e4 cis2   %10
-  a4 bes4 cis4 d4 
+  a4 b4 cis4 d4 
   d4 cis4 d2 
   f4 f4 e4 e4 
   d4 e4 cis2 
-  a4 bes4 cis4 d4   %15
+  a4 b4 cis4 d4   %15
   d4 cis4 d2 
   
 }
