@@ -19,7 +19,7 @@ soprano = \relative c'' {
   e'4 e f f
   e e d d \fermata
   d d e e
-  d d s c \fermata
+  d d c c \fermata
   c d e d8 c
   b4 b a a \fermata
 }
