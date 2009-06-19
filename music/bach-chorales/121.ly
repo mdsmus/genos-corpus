@@ -13,22 +13,15 @@ global = {
 
 
 soprano = \relative c'' {
-  cis4 
-  \repeat volta 2 { 
-    d e e 
-    d cis b b
-    cis d e d8 cis
-    b4 b8 a a2
-  }
-  \alternative {
-    {
-      \partial 4
-      cis4
-    }
-    {
-      b4 cis e8 cis d e
-    }
-  }
+  cis4 d e e 
+  d cis b b
+  cis d e d8 cis
+  b4 b8 a a2
+  cis4 d4 e e 
+  d cis b b
+  cis d e d8 cis
+  b4 b8 a a2
+  b4 cis d8 cis d e
   cis4 cis b2
   d4 e fis e8 fis16 g
   fis4 e8 d d2
@@ -40,21 +33,15 @@ soprano = \relative c'' {
 
 alto = \relative c'' {
   a8[ gis]
-  \repeat volta 2 {
     fis4 b8 a gis4
     fis4 e8 fis gis4 gis
     a8 gis a4 a8 gis a4
     a8 fis gis4 e2
-  }
-  \alternative {
-    {
-      \partial 4
-      a8 gis
-    }
-    {
+    a8[ gis] fis4 b8 a gis4
+    fis4 e8 fis gis4 gis
+    a8 gis a4 a8 gis a4
+    a8 fis gis4 e2
       gis4 ais b8 ais b4
-    }
-  }
   b ais fis2
   b4 b8 a a4 b
   a g8 fis fis2
@@ -66,21 +53,15 @@ alto = \relative c'' {
 
 tenor = \relative c' {
   fis8[ e]
-  \repeat volta 2 {
     d cis b4 cis8 b
     a b cis d e4 e
     e a,8 b cis d e4
     fis e8 d cis2
-  }
-  \alternative {
-    {
-      \partial 4
-      e4
-    }
-    {
+  e4 d8 cis b4 cis8 b
+    a b cis d e4 e
+    e a,8 b cis d e4
+    fis e8 d cis2
       e4 e fis e8 d
-    }
-  }
   g4 fis8 e d2
   fis4 e d8 cis d4
   d8 b cis4 a2
@@ -92,21 +73,15 @@ tenor = \relative c' {
 
 baixo = \relative c {
   fis4
-  \repeat volta 2 {
     b8 a gis fis e4
     fis8 gis a4 e e
     a fis cis b8 a
     d4 e a,2
-  }
-  \alternative {
-    {
-      \partial 4
-      a'4
-    }
-    {
-      e4 d8 cis b4 g'
-    }
-  }
+    a'4 b8 a gis fis e4
+    fis8 gis a4 e e
+    a fis cis b8 a
+    d4 e a,2
+  e'4 d8 cis b4 g'
   e fis b,2
   b'4 cis d g,
   a a, d2
