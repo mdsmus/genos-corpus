@@ -1,2 +1,11 @@
-* chorale 013
-bar 3: explicit rests on middle voices
+; -*- org -*-
+
+* 013
+  - bar 3: explicit rests on middle voices
+* 015
+  - bar 4: final note should be 1/4
+* 087
+  - middle repetition (bars 7--9)
+* 088
+  - no rests in bar 6
+

@@ -1,12 +1,62 @@
 ; -*- org -*-
 
-|   | 1st edition | riemenschneider | budapest | breitkopf1 | breitkopf2 |
-|---+-------------+-----------------+----------+------------+------------|
-|   |             |                 |          |            |            |
+* notes
+** 032 has dotted but 330 don't
+** 071 Em in all but Gm in budapest (181)
+** 094 Gm in all but Am in dantalian (12)
+** 100 Cm in 1s edition, Dm in all
+
+* soprano
+
+|  RN:NN | 1st ed.        | riem.  | budapest     | schubert  | breit.  | dantalian   | ccarh     | genos  |
+|--------+----------------+--------+--------------+-----------+---------+-------------+-----------+--------|
+| 013:11 | 2 r4           | .      | 2.           | .         | .       |             | .         | .      |
+| 032:11 |                | dotted | (259) dotted | 8th notes | dotted  |             | 8th notes | dotted |
+| 032:36 |                | dotted | (259) dotted | 8th notes | dotted  | dotted      | 8th notes | dotted |
+| 048:30 |                | c      | c            | c         | no note |             |           |        |
+| 049:45 | d4             | d4     | d4           | d8        | d4      |             | d8        | d4     |
+| 049:46 | c#8            | c#8    | c#8          | c#4       | c#8     |             | c#4       | c#8    |
+| 054:16 | 2 r4           | .      | 2.           | .         | .       |             |           |        |
+| 056:14 | 4~4            | 4~4    | 2            | 4~4       | 4~4     |             |           |        |
+| 060:37 | 2 r4           | .      |              | .         | .       |             |           |        |
+| 071:02 | g4 (no app)    | g4     | app          | [a8] g4   | g4      |             | app       | no app |
+| 087:27 | repeat         | repeat | repeat       | no repeat | repeat  |             | no repeat | repeat |
+| 094:06 | d4             | d4     | d8 d8        | d4        | d4      | d8 d8 (12a) |           |        |
+| 100:11 | c! (Bb transp) | Bb     | Bb           | Bb        | Bb      |             | B!        | Bb     |
+|        |                |        |              |           |         |             |           |        |
+  
 
 
-1st edition: original CPE Bach
-Schirmer: riemenschneider
-budapest: Imre Sulyok
-breitkopf1: Klaus Schubert
-breitkopf2: bach371bh1890
+* alto
+
+| RN:NN | 1st edition | riemenschneider | budapest | breitkopf1 | breitkopf2 |
+|-------+-------------+-----------------+----------+------------+------------|
+|       |             |                 |          |            |            |
+
+* tenor
+
+| RN:NN | 1st edition | riemenschneider | budapest | breitkopf1 | breitkopf2 |
+|-------+-------------+-----------------+----------+------------+------------|
+|       |             |                 |          |            |            |
+
+* bass
+
+| RN:NN | 1st edition | riemenschneider | budapest | breitkopf1 | breitkopf2 |
+|-------+-------------+-----------------+----------+------------+------------|
+|       |             |                 |          |            |            |
+
+
+* 1st edition: original CPE Bach
+* Schirmer: riemenschneider
+* budapest: Imre Sulyok
+* breitkopf1: Klaus Schubert
+* breitkopf2: bach371bh1890
+* dantalian: martino
+  178 chorale harmonizations of JSB, a comparative edition for study
+  says it's based on Bach-Gesellschaft edition
+
+RN: Riemenschneider number
+NN: note number
+
+e.g. 013:11 in soprano means the 11th note the soprano has in the
+chorale # 013 in the Riemenschneider edition
