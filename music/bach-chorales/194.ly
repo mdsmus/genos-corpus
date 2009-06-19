@@ -26,8 +26,8 @@ soprano = \relative c'' {
   fis2 fis2 g2 
   a2 fis1 \fermata  %10
   b2 ais2 b2 
-  cis2 ais1 \fermata
-  d2 cis2 b2 
+  cis2 fis,1 \fermata
+  d'2 cis2 b2 
   ais2. fis4 b2 
   cis4 d4 ais2. b4   %15
   b1. \fermata
@@ -47,7 +47,7 @@ alto = \relative c' {
   d2 d2 d2 
   e2 d1   %10
   fis2 e2 fis2 
-  fis2 fis1 
+  fis2 ais1 
   fis2 g2 e2 
   fis2. fis4 fis2 
   g2 fis2 fis2   %15
