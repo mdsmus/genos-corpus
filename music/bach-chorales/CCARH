@@ -3,14 +3,15 @@
 * 013
   - bar 3: explicit rests on middle voices
 * 015
-  - bar 4: last note should be 1/4
+  - bar 4: last note should have a duration 1/4
 * 087
-  - middle repetition (bars 7--9)
+  - repetition on bars 7--9. Most editions (including CPE Bach 1st
+    edition) have repetition bars. The only edition who doesn't is
+    Breitkopf-Schubert.
 * 088
   - no rests in bar 6
 * 184
-  - bar 4: last note should be 1/4, then repetition bar, then 1/4
-    rest
+  - bar 4: last note should be 1/4, then repetition bar, then 1/4 rest
 * 194
   - bar 8: wrong notes (notes are swapped between voices)
 * 195
@@ -19,5 +20,3 @@
   - bar 20: S and A notes are swapped
 * 198
   - bar 15: c in soprano should be c#
-
-
