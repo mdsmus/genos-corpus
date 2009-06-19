@@ -5,25 +5,35 @@
 ** 071 Em in all but Gm in budapest (181)
 ** 094 Gm in all but Am in dantalian (12)
 ** 100 Cm in 1s edition, Dm in all
+** 121 no repetition for genos: much easier to read/parse
+** 125 multiple versions: ending is different, witch one is rigth?
+   - budapest 14 = riem. 326,125 = dantalian 16a
+   - riem. 249 = bud 16 = dant 16b
+   - riem. 313,353 = bud 15 = dant 16c
 
 * soprano
 
-|  RN:NN | 1st ed.        | riem.  | budapest     | schubert  | breit.  | dantalian   | ccarh     | genos  |
-|--------+----------------+--------+--------------+-----------+---------+-------------+-----------+--------|
-| 013:11 | 2 r4           | .      | 2.           | .         | .       |             | .         | .      |
-| 032:11 |                | dotted | (259) dotted | 8th notes | dotted  |             | 8th notes | dotted |
-| 032:36 |                | dotted | (259) dotted | 8th notes | dotted  | dotted      | 8th notes | dotted |
-| 048:30 |                | c      | c            | c         | no note |             |           |        |
-| 049:45 | d4             | d4     | d4           | d8        | d4      |             | d8        | d4     |
-| 049:46 | c#8            | c#8    | c#8          | c#4       | c#8     |             | c#4       | c#8    |
-| 054:16 | 2 r4           | .      | 2.           | .         | .       |             |           |        |
-| 056:14 | 4~4            | 4~4    | 2            | 4~4       | 4~4     |             |           |        |
-| 060:37 | 2 r4           | .      |              | .         | .       |             |           |        |
-| 071:02 | g4 (no app)    | g4     | app          | [a8] g4   | g4      |             | app       | no app |
-| 087:27 | repeat         | repeat | repeat       | no repeat | repeat  |             | no repeat | repeat |
-| 094:06 | d4             | d4     | d8 d8        | d4        | d4      | d8 d8 (12a) |           |        |
-| 100:11 | c! (Bb transp) | Bb     | Bb           | Bb        | Bb      |             | B!        | Bb     |
-|        |                |        |              |           |         |             |           |        |
+|   RN:NN | 1st ed.        | riem.    | budapest     | schubert   | breit.     | dantalian      | ccarh     | genos     |
+|---------+----------------+----------+--------------+------------+------------+----------------+-----------+-----------|
+|  013:11 | 2 r4           | .        | 2.           | .          | .          |                | .         | .         |
+|  032:11 |                | dotted   | (259) dotted | 8th notes  | dotted     |                | 8th notes | dotted    |
+|  032:36 |                | dotted   | (259) dotted | 8th notes  | dotted     | dotted         | 8th notes | dotted    |
+|  048:30 |                | c        | c            | c          | no note    |                |           |           |
+|  049:45 | d4             | d4       | d4           | d8         | d4         |                | d8        | d4        |
+|  049:46 | c#8            | c#8      | c#8          | c#4        | c#8        |                | c#4       | c#8       |
+|  054:16 | 2 r4           | .        | 2.           | .          | .          |                |           |           |
+|  056:14 | 4~4            | 4~4      | 2            | 4~4        | 4~4        |                |           |           |
+|  060:37 | 2 r4           | .        |              | .          | .          |                |           |           |
+|  071:02 | g4 (no app)    | g4       | app          | [a8] g4    | g4         |                | app       | no app    |
+|  087:27 | repeat         | repeat   | repeat       | no repeat  | repeat     |                | no repeat | repeat    |
+|  094:06 | d4             | d4       | d8 d8        | d4         | d4         | d8 d8 (12a)    |           |           |
+|  100:11 | c! (Bb transp) | Bb       | Bb           | B!         | Bb         |                | B!        | Bb        |
+|  105:41 | c4 bb8 a a4    | e4 d c#2 | idem 1ed     | idem riem. | idem riem. | idem 1ed (39a) | idem riem | idem 1ed  |
+|     121 | repetition     | repet.   | repet.       | no repet.  | repet.     | repet.         | no repet. | no repet. |
+| *125:36 |                |          |              |            |            |                |           |           |
+|         |                |          |              |            |            |                |           |           |
+|         |                |          |              |            |            |                |           |           |
+|         |                |          |              |            |            |                |           |           |
   
 
 
