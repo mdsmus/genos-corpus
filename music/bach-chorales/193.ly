@@ -65,7 +65,7 @@ baixo = \relative c {
   r4 e4 d4 e4 
   f4 e4 d4 c4 
   b4 a4 e'4 e,4 
-  a2 r2 . 
+  a2 r2 
 }
 
 \score {
